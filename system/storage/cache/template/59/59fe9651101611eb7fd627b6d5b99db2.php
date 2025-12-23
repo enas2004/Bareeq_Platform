@@ -92,18 +92,14 @@ class __TwigTemplate_dde6b699c038deddce54b6be0a1deb64 extends Template
             }
             // line 22
             yield "
-       
-   
-   
-
-    <a href=\"#\" class=\"banner-btn-outline\">تعرف علينا</a>
-</div>
-
+           <a href=\"#\" class=\"banner-btn-outline\">تعرف علينا</a>
       </div>
+
     </div>
+  </div>
   ";
         }
-        // line 33
+        // line 29
         yield "</div>
 
 <!-- المميزات - لماذا تختار بريق؟ -->
@@ -194,7 +190,7 @@ class __TwigTemplate_dde6b699c038deddce54b6be0a1deb64 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  107 => 33,  94 => 22,  88 => 20,  86 => 19,  83 => 18,  79 => 16,  73 => 14,  71 => 13,  66 => 11,  57 => 7,  52 => 4,  49 => 3,  47 => 2,  42 => 1,);
+        return array (  103 => 29,  94 => 22,  88 => 20,  86 => 19,  83 => 18,  79 => 16,  73 => 14,  71 => 13,  66 => 11,  57 => 7,  52 => 4,  49 => 3,  47 => 2,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -221,15 +217,11 @@ class __TwigTemplate_dde6b699c038deddce54b6be0a1deb64 extends Template
           <a href=\"{{ banner.link }}\" class=\"banner-btn\">ابدأ التسوق الآن</a>
         {% endif %}
 
-       
-   
-   
-
-    <a href=\"#\" class=\"banner-btn-outline\">تعرف علينا</a>
-</div>
-
+           <a href=\"#\" class=\"banner-btn-outline\">تعرف علينا</a>
       </div>
+
     </div>
+  </div>
   {% endif %}
 </div>
 
@@ -296,6 +288,6 @@ class __TwigTemplate_dde6b699c038deddce54b6be0a1deb64 extends Template
     </div>
   </div>
 </section>
-", "extension/opencart/catalog/view/template/module/banner.twig", "C:\\xampp\\htdocs\\opencart\\extension\\opencart\\catalog\\view\\template\\module\\banner.twig");
+", "extension/opencart/catalog/view/template/module/banner.twig", "C:\\xampp\\htdocs\\bareeq_platform\\extension\\opencart\\catalog\\view\\template\\module\\banner.twig");
     }
 }

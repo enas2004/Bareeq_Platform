@@ -14155,5 +14155,526 @@ html[dir=rtl] #header-main #menu .navbar-nav {
     margin-bottom: 0.35rem;
   }
 }
+/* =========================
+   Bareeq - Cart Table
+   ========================= */
+.bareeq-cart-title {
+  margin: 0 0 14px;
+  font-weight: 900;
+  color: #3a3025;
+}
+
+.bareeq-cart-weight {
+  color: #8b7a66;
+  font-weight: 800;
+}
+
+.bareeq-cart-table-wrap {
+  background: #fff;
+  border: 1px solid #f1e4d5;
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, 0.06);
+}
+
+.bareeq-cart-table-responsive {
+  padding: 12px 12px 6px;
+}
+
+.bareeq-cart-table {
+  margin: 0;
+  border: 0 !important;
+}
+.bareeq-cart-table thead th {
+  background: #fbf3e5;
+  border-color: #f1e4d5 !important;
+  color: #3a3025;
+  font-weight: 900;
+  font-size: 13px;
+  white-space: nowrap;
+}
+.bareeq-cart-table tbody td {
+  border-color: #f1e4d5 !important;
+  color: #3a3025;
+  vertical-align: middle;
+  background: #fff;
+}
+.bareeq-cart-table tbody tr:hover td {
+  background: #fffaf3;
+}
+
+.bareeq-th-image {
+  width: 96px;
+}
+
+.bareeq-th-qty {
+  width: 260px;
+}
+
+.bareeq-th-price, .bareeq-th-total {
+  width: 150px;
+}
+
+.bareeq-thumb {
+  display: inline-flex;
+  width: 64px;
+  height: 64px;
+  border-radius: 14px;
+  border: 1px solid #f1e4d5;
+  background: #fff;
+  padding: 6px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.bareeq-thumb img {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 10px;
+}
+
+.bareeq-name {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.bareeq-name-link {
+  color: #8a9b6a;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.bareeq-name-link:hover {
+  color: rgb(111.3253012048, 125.6626506024, 84.3373493976);
+  text-decoration: underline;
+}
+
+.bareeq-oos {
+  color: #d58a78;
+  font-weight: 900;
+}
+
+.bareeq-meta {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  color: #8b7a66;
+}
+.bareeq-meta li small, .bareeq-meta li .small {
+  color: #8b7a66;
+}
+
+.bareeq-qtybox {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.bareeq-qty-input {
+  width: 110px;
+  border-radius: 14px;
+  border: 1px solid #f1e4d5;
+  background: #fff;
+  font-weight: 800;
+  text-align: center;
+}
+
+.bareeq-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.bareeq-btn-icon {
+  width: 44px;
+  height: 44px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 14px;
+  font-weight: 900;
+}
+
+.bareeq-tfoot td {
+  background: #fff7ec;
+  border-color: #f1e4d5 !important;
+}
+
+.bareeq-total-title {
+  color: #3a3025;
+}
+
+.bareeq-total-value {
+  color: #3a3025;
+}
+
+.bareeq-cart-footer {
+  margin-top: 14px;
+  padding: 0 12px 14px;
+}
+
+.bareeq-btn-soft {
+  border-radius: 14px;
+  border: 1px solid #f1e4d5 !important;
+  background: #fff !important;
+  color: #3a3025 !important;
+  font-weight: 900;
+}
+
+.bareeq-btn-soft:hover {
+  background: #fffaf3 !important;
+}
+
+.bareeq-btn-main {
+  border-radius: 14px;
+  font-weight: 900;
+}
+
+/* ============ Mobile Card Table ============ */
+@media (max-width: 768px) {
+  .bareeq-cart-table thead {
+    display: none;
+  }
+  .bareeq-cart-table tbody tr {
+    display: block;
+    border: 1px solid #f1e4d5;
+    border-radius: 16px;
+    margin: 10px 0 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.04);
+  }
+  .bareeq-cart-table tbody td {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+    padding: 10px 12px;
+    border-left: 0 !important;
+    border-right: 0 !important;
+  }
+  .bareeq-cart-table tbody td::before {
+    content: attr(data-label);
+    font-weight: 900;
+    color: #8b7a66;
+    white-space: nowrap;
+  }
+  .bareeq-td-image {
+    justify-content: center;
+  }
+  .bareeq-td-image::before {
+    display: none;
+  }
+  .bareeq-qtybox {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .bareeq-actions {
+    justify-content: flex-end;
+  }
+}
+.bareeq-next-title {
+  margin: 14px 0;
+  font-weight: 900;
+  color: #3a3025;
+}
+
+/* ============ BAREEQ - Sitemap Page ============ */
+.bq-page {
+  padding-bottom: 2rem;
+}
+
+.bq-breadcrumb {
+  margin-bottom: 1rem;
+}
+
+#information-sitemap .bq-card {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+}
+#information-sitemap .bq-card__header {
+  padding: 1.25rem 1.25rem 0.75rem 1.25rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  background: linear-gradient(0deg, rgb(255, 255, 255), rgba(248, 240, 229, 0.65));
+}
+#information-sitemap .bq-title {
+  margin: 0;
+  font-weight: 800;
+  font-size: 2rem;
+  color: #2b2b2b;
+}
+#information-sitemap .bq-subtitle {
+  margin: 0.35rem 0 0;
+  color: #777;
+  font-size: 0.95rem;
+}
+#information-sitemap .bq-sitemap {
+  padding: 1.25rem;
+}
+#information-sitemap .bq-section {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  padding: 1rem;
+}
+#information-sitemap .bq-section__title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-weight: 800;
+  color: #2b2b2b;
+  padding-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+#information-sitemap .bq-section__title i {
+  color: #8aa06a; /* أخضر بريق */
+  font-size: 1.05rem;
+}
+#information-sitemap .bq-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: #2b2b2b;
+  text-decoration: none;
+  padding: 0.35rem 0.45rem;
+  border-radius: 10px;
+  transition: 0.2s ease;
+}
+#information-sitemap .bq-link:hover {
+  background: rgba(138, 160, 106, 0.12);
+  color: #2b2b2b;
+}
+#information-sitemap {
+  /* Tree styling */
+}
+#information-sitemap .bq-tree {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#information-sitemap .bq-tree > li {
+  padding: 0.4rem 0;
+}
+#information-sitemap .bq-tree ul {
+  margin-top: 0.25rem;
+  padding-right: 1rem; /* RTL indentation */
+  list-style: none;
+  border-right: 2px solid rgba(138, 160, 106, 0.25);
+}
+#information-sitemap .bq-tree ul li {
+  position: relative;
+  padding: 0.35rem 0 0.35rem 0.25rem;
+}
+#information-sitemap .bq-tree ul li::before {
+  content: "";
+  position: absolute;
+  right: -10px;
+  top: 1rem;
+  width: 10px;
+  height: 2px;
+  background: rgba(138, 160, 106, 0.25);
+}
+#information-sitemap {
+  /* Quick links */
+}
+#information-sitemap .bq-quick {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+@media (min-width: 992px) {
+  #information-sitemap .bq-quick {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+#information-sitemap .bq-quick__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
+  padding: 0.85rem 0.75rem;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  text-decoration: none;
+  color: #2b2b2b;
+  background: rgba(248, 240, 229, 0.55);
+  transition: 0.2s ease;
+}
+#information-sitemap .bq-quick__item i {
+  color: #8aa06a;
+}
+#information-sitemap .bq-quick__item:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 22px rgba(0, 0, 0, 0.08);
+  background: rgba(248, 240, 229, 0.85);
+}
+#information-sitemap .bq-panel {
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  overflow: hidden;
+  background: #fff;
+}
+#information-sitemap .bq-panel__head {
+  padding: 0.85rem 1rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  background: rgba(248, 240, 229, 0.65);
+}
+#information-sitemap .bq-panel__head i {
+  color: #8aa06a;
+}
+#information-sitemap .bq-panel__body {
+  padding: 0.8rem 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+}
+#information-sitemap .bq-panel__body .bq-link {
+  background: rgba(0, 0, 0, 0.03);
+}
+
+/* ===== BAREEQ Sitemap Links Fix ===== */
+#information-sitemap {
+  /* أي رابط داخل خريطة الموقع */
+}
+#information-sitemap .bq-link {
+  display: block;
+  width: fit-content;
+  color: #8aa06a;
+  font-weight: 500;
+  padding: 6px 10px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+#information-sitemap .bq-link:hover {
+  background-color: rgba(138, 160, 106, 0.15);
+  color: #6f8653;
+  transform: translateX(-2px);
+}
+#information-sitemap {
+  /* الروابط داخل الأقسام */
+}
+#information-sitemap .bq-tree > li > .bq-link {
+  font-weight: 700;
+  color: #5f7348;
+}
+#information-sitemap .bq-tree ul .bq-link {
+  font-weight: 500;
+  margin-top: 2px;
+}
+#information-sitemap {
+  /* روابط الحساب والمعلومات */
+}
+#information-sitemap .bq-panel__body .bq-link {
+  background: transparent;
+  padding: 6px 8px;
+}
+#information-sitemap .bq-panel__body .bq-link:hover {
+  background: rgba(138, 160, 106, 0.12);
+}
+#information-sitemap {
+  /* روابط سريعة (Special / Cart / Checkout / Search) */
+}
+#information-sitemap .bq-quick__item {
+  color: #5f7348;
+  font-weight: 600;
+}
+#information-sitemap .bq-quick__item i {
+  color: #8aa06a;
+}
+#information-sitemap .bq-quick__item:hover {
+  color: #4f6240;
+}
+
+/* ===== Bareeq Banner (Category) ===== */
+.bareeq-banner {
+  background: #fbf2e7; /* خلفية بريق */
+  border-radius: 18px;
+  padding: 28px;
+  margin: 18px 0 26px;
+  overflow: hidden;
+}
+
+.bareeq-banner .banner-title {
+  font-size: 34px;
+  font-weight: 800;
+  color: #2b2b2b;
+  margin-bottom: 12px;
+}
+
+.bareeq-banner .banner-desc {
+  color: #6b6b6b;
+  line-height: 1.9;
+  margin: 0 0 18px;
+}
+
+.bareeq-banner .banner-actions {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+@media (min-width: 992px) {
+  .bareeq-banner .banner-actions {
+    justify-content: flex-start;
+  }
+}
+/* Buttons - green Bareeq */
+.bareeq-banner .banner-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: #7B8F54; /* أخضر بريق */
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid #7B8F54;
+  transition: 0.2s ease;
+}
+
+.bareeq-banner .banner-btn:hover {
+  background: #6A7D47;
+  border-color: #6A7D47;
+  color: #fff;
+}
+
+.bareeq-banner .banner-btn-outline {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 22px;
+  border-radius: 999px;
+  background: transparent;
+  color: #7B8F54;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid #7B8F54;
+  transition: 0.2s ease;
+}
+
+.bareeq-banner .banner-btn-outline:hover {
+  background: rgba(123, 143, 84, 0.12);
+  color: #6A7D47;
+  border-color: #6A7D47;
+}
+
+/* Image */
+.bareeq-banner .banner-img {
+  width: 100%;
+  max-width: 520px;
+  height: auto;
+  display: inline-block;
+  border-radius: 18px;
+  object-fit: contain;
+}
 
 /*# sourceMappingURL=stylesheet.css.map */

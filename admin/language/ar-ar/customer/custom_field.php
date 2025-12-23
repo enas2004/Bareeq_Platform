@@ -19,7 +19,7 @@ $_['text_date']            = 'Date';
 $_['text_datetime']        = 'Date &amp; Heure';
 $_['text_time']            = 'Heure';
 $_['text_account']         = 'Compte';
-$_['text_address']         = 'Adresse';<?php
+$_['text_address']         = 'Adresse';
 // العنوان
 $_['heading_title']        = 'الحقول المخصصة';
 
@@ -71,7 +71,7 @@ $_['help_regex']           = 'استخدمي تعبيرًا نمطيًا (Regex)
 $_['help_sort_order']      = 'استخدمي رقمًا سالبًا لبدء العد العكسي من آخر حقل في المجموعة.';
 
 // الأخطاء
-$_['error_permission']     = 'تحذير: ليس_]()_
+$_['error_permission']     = 'تحذير: ليس لديك إذن لتعديل الحقول المخصصة!';
 
 $_['text_affiliate']       = 'Affiliation';
 $_['text_regex']           = 'Regex';

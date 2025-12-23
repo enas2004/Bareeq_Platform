@@ -120,3 +120,6 @@
 2025-12-03 06:12:48 - syntax error, unexpected string content "البريد الإلكترو_..." in C:\xampp\htdocs\opencart\admin\language\ar-ar\setting\store.php on line 119
 2025-12-03 06:12:52 - syntax error, unexpected string content "البريد الإلكترو_..." in C:\xampp\htdocs\opencart\admin\language\ar-ar\setting\store.php on line 119
 2025-12-06 15:43:56 - Error: Could not load template account/payment_method! in C:\xampp\htdocs\opencart\system\library\template\twig.php on line 121
+2025-12-18 12:13:35 - syntax error, unexpected string content "تحذير: لا يمكن حذ..." in C:\xampp\htdocs\bareeq_platform\admin\language\ar-ar\design\layout.php on line 33
+2025-12-20 16:55:54 - syntax error, unexpected identifier "_" in C:\xampp\htdocs\bareeq_platform\admin\language\ar-ar\customer\customer.php on line 61
+2025-12-20 16:57:37 - syntax error, unexpected token "<", expecting end of file in C:\xampp\htdocs\bareeq_platform\admin\language\ar-ar\customer\custom_field.php on line 22

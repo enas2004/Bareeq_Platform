@@ -61,32 +61,61 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 7
         yield "  </ul>
+
   <div class=\"row\">
     ";
-        // line 9
+        // line 10
         yield ($context["column_left"] ?? null);
         yield "
+
     <div id=\"content\" class=\"col\">
       ";
-        // line 11
+        // line 13
         yield ($context["content_top"] ?? null);
         yield "
-      <div id=\"shopping-cart\">";
-        // line 12
+
+      <div class=\"bareeq-card bareeq-cart-card\">
+        <div class=\"bareeq-card__head\">
+          <div>
+            <h1 class=\"bareeq-card__title\">";
+        // line 18
+        yield ($context["heading_title"] ?? null);
+        yield "</h1>
+            ";
+        // line 19
+        if (($context["weight"] ?? null)) {
+            // line 20
+            yield "              <div class=\"bareeq-card__sub\">";
+            yield ($context["weight"] ?? null);
+            yield "</div>
+            ";
+        }
+        // line 22
+        yield "          </div>
+        </div>
+
+        <div id=\"shopping-cart\" class=\"bareeq-cart\">
+          ";
+        // line 26
         yield ($context["list"] ?? null);
-        yield "</div>
+        yield "
+        </div>
+      </div>
+
       ";
-        // line 13
+        // line 30
         yield ($context["content_bottom"] ?? null);
         yield "
     </div>
+
     ";
-        // line 15
+        // line 33
         yield ($context["column_right"] ?? null);
         yield "
   </div>
 </div>
-<script type=\"text/javascript\"><!--
+
+<script type=\"text/javascript\">
 \$('#shopping-cart').on('submit', '#output-cart form', function(e) {
     e.preventDefault();
 
@@ -124,11 +153,11 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
                 \$('#alert').prepend('<div class=\"alert alert-success alert-dismissible\"><i class=\"fa-solid fa-circle-exclamation\"></i> ' + json['success'] + ' <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\"></button></div>');
 
                 \$('#shopping-cart').load('index.php?route=checkout/cart.list&language=";
-        // line 55
+        // line 74
         yield ($context["language"] ?? null);
         yield "', {}, function() {
                     \$('#cart').load('index.php?route=common/cart.info&language=";
-        // line 56
+        // line 75
         yield ($context["language"] ?? null);
         yield "');
                 });
@@ -169,7 +198,7 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
                 \$('#alert').prepend('<div class=\"alert alert-success alert-dismissible\"><i class=\"fa-solid fa-circle-exclamation\"></i> ' + json['success'] + ' <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\"></button></div>');
 
                 \$('#shopping-cart').load('index.php?route=checkout/cart.list&language=";
-        // line 94
+        // line 113
         yield ($context["language"] ?? null);
         yield "');
             }
@@ -182,7 +211,7 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
 
 \$('#shopping-cart').observe(function(e) {
     \$('#cart').load('index.php?route=common/cart.info&language=";
-        // line 104
+        // line 123
         yield ($context["language"] ?? null);
         yield "');
 });
@@ -190,14 +219,14 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
 \$('#cart').on('submit', 'form', function(e) {
     window.setTimeout(function() {
         \$('#shopping-cart').load('index.php?route=checkout/cart.list&language=";
-        // line 109
+        // line 128
         yield ($context["language"] ?? null);
         yield "');
     }, 3000);
 });
-//--></script>
+</script>
 ";
-        // line 113
+        // line 132
         yield ($context["footer"] ?? null);
         yield "
 ";
@@ -225,7 +254,7 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  201 => 113,  194 => 109,  186 => 104,  173 => 94,  132 => 56,  128 => 55,  85 => 15,  80 => 13,  76 => 12,  72 => 11,  67 => 9,  63 => 7,  52 => 5,  48 => 4,  42 => 1,);
+        return array (  230 => 132,  223 => 128,  215 => 123,  202 => 113,  161 => 75,  157 => 74,  113 => 33,  107 => 30,  100 => 26,  94 => 22,  88 => 20,  86 => 19,  82 => 18,  74 => 13,  68 => 10,  63 => 7,  52 => 5,  48 => 4,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -237,17 +266,36 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
       <li class=\"breadcrumb-item\"><a href=\"{{ breadcrumb.href }}\">{{ breadcrumb.text }}</a></li>
     {% endfor %}
   </ul>
+
   <div class=\"row\">
     {{ column_left }}
+
     <div id=\"content\" class=\"col\">
       {{ content_top }}
-      <div id=\"shopping-cart\">{{ list }}</div>
+
+      <div class=\"bareeq-card bareeq-cart-card\">
+        <div class=\"bareeq-card__head\">
+          <div>
+            <h1 class=\"bareeq-card__title\">{{ heading_title }}</h1>
+            {% if weight %}
+              <div class=\"bareeq-card__sub\">{{ weight }}</div>
+            {% endif %}
+          </div>
+        </div>
+
+        <div id=\"shopping-cart\" class=\"bareeq-cart\">
+          {{ list }}
+        </div>
+      </div>
+
       {{ content_bottom }}
     </div>
+
     {{ column_right }}
   </div>
 </div>
-<script type=\"text/javascript\"><!--
+
+<script type=\"text/javascript\">
 \$('#shopping-cart').on('submit', '#output-cart form', function(e) {
     e.preventDefault();
 
@@ -341,8 +389,8 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
         \$('#shopping-cart').load('index.php?route=checkout/cart.list&language={{ language }}');
     }, 3000);
 });
-//--></script>
+</script>
 {{ footer }}
-", "catalog/view/template/checkout/cart.twig", "C:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\checkout\\cart.twig");
+", "catalog/view/template/checkout/cart.twig", "C:\\xampp\\htdocs\\bareeq_platform\\catalog\\view\\template\\checkout\\cart.twig");
     }
 }

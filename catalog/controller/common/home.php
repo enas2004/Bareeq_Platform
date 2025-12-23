@@ -37,7 +37,7 @@ class Home extends \Opencart\System\Engine\Controller {
     $this->load->model('setting/store');
     $this->load->model('tool/image');
 
-    $data['oc_store'] = [];
+    $data['stores'] = [];
 
     // 1) المتجر الرئيسي (نفس هذا الموقع)
     $main_logo = $this->config->get('config_logo');
@@ -48,7 +48,7 @@ class Home extends \Opencart\System\Engine\Controller {
         $main_thumb = $this->model_tool_image->resize('placeholder.png', 800, 500);
     }
 
-    $data['oc_store'][] = [
+    $data['stores'][] = [
         'store_id'    => 0,
         'name'        => $this->config->get('config_name'),
         'description' => 'متجرنا الرئيسي في العالم الافتراضي.',
@@ -59,6 +59,8 @@ class Home extends \Opencart\System\Engine\Controller {
         'rating'      => 4.9,
         'price_from'  => '–'
     ];
+    
+  
 
     // 2) المتاجر الفرعية المسجَّلة في أوبن كارت
     $stores = $this->model_setting_store->getStores();
@@ -72,7 +74,7 @@ class Home extends \Opencart\System\Engine\Controller {
             $thumb = $this->model_tool_image->resize('placeholder.png', 800, 500);
         }
 
-        $data['oc_store'][] = [
+        $data['stores'][] = [
             'store_id'    => $store['store_id'],
             'name'        => $store['name'],
             'description' => $store['meta_description'] ?? '',

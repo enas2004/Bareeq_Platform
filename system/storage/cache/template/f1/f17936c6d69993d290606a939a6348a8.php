@@ -55,7 +55,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
         // line 5
         yield ($context["column_right"] ?? null);
         yield "</div>
-</div>
+   </div>
 ";
         // line 7
         yield ($context["footer"] ?? null);
@@ -93,7 +93,7 @@ class __TwigTemplate_26f3baffc38463740621a491e0c161b3 extends Template
   <div class=\"row\">{{ column_left }}
     <div id=\"content\" class=\"col\">{{ content_top }}{{ content_bottom }}</div>
     {{ column_right }}</div>
-</div>
-{{ footer }}", "catalog/view/template/common/home.twig", "C:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\common\\home.twig");
+   </div>
+{{ footer }}", "catalog/view/template/common/home.twig", "C:\\xampp\\htdocs\\bareeq_platform\\catalog\\view\\template\\common\\home.twig");
     }
 }

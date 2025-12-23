@@ -58,4 +58,4 @@ $_['entry_language']           = 'اللغة';
 $_['entry_customer_group']     = 'مجموعة العملاء';
 $_['entry_firstname']          = 'الاسم الأول';
 $_['entry_lastname']           = 'الاسم الأخير';
-$_['entry_email']_]()_
+$_['entry_email']              = 'البريد الإلكتروني';

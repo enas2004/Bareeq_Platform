@@ -5,17 +5,36 @@
       <li class="breadcrumb-item"><a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a></li>
     {% endfor %}
   </ul>
+
   <div class="row">
     {{ column_left }}
+
     <div id="content" class="col">
       {{ content_top }}
-      <div id="shopping-cart">{{ list }}</div>
+
+      <div class="bareeq-card bareeq-cart-card">
+        <div class="bareeq-card__head">
+          <div>
+            <h1 class="bareeq-card__title">{{ heading_title }}</h1>
+            {% if weight %}
+              <div class="bareeq-card__sub">{{ weight }}</div>
+            {% endif %}
+          </div>
+        </div>
+
+        <div id="shopping-cart" class="bareeq-cart">
+          {{ list }}
+        </div>
+      </div>
+
       {{ content_bottom }}
     </div>
+
     {{ column_right }}
   </div>
 </div>
-<script type="text/javascript"><!--
+
+<script type="text/javascript">
 $('#shopping-cart').on('submit', '#output-cart form', function(e) {
     e.preventDefault();
 
@@ -109,5 +128,5 @@ $('#cart').on('submit', 'form', function(e) {
         $('#shopping-cart').load('index.php?route=checkout/cart.list&language={{ language }}');
     }, 3000);
 });
-//--></script>
+</script>
 {{ footer }}
