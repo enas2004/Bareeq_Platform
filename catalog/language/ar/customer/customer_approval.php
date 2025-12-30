@@ -1,32 +1,33 @@
 <?php
-// En-tête
-$_['heading_title']         = 'Approbations des Clients';
+// العنوان
+$_['heading_title']         = 'موافقات العملاء';
 
-// Texte
-$_['text_success']          = 'Succès: Vous avez modifié les approbations des clients!';
-$_['text_list']             = 'Liste des Approbations des Clients';
-$_['text_default']          = 'Par Défaut';
-$_['text_customer']         = 'Client';
-$_['text_affiliate']        = 'Affilié';
-$_['text_filter']           = 'Filtrer';
-$_['text_approve']          = 'Approuver';
-$_['text_deny']             = 'Refuser';
+// النصوص
+$_['text_success']          = 'تم بنجاح: لقد قمتِ بتعديل موافقات العملاء!';
+$_['text_list']             = 'قائمة موافقات العملاء';
+$_['text_default']          = 'الافتراضي';
+$_['text_customer']         = 'عميل';
+$_['text_affiliate']        = 'تابع';
+$_['text_filter']           = 'تصفية';
+$_['text_approve']          = 'موافقة';
+$_['text_deny']             = 'رفض';
 
-// Colonne
-$_['column_customer']       = 'Client';
-$_['column_email']          = 'E-Mail';
-$_['column_customer_group'] = 'Groupe de Clients';
-$_['column_type']           = 'Type';
-$_['column_date_added']     = 'Date d\'Ajout';
-$_['column_action']         = 'Action';
+// الأعمدة
+$_['column_customer']       = 'العميل';
+$_['column_email']          = 'البريد الإلكتروني';
+$_['column_customer_group'] = 'مجموعة العملاء';
+$_['column_type']           = 'النوع';
+$_['column_date_added']     = 'تاريخ الإضافة';
+$_['column_action']         = 'الإجراء';
 
-// Entrée
-$_['entry_customer']        = 'Client';
-$_['entry_email']           = 'E-Mail';
-$_['entry_customer_group']  = 'Groupe de Clients';
-$_['entry_type']            = 'Type';
-$_['entry_date_from']       = 'Date de Début';
-$_['entry_date_to']         = 'Date de Fin';
+// المدخلات
+$_['entry_customer']        = 'العميل';
+$_['entry_email']           = 'البريد الإلكتروني';
+$_['entry_customer_group']  = 'مجموعة العملاء';
+$_['entry_type']            = 'النوع';
+$_['entry_date_from']       = 'من تاريخ';
+$_['entry_date_to']         = 'إلى تاريخ';
 
-// Erreur
-$_['error_permission']      = 'Attention: Vous n\'avez pas la permission de modifier les approbations des clients!';
+// الأخطاء
+$_['error_permission']      = 'تحذير: ليس لديكِ صلاحية لتعديل موافقات العملاء!';
+?>

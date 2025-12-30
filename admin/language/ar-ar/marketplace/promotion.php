@@ -1,6 +1,6 @@
 <?php
-// النصوص
-$_['text_recommended'] = 'موصى به';
-$_['text_install']     = 'تثبيت';
-$_['text_uninstall']   = 'إلغاء التثبيت';
-$_['text_delete']      = 'حذف';
+// Texte
+$_['text_recommended'] = 'Recommandé';
+$_['text_install']     = 'Installer';
+$_['text_uninstall']   = 'Désinstaller';
+$_['text_delete']      = 'Supprimer';

@@ -1,39 +1,39 @@
 <?php
-// En-tête
-$_['heading_title']     = 'Langues';
+// العنوان
+$_['heading_title']     = 'اللغات';
 
-// Texte
-$_['text_success']      = 'Succès: Vous avez modifié les langues!';
-$_['text_list']         = 'Liste des Langues';
-$_['text_add']          = 'Ajouter une Langue';
-$_['text_edit']         = 'Modifier une Langue';
+// النصوص
+$_['text_success']      = 'تم بنجاح: تم تعديل اللغات!';
+$_['text_list']         = 'قائمة اللغات';
+$_['text_add']          = 'إضافة لغة';
+$_['text_edit']         = 'تعديل لغة';
 
-// Colonne
-$_['column_name']       = 'Nom de la Langue';
-$_['column_code']       = 'Code';
-$_['column_sort_order'] = 'Ordre de Tri';
-$_['column_action']     = 'Action';
+// الأعمدة
+$_['column_name']       = 'اسم اللغة';
+$_['column_code']       = 'الرمز';
+$_['column_sort_order'] = 'ترتيب العرض';
+$_['column_action']     = 'الإجراء';
 
-// Entrée
-$_['entry_name']        = 'Nom de la Langue';
-$_['entry_code']        = 'Code';
-$_['entry_extension']   = 'Extension';
-$_['entry_locale']      = 'Locale';
-$_['entry_status']      = 'Statut';
-$_['entry_sort_order']  = 'Ordre de Tri';
+// الإدخالات
+$_['entry_name']        = 'اسم اللغة';
+$_['entry_code']        = 'الرمز';
+$_['entry_extension']   = 'الإضافة';
+$_['entry_locale']      = 'الإعداد المحلي';
+$_['entry_status']      = 'الحالة';
+$_['entry_sort_order']  = 'ترتيب العرض';
 
-// Aide
-$_['help_locale']       = 'Exemple: fr_FR.UTF-8,fr_FR,fr-fr,français';
-$_['help_status']       = 'Masquer/Afficher dans le menu déroulant des langues';
+// المساعدة
+$_['help_locale']       = 'مثال: ar_AR.UTF-8,ar_AR,ar-ar,العربية';
+$_['help_status']       = 'إخفاء/عرض في قائمة اختيار اللغة';
 
-// Erreur
-$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les langues!';
-$_['error_exists']      = 'Attention: Vous avez déjà ajouté cette langue!';
-$_['error_name']        = 'Le nom de la langue doit contenir entre 1 et 32 caractères!';
-$_['error_code']        = 'Le code de la langue doit contenir entre 2 et 5 caractères!';
-$_['error_file']        = 'Le fichier est introuvable!';
-$_['error_locale']      = 'Locale requis!';
-$_['error_default']     = 'Attention: Cette langue ne peut pas être supprimée car elle est actuellement définie comme la langue par défaut du magasin!';
-$_['error_admin']       = 'Attention: Cette langue ne peut pas être supprimée car elle est actuellement définie comme langue d\'administration!';
-$_['error_store']       = 'Attention: Cette langue ne peut pas être supprimée car elle est actuellement attribuée à %s magasins!';
-$_['error_order']       = 'Attention: Cette langue ne peut pas être supprimée car elle est actuellement attribuée à %s commandes!';
+// الأخطاء
+$_['error_permission']  = 'تحذير: ليس لديك صلاحية لتعديل اللغات!';
+$_['error_exists']      = 'تحذير: هذه اللغة مضافة بالفعل!';
+$_['error_name']        = 'يجب أن يكون اسم اللغة بين 1 و32 حرفاً!';
+$_['error_code']        = 'يجب أن يكون رمز اللغة بين 2 و5 أحرف!';
+$_['error_file']        = 'الملف غير موجود!';
+$_['error_locale']      = 'الإعداد المحلي مطلوب!';
+$_['error_default']     = 'تحذير: لا يمكن حذف هذه اللغة لأنها محددة حالياً كلغة افتراضية للمتجر!';
+$_['error_admin']       = 'تحذير: لا يمكن حذف هذه اللغة لأنها محددة حالياً كلغة لوحة التحكم!';
+$_['error_store']       = 'تحذير: لا يمكن حذف هذه اللغة لأنها مرتبطة حالياً بـ %s متجر!';
+$_['error_order']       = 'تحذير: لا يمكن حذف هذه اللغة لأنها مستخدمة حالياً في %s طلب!';

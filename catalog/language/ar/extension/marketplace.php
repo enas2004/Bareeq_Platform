@@ -1,16 +1,17 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Places de marché';
+// العنوان
+$_['heading_title']    = 'أسواق البيع';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les places de marché!';
-$_['text_list']        = 'Liste des places de marché';
+// النصوص
+$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل أسواق البيع!';
+$_['text_list']        = 'قائمة أسواق البيع';
 
-// Colonne
-$_['column_name']      = 'Nom de la place de marché';
-$_['column_status']    = 'Statut';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم السوق';
+$_['column_status']    = 'الحالة';
+$_['column_action']    = 'الإجراء';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les places de marché!';
-$_['error_extension']  = 'Attention: L\'extension n\'existe pas!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل أسواق البيع!';
+$_['error_extension']  = 'تحذير: الإضافة غير موجودة!';
+?>

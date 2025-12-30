@@ -1,16 +1,16 @@
 <?php
-// En-tête
-$_['heading_title']     = 'Démarrage';
+// العنوان
+$_['heading_title']     = 'البدء';
 
-// Texte
-$_['text_success']      = 'Succès: Vous avez modifié le démarrage!';
-$_['text_list']         = 'Liste de démarrage';
-$_['text_info']         = 'Information de démarrage';
+// النصوص
+$_['text_success']      = 'تم بنجاح: لقد قمت بتعديل إعدادات البدء!';
+$_['text_list']         = 'قائمة البدء';
+$_['text_info']         = 'معلومات البدء';
 
-// Colonne
-$_['column_code']       = 'Code de démarrage';
-$_['column_sort_order'] = 'Ordre de tri';
-$_['column_action']     = 'Action';
+// الأعمدة
+$_['column_code']       = 'كود البدء';
+$_['column_sort_order'] = 'ترتيب العرض';
+$_['column_action']     = 'الإجراء';
 
-// Erreur
-$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier le démarrage!';
+// الأخطاء
+$_['error_permission']  = 'تحذير: ليس لديك إذن لتعديل إعدادات البدء!';

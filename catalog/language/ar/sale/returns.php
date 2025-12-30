@@ -1,73 +1,73 @@
 <?php
-// En-tête
-$_['heading_title']        = 'Retours de Produits';
+// العنوان
+$_['heading_title']        = 'مرتجعات المنتجات';
 
-// Texte
-$_['text_success']         = 'Succès: Vous avez modifié les retours!';
-$_['text_list']            = 'Liste des Retours de Produits';
-$_['text_add']             = 'Ajouter un Retour de Produit';
-$_['text_edit']            = 'Modifier un Retour de Produit';
-$_['text_order_id']        = 'ID de Commande';
-$_['text_filter']          = 'Filtrer';
-$_['text_customer']        = 'Client';
-$_['text_date_added']      = 'Date d\'Ajout';
-$_['text_return']          = 'Retourner le Produit';
-$_['text_product']         = 'Informations sur le Produit &amp; Raison du Retour';
-$_['text_opened']          = 'Ouvert';
-$_['text_unopened']        = 'Non Ouvert';
-$_['text_history']         = 'Historique';
-$_['text_history_add']     = 'Ajouter à l\'Historique';
+// النصوص
+$_['text_success']         = 'تم بنجاح: لقد قمت بتعديل المرتجعات!';
+$_['text_list']            = 'قائمة مرتجعات المنتجات';
+$_['text_add']             = 'إضافة مرتجع منتج';
+$_['text_edit']            = 'تعديل مرتجع منتج';
+$_['text_order_id']        = 'رقم الطلب';
+$_['text_filter']          = 'تصفية';
+$_['text_customer']        = 'العميل';
+$_['text_date_added']      = 'تاريخ الإضافة';
+$_['text_return']          = 'إرجاع المنتج';
+$_['text_product']         = 'معلومات المنتج & سبب الإرجاع';
+$_['text_opened']          = 'مفتوح';
+$_['text_unopened']        = 'غير مفتوح';
+$_['text_history']         = 'السجل';
+$_['text_history_add']     = 'إضافة إلى السجل';
 
-// Colonne
-$_['column_return_id']     = 'ID de Retour';
-$_['column_order_id']      = 'ID de Commande';
-$_['column_customer']      = 'Client';
-$_['column_product']       = 'Produit';
-$_['column_model']         = 'Modèle';
-$_['column_quantity']      = 'Quantité';
-$_['column_status']        = 'Statut';
-$_['column_date_added']    = 'Date d\'Ajout';
-$_['column_comment']       = 'Commentaire';
-$_['column_notify']        = 'Client Notifié';
-$_['column_action']        = 'Action';
+// الأعمدة
+$_['column_return_id']     = 'رقم المرتجع';
+$_['column_order_id']      = 'رقم الطلب';
+$_['column_customer']      = 'العميل';
+$_['column_product']       = 'المنتج';
+$_['column_model']         = 'الطراز';
+$_['column_quantity']      = 'الكمية';
+$_['column_status']        = 'الحالة';
+$_['column_date_added']    = 'تاريخ الإضافة';
+$_['column_comment']       = 'تعليق';
+$_['column_notify']        = 'تم إشعار العميل';
+$_['column_action']        = 'إجراء';
 
-// Entrée
-$_['entry_customer']       = 'Client';
-$_['entry_order_id']       = 'ID de Commande';
-$_['entry_date_ordered']   = 'Date de Commande';
-$_['entry_firstname']      = 'Prénom';
-$_['entry_lastname']       = 'Nom';
-$_['entry_email']          = 'E-Mail';
-$_['entry_telephone']      = 'Téléphone';
-$_['entry_product']        = 'Produit';
-$_['entry_model']          = 'Modèle';
-$_['entry_quantity']       = 'Quantité';
-$_['entry_opened']         = 'Ouvert';
-$_['entry_comment']        = 'Commentaire';
-$_['entry_return_reason']  = 'Raison du Retour';
-$_['entry_return_action']  = 'Action de Retour';
-$_['entry_return_status']  = 'Statut du Retour';
-$_['entry_return_id']      = 'ID de Retour';
-$_['entry_notify']         = 'Notifier le Client';
-$_['entry_date_from']      = 'Date de Début';
-$_['entry_date_to']        = 'Date de Fin';
+// الإدخالات
+$_['entry_customer']       = 'العميل';
+$_['entry_order_id']       = 'رقم الطلب';
+$_['entry_date_ordered']   = 'تاريخ الطلب';
+$_['entry_firstname']      = 'الاسم الأول';
+$_['entry_lastname']       = 'اسم العائلة';
+$_['entry_email']          = 'البريد الإلكتروني';
+$_['entry_telephone']      = 'الهاتف';
+$_['entry_product']        = 'المنتج';
+$_['entry_model']          = 'الطراز';
+$_['entry_quantity']       = 'الكمية';
+$_['entry_opened']         = 'مفتوح';
+$_['entry_comment']        = 'تعليق';
+$_['entry_return_reason']  = 'سبب الإرجاع';
+$_['entry_return_action']  = 'إجراء المرتجع';
+$_['entry_return_status']  = 'حالة المرتجع';
+$_['entry_return_id']      = 'رقم المرتجع';
+$_['entry_notify']         = 'إشعار العميل';
+$_['entry_date_from']      = 'تاريخ البداية';
+$_['entry_date_to']        = 'تاريخ النهاية';
 
-// Aide
-$_['help_product']         = '(Autocomplétion)';
+// المساعدة
+$_['help_product']         = '(الإكمال التلقائي)';
 
-// Erreur
-$_['error_warning']        = 'Avertissement: Veuillez vérifier attentivement le formulaire pour les erreurs!';
-$_['error_permission']     = 'Avertissement: Vous n\'avez pas la permission de modifier les retours!';
-$_['error_order']          = 'La commande n\'a pu être trouvée!';
-$_['error_customer']       = 'Le client n\'a pu être trouvé!';
-$_['error_firstname']      = 'Le prénom doit contenir entre 1 et 32 caractères!';
-$_['error_lastname']       = 'Le nom doit contenir entre 1 et 32 caractères!';
-$_['error_email']          = 'L\'adresse e-mail ne semble pas être valide!';
-$_['error_return']         = 'Les demandes de retour n\'ont pu être trouvées!';
-$_['error_telephone']      = 'Le téléphone doit contenir entre 3 et 32 caractères!';
-$_['error_product']        = 'Le nom du produit doit contenir entre 1 et 255 caractères!';
-$_['error_name']           = 'Le nom du produit doit contenir plus de 1 et moins de 255 caractères!';
-$_['error_model']          = 'Le modèle du produit doit contenir entre 1 et 64 caractères!';
-$_['error_quantity']       = 'La quantité du retour doit contenir au moins 1!';
-$_['error_reason']         = 'Vous devez sélectionner une raison pour le retour!';
-$_['error_action']         = 'Vous devez sélectionner une action pour le retour!';
+// الأخطاء
+$_['error_warning']        = 'تحذير: يرجى مراجعة النموذج بعناية للأخطاء!';
+$_['error_permission']     = 'تحذير: ليس لديك إذن لتعديل المرتجعات!';
+$_['error_order']          = 'تعذر العثور على الطلب!';
+$_['error_customer']       = 'تعذر العثور على العميل!';
+$_['error_firstname']      = 'يجب أن يكون الاسم الأول بين 1 و 32 حرفًا!';
+$_['error_lastname']       = 'يجب أن يكون اسم العائلة بين 1 و 32 حرفًا!';
+$_['error_email']          = 'البريد الإلكتروني غير صالح!';
+$_['error_return']         = 'تعذر العثور على طلبات المرتجع!';
+$_['error_telephone']      = 'يجب أن يكون الهاتف بين 3 و 32 حرفًا!';
+$_['error_product']        = 'يجب أن يكون اسم المنتج بين 1 و 255 حرفًا!';
+$_['error_name']           = 'يجب أن يكون اسم المنتج أكثر من 1 وأقل من 255 حرفًا!';
+$_['error_model']          = 'يجب أن يكون طراز المنتج بين 1 و 64 حرفًا!';
+$_['error_quantity']       = 'يجب أن تكون كمية المرتجع على الأقل 1!';
+$_['error_reason']         = 'يجب اختيار سبب للمرتجع!';
+$_['error_action']         = 'يجب اختيار إجراء للمرتجع!';

@@ -1,78 +1,78 @@
 <?php
-// En-tête
-$_['heading_title']      = 'Le Marché d\'Extensions';
+// العنوان
+$_['heading_title']      = 'سوق الإضافات';
 
-// Texte
-$_['text_success']       = 'Succès: Vous avez modifié les extensions!';
-$_['text_list']          = 'Liste des extensions';
-$_['text_filter']        = 'Filtrer';
-$_['text_search']        = 'Rechercher des extensions et des thèmes';
-$_['text_category']      = 'Catégories';
-$_['text_all']           = 'Tous';
-$_['text_theme']         = 'Thèmes';
-$_['text_marketplace']   = 'Les marchés';
-$_['text_language']      = 'Langues';
-$_['text_payment']       = 'Paiement';
-$_['text_shipping']      = 'Expédition';
-$_['text_module']        = 'Modules';
-$_['text_total']         = 'Totaux de commande';
-$_['text_feed']          = 'Flux';
-$_['text_report']        = 'Rapports';
-$_['text_other']         = 'Autres';
-$_['text_free']          = 'Gratuit';
-$_['text_paid']          = 'Payant';
-$_['text_purchased']     = 'Acheté';
-$_['text_recommended']   = 'Recommandé';
-$_['text_date_modified'] = 'Date de modification';
-$_['text_date_added']    = 'Date d\'ajout';
-$_['text_rating']        = 'Évaluation';
-$_['text_reviews']       = 'avis';
-$_['text_compatibility'] = 'Compatibilité';
-$_['text_downloaded']    = 'Téléchargé';
-$_['text_member_since']  = 'Membre depuis :';
-$_['text_price']         = 'Prix';
-$_['text_featured']      = 'En vedette';
-$_['text_partner']       = 'Développé par un partenaire OpenCart';
-$_['text_support']       = '12 mois de support gratuit';
-$_['text_documentation'] = 'Documentation incluse';
-$_['text_sales']         = 'Ventes';
-$_['text_comment']       = 'Commentaires';
-$_['text_download']      = 'Téléchargement';
-$_['text_install']       = 'Installation';
-$_['text_comment_add']   = 'Laissez votre commentaire';
-$_['text_write']         = 'Écrivez votre commentaire ici.';
-$_['text_purchase']      = 'Veuillez confirmer votre identité!';
-$_['text_pin']           = 'Veuillez entrer votre code PIN à 4 chiffres. Ce code PIN protège votre compte.';
-$_['text_secure']        = 'Ne communiquez pas votre code PIN à quiconque (y compris les développeurs). Si vous avez besoin d\'aide, veuillez envoyer un e-mail au vendeur de l\'extension concernant le package spécifique.';
-$_['text_name']          = 'Nom du téléchargement';
-$_['text_available']     = 'Installations disponibles';
-$_['text_action']        = 'Action';
-$_['text_install']       = 'Installer';
-$_['text_uninstall']     = 'Désinstaller';
-$_['text_delete']        = 'Supprimer';
-$_['text_more']          = 'voir plus de réponses...';
-$_['text_refresh']       = 'Actualiser';
+// النصوص
+$_['text_success']       = 'تم بنجاح: لقد تم تعديل الإضافات!';
+$_['text_list']          = 'قائمة الإضافات';
+$_['text_filter']        = 'تصفية';
+$_['text_search']        = 'البحث عن الإضافات والقوالب';
+$_['text_category']      = 'الفئات';
+$_['text_all']           = 'الكل';
+$_['text_theme']         = 'القوالب';
+$_['text_marketplace']   = 'الأسواق';
+$_['text_language']      = 'اللغات';
+$_['text_payment']       = 'طرق الدفع';
+$_['text_shipping']      = 'الشحن';
+$_['text_module']        = 'الوحدات';
+$_['text_total']         = 'إجماليات الطلب';
+$_['text_feed']          = 'تغذيات';
+$_['text_report']        = 'التقارير';
+$_['text_other']         = 'أخرى';
+$_['text_free']          = 'مجاني';
+$_['text_paid']          = 'مدفوع';
+$_['text_purchased']     = 'تم الشراء';
+$_['text_recommended']   = 'موصى به';
+$_['text_date_modified'] = 'تاريخ التعديل';
+$_['text_date_added']    = 'تاريخ الإضافة';
+$_['text_rating']        = 'التقييم';
+$_['text_reviews']       = 'التعليقات';
+$_['text_compatibility'] = 'التوافق';
+$_['text_downloaded']    = 'تم التحميل';
+$_['text_member_since']  = 'عضو منذ:';
+$_['text_price']         = 'السعر';
+$_['text_featured']      = 'مميز';
+$_['text_partner']       = 'مطوّر بواسطة شريك OpenCart';
+$_['text_support']       = '12 شهر دعم مجاني';
+$_['text_documentation'] = 'الوثائق مرفقة';
+$_['text_sales']         = 'المبيعات';
+$_['text_comment']       = 'التعليقات';
+$_['text_download']      = 'تحميل';
+$_['text_install']       = 'تثبيت';
+$_['text_comment_add']   = 'اترك تعليقك';
+$_['text_write']         = 'اكتب تعليقك هنا.';
+$_['text_purchase']      = 'يرجى تأكيد هويتك!';
+$_['text_pin']           = 'الرجاء إدخال رقم التعريف الشخصي المكون من 4 أرقام. هذا الرقم يحمي حسابك.';
+$_['text_secure']        = 'لا تفصح عن رقم التعريف الشخصي لأي شخص (بما في ذلك المطورين). إذا كنت بحاجة للمساعدة، يرجى مراسلة البائع الخاص بالإضافة.';
+$_['text_name']          = 'اسم التحميل';
+$_['text_available']     = 'التثبيتات المتاحة';
+$_['text_action']        = 'الإجراء';
+$_['text_install']       = 'تثبيت';
+$_['text_uninstall']     = 'إلغاء التثبيت';
+$_['text_delete']        = 'حذف';
+$_['text_more']          = 'عرض المزيد من الردود...';
+$_['text_refresh']       = 'تحديث';
 
-// Entrée
-$_['entry_pin']          = 'PIN';
+// الإدخالات
+$_['entry_pin']          = 'الرقم السري';
 
-// Onglets
-$_['tab_description']    = 'Description';
-$_['tab_documentation']  = 'Documentation';
-$_['tab_download']       = 'Téléchargement';
-$_['tab_comment']        = 'Commentaire';
+// الألسنة
+$_['tab_description']    = 'الوصف';
+$_['tab_documentation']  = 'الوثائق';
+$_['tab_download']       = 'التحميل';
+$_['tab_comment']        = 'التعليق';
 
-// Bouton
-$_['button_api']         = 'Le Marché API';
-$_['button_purchase']    = 'Acheter';
-$_['button_view_all']    = 'Voir toutes les extensions';
-$_['button_support']     = 'Obtenir du soutien';
-$_['button_comment']     = 'Commenter';
-$_['button_reply']       = 'Répondre';
-$_['button_forgot_pin']  = 'PIN oublié?';
+// الأزرار
+$_['button_api']         = 'API السوق';
+$_['button_purchase']    = 'شراء';
+$_['button_view_all']    = 'عرض جميع الإضافات';
+$_['button_support']     = 'الحصول على الدعم';
+$_['button_comment']     = 'التعليق';
+$_['button_reply']       = 'رد';
+$_['button_forgot_pin']  = 'نسيت الرقم السري؟';
 
-// Erreur
-$_['error_permission']   = 'Attention: Vous n\'avez pas la permission de modifier les extensions!';
-$_['error_api']          = 'Attention: Vous devez entrer vos informations d\'API OpenCart en cliquant sur <i class="fa-solid fa-triangle-exclamation"></i> avant de pouvoir télécharger des extensions ou effectuer des achats!';
-$_['error_purchase']     = 'L\'extension n\'a pas pu être achetée!';
-$_['error_download']     = 'L\'extension n\'a pas pu être téléchargée!';
+// الأخطاء
+$_['error_permission']   = 'تحذير: ليس لديك إذن لتعديل الإضافات!';
+$_['error_api']          = 'تحذير: يجب إدخال معلومات API الخاصة بـ OpenCart بالنقر على <i class="fa-solid fa-triangle-exclamation"></i> قبل تحميل الإضافات أو الشراء!';
+$_['error_purchase']     = 'تعذر شراء الإضافة!';
+$_['error_download']     = 'تعذر تحميل الإضافة!';

@@ -1,6 +1,6 @@
 <?php
-// Texte
-$_['text_subject']  = '%s - Crédit d\'affiliation';
-$_['text_received'] = 'Vous avez reçu un crédit de %s!';
-$_['text_total']    = 'Votre montant total de crédit est maintenant de %s.';
-$_['text_credit']   = 'Votre crédit peut être déduit de votre prochain achat.';
+// النصوص
+$_['text_subject']  = '%s - رصيد العمولة';
+$_['text_received'] = 'لقد حصلت على رصيد بقيمة %s!';
+$_['text_total']    = 'إجمالي رصيدك الآن هو %s.';
+$_['text_credit']   = 'يمكن خصم رصيدك من عملية الشراء القادمة.';

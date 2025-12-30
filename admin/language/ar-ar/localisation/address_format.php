@@ -1,27 +1,27 @@
 <?php
-// العنوان
-$_['heading_title']           = 'تنسيق العنوان';
+// En-tête
+$_['heading_title']           = 'Format d\'adresse';
 
-// النصوص
-$_['text_success']            = 'تم بنجاح: لقد قمت بتعديل تنسيقات العنوان!';
-$_['text_list']               = 'قائمة تنسيقات العنوان';
-$_['text_add']                = 'إضافة تنسيق عنوان';
-$_['text_edit']               = 'تعديل تنسيق العنوان';
+// Texte
+$_['text_success']            = 'Succès: Vous avez modifié les formats d\'adresse!';
+$_['text_list']               = 'Liste des formats d\'adresse';
+$_['text_add']                = 'Ajouter un format d\'adresse';
+$_['text_edit']               = 'Modifier un format d\'adresse';
 
-// الأعمدة
-$_['column_name']             = 'اسم تنسيق العنوان';
-$_['column_address_format']   = 'تنسيق العنوان';
-$_['column_action']           = 'الإجراء';
+// Colonne
+$_['column_name']             = 'Nom du format d\'adresse';
+$_['column_address_format']   = 'Format d\'adresse';
+$_['column_action']           = 'Action';
 
-// الإدخالات
-$_['entry_name']              = 'اسم تنسيق العنوان';
-$_['entry_address_format']    = 'تنسيق العنوان';
+// Entrée
+$_['entry_name']              = 'Nom du format d\'adresse';
+$_['entry_address_format']    = 'Format d\'adresse';
 
-// المساعدة
-$_['help_address_format']     = 'الاسم الأول = {firstname}<br/>الاسم الأخير = {lastname}<br/>الشركة = {company}<br/>العنوان 1 = {address_1}<br/>العنوان 2 = {address_2}<br/>المدينة = {city}<br/>الرمز البريدي = {postcode}<br/>المنطقة = {zone}<br/>رمز المنطقة = {zone_code}<br/>الدولة = {country}';
+// Aide
+$_['help_address_format']     = 'Prénom = {firstname}<br/>Nom = {lastname}<br/>Entreprise = {company}<br/>Adresse 1 = {address_1}<br/>Adresse 2 = {address_2}<br/>Ville = {city}<br/>Code postal = {postcode}<br/>Région = {zone}<br/>Code de la région = {zone_code}<br/>Pays = {country}';
 
-// الأخطاء
-$_['error_permission']        = 'تحذير: ليس لديك صلاحية لتعديل تنسيقات العنوان!';
-$_['error_name']              = 'يجب أن يكون اسم تنسيق العنوان بين 1 و128 حرفاً!';
-$_['error_default']           = 'تحذير: لا يمكن حذف تنسيق العنوان هذا لأنه محدد حالياً كتنسيق العنوان الافتراضي!';
-$_['error_country']           = 'تحذير: لا يمكن حذف تنسيق العنوان هذا لأنه مخصص حالياً لـ %s دولة!';
+// Erreur
+$_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les formats d\'adresse!';
+$_['error_name']              = 'Le nom du format d\'adresse doit contenir entre 1 et 128 caractères!';
+$_['error_default']           = 'Attention: Ce format d\'adresse ne peut pas être supprimé car il est actuellement défini comme le format d\'adresse par défaut!';
+$_['error_country']           = 'Attention: Ce format d\'adresse ne peut pas être supprimé car il est actuellement attribué à %s pays!';

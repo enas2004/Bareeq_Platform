@@ -1,45 +1,45 @@
 <?php
-// العنوان
-$_['heading_title']           = 'الصفحات المعلوماتية';
+// En-tête
+$_['heading_title']           = 'Informations';
 
-// النصوص
-$_['text_success']            = 'تم بنجاح: لقد قمت بتعديل الصفحات المعلوماتية!';
-$_['text_list']               = 'قائمة الصفحات المعلوماتية';
-$_['text_add']                = 'إضافة صفحة معلوماتية';
-$_['text_edit']               = 'تعديل الصفحة المعلوماتية';
-$_['text_default']            = 'الافتراضي';
-$_['text_general']            = 'عام';
-$_['text_meta']               = 'وسوم الميتا';
-$_['text_keyword']            = 'لا تستخدم المسافات، استبدل المسافات بعلامة "-" وتأكد أن رابط SEO فريد على مستوى الموقع.';
+// Texte
+$_['text_success']            = 'Succès: Vous avez modifié les informations!';
+$_['text_list']               = 'Liste des Informations';
+$_['text_add']                = 'Ajouter des Informations';
+$_['text_edit']               = 'Modifier les Informations';
+$_['text_default']            = 'Par Défaut';
+$_['text_general']            = 'Général';
+$_['text_meta']               = 'Balises Meta';
+$_['text_keyword']            = 'N\'utilisez pas d\'espaces, remplacez plutôt les espaces par - et assurez-vous que l\'URL SEO soit unique à l\'échelle mondiale.';
 
-// الأعمدة
-$_['column_title']            = 'عنوان الصفحة المعلوماتية';
-$_['column_sort_order']       = 'ترتيب العرض';
-$_['column_action']           = 'الإجراء';
+// Colonne
+$_['column_title']            = 'Titre de l\'Information';
+$_['column_sort_order']       = 'Ordre de Tri';
+$_['column_action']           = 'Action';
 
-// الإدخالات
-$_['entry_title']             = 'عنوان الصفحة المعلوماتية';
-$_['entry_description']       = 'الوصف';
-$_['entry_meta_title']        = 'عنوان وسم الميتا';
-$_['entry_meta_keyword']      = 'الكلمات المفتاحية لوسم الميتا';
-$_['entry_meta_description']  = 'وصف وسم الميتا';
-$_['entry_store']             = 'المتاجر';
-$_['entry_keyword']           = 'الكلمة الدلالية (SEO)';
-$_['entry_status']            = 'الحالة';
-$_['entry_sort_order']        = 'ترتيب العرض';
-$_['entry_layout']            = 'استبدال التخطيط';
+// Entrée
+$_['entry_title']             = 'Titre de l\'Information';
+$_['entry_description']       = 'Description';
+$_['entry_meta_title']        = 'Titre de la Balise Meta';
+$_['entry_meta_keyword']      = 'Mots-clés de la Balise Meta';
+$_['entry_meta_description']  = 'Description de la Balise Meta';
+$_['entry_store']             = 'Magasins';
+$_['entry_keyword']           = 'Mot-clé';
+$_['entry_status']            = 'Statut';
+$_['entry_sort_order']        = 'Ordre de Tri';
+$_['entry_layout']            = 'Remplacement de la Disposition';
 
-// الأخطاء
-$_['error_warning']           = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
-$_['error_permission']        = 'تحذير: ليس لديك صلاحية لتعديل الصفحات المعلوماتية!';
-$_['error_title']             = 'يجب أن يحتوي عنوان الصفحة المعلوماتية على ما بين 1 و 64 حرفًا!';
-$_['error_description']       = 'يجب أن يحتوي الوصف على أكثر من 3 أحرف!';
-$_['error_meta_title']        = 'يجب أن يحتوي عنوان وسم الميتا على أكثر من حرف واحد وأقل من 255 حرفًا!';
-$_['error_keyword']           = 'يجب أن يحتوي رابط SEO على ما بين 1 و 64 حرفًا!';
-$_['error_keyword_exists']    = 'رابط SEO مستخدم مسبقًا! يجب أن يكون فريدًا.';
-$_['error_keyword_character'] = 'يمكن أن تحتوي الكلمة الدلالية فقط على الأحرف a-z، الأرقام 0-9، والرمزين "-" و "_"!';
-$_['error_account']           = 'تحذير: لا يمكن حذف صفحة المعلومات هذه لأنها محددة كصفحة شروط الحساب في المتجر!';
-$_['error_checkout']          = 'تحذير: لا يمكن حذف صفحة المعلومات هذه لأنها محددة كصفحة شروط الدفع في المتجر!';
-$_['error_affiliate']         = 'تحذير: لا يمكن حذف صفحة المعلومات هذه لأنها محددة كصفحة شروط برنامج التسويق بالعمولة في المتجر!';
-$_['error_return']            = 'تحذير: لا يمكن حذف صفحة المعلومات هذه لأنها محددة كصفحة شروط الإرجاع في المتجر!';
-$_['error_store']             = 'تحذير: لا يمكن حذف صفحة المعلومات هذه لأنها مستخدمة حاليًا في %s من المتاجر!';
+// Erreur
+$_['error_warning']           = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
+$_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les informations!';
+$_['error_title']             = 'Le titre de l\'information doit contenir entre 1 et 64 caractères!';
+$_['error_description']       = 'La description doit contenir plus de 3 caractères!';
+$_['error_meta_title']        = 'Le titre Meta doit contenir plus de 1 caractère et moins de 255 caractères!';
+$_['error_keyword']           = 'L\'URL SEO doit contenir entre 1 et 64 caractères!';
+$_['error_keyword_exists']    = 'L\'URL SEO doit être unique!';
+$_['error_keyword_character'] = 'Le mot-clé ne peut utiliser que les caractères a-z, 0-9, - et _ !';
+$_['error_account']           = 'Attention: Cette page d\'information ne peut pas être supprimée car elle est actuellement assignée comme conditions du compte du magasin!';
+$_['error_checkout']          = 'Attention: Cette page d\'information ne peut pas être supprimée car elle est actuellement assignée comme conditions de paiement du magasin!';
+$_['error_affiliate']         = 'Attention: Cette page d\'information ne peut pas être supprimée car elle est actuellement assignée comme conditions d\'affiliation du magasin!';
+$_['error_return']            = 'Attention: Cette page d\'information ne peut pas être supprimée car elle est actuellement assignée comme conditions de retour du magasin!';
+$_['error_store']             = 'Attention: Cette page d\'information ne peut pas être supprimée car elle est actuellement utilisée par %s magasins!';

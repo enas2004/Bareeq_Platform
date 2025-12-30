@@ -1,15 +1,15 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Thèmes';
+// العنوان
+$_['heading_title']    = 'القوالب';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les thèmes!';
+// النصوص
+$_['text_success']     = 'تم بنجاح: لقد قمت بتعديل القوالب!';
 
-// Colonne
-$_['column_name']      = 'Nom du thème';
-$_['column_status']    = 'Statut';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم القالب';
+$_['column_status']    = 'الحالة';
+$_['column_action']    = 'الإجراء';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les thèmes!';
-$_['error_extension']  = 'Attention: L\'extension n\'existe pas!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل القوالب!';
+$_['error_extension']  = 'تحذير: الإضافة غير موجودة!';

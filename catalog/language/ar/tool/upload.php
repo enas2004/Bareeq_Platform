@@ -1,28 +1,28 @@
 <?php
-// En-tête
-$_['heading_title']      = 'Téléversements';
+// العنوان
+$_['heading_title']      = 'الرفع';
 
-// Texte
-$_['text_success']       = 'Succès: Vous avez modifié les téléversements!';
-$_['text_list']          = 'Liste des téléversements';
-$_['text_filter']        = 'Filtrer';
+// النصوص
+$_['text_success']       = 'تم بنجاح: لقد عدّلت عمليات الرفع!';
+$_['text_list']          = 'قائمة عمليات الرفع';
+$_['text_filter']        = 'تصفية';
 
-// Colonne
-$_['column_name']        = 'Nom du téléversement';
-$_['column_code']        = 'Code';
-$_['column_date_added']  = 'Date d\'ajout';
-$_['column_action']      = 'Action';
+// الأعمدة
+$_['column_name']        = 'اسم الرفع';
+$_['column_code']        = 'الرمز';
+$_['column_date_added']  = 'تاريخ الإضافة';
+$_['column_action']      = 'الإجراء';
 
-// Entrée
-$_['entry_name']         = 'Nom du téléversement';
-$_['entry_filename']     = 'Nom du fichier';
-$_['entry_date_from']    = 'Date de début';
-$_['entry_date_to']      = 'Date de fin';
+// الإدخالات
+$_['entry_name']         = 'اسم الرفع';
+$_['entry_filename']     = 'اسم الملف';
+$_['entry_date_from']    = 'تاريخ البداية';
+$_['entry_date_to']      = 'تاريخ النهاية';
 
-// Erreur
-$_['error_permission']   = 'Attention: Vous n\'avez pas la permission de modifier les téléversements!';
-$_['error_not_found']    = 'Erreur: Impossible de trouver le fichier %s!';
-$_['error_headers_sent'] = 'Erreur: Les en-têtes ont déjà été envoyés!';
-$_['error_upload']       = 'Le fichier n\'a pas pu être téléversé!';
-$_['error_filename']     = 'Le nom du fichier doit contenir entre 3 et 128 caractères!';
-$_['error_file_type']    = 'Type de fichier invalide!';
+// الأخطاء
+$_['error_permission']   = 'تحذير: ليس لديك إذن لتعديل عمليات الرفع!';
+$_['error_not_found']    = 'خطأ: تعذر العثور على الملف %s!';
+$_['error_headers_sent'] = 'خطأ: تم إرسال رؤوس الاستجابة مسبقًا!';
+$_['error_upload']       = 'تعذر رفع الملف!';
+$_['error_filename']     = 'يجب أن يحتوي اسم الملف على 3 إلى 128 حرفًا!';
+$_['error_file_type']    = 'نوع الملف غير صالح!';

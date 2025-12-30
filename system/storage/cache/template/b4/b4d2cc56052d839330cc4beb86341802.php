@@ -41,36 +41,38 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
         // line 1
         yield ($context["header"] ?? null);
         yield "
+
+
 <div id=\"checkout-cart\" class=\"container\">
   <ul class=\"breadcrumb\">
     ";
-        // line 4
+        // line 6
         $context['_parent'] = $context;
         $context['_seq'] = CoreExtension::ensureTraversable(($context["breadcrumbs"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["breadcrumb"]) {
-            // line 5
+            // line 7
             yield "      <li class=\"breadcrumb-item\"><a href=\"";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["breadcrumb"], "href", [], "any", false, false, false, 5);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["breadcrumb"], "href", [], "any", false, false, false, 7);
             yield "\">";
-            yield CoreExtension::getAttribute($this->env, $this->source, $context["breadcrumb"], "text", [], "any", false, false, false, 5);
+            yield CoreExtension::getAttribute($this->env, $this->source, $context["breadcrumb"], "text", [], "any", false, false, false, 7);
             yield "</a></li>
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_key'], $context['breadcrumb'], $context['_parent']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 7
+        // line 9
         yield "  </ul>
 
   <div class=\"row\">
     ";
-        // line 10
+        // line 12
         yield ($context["column_left"] ?? null);
         yield "
 
     <div id=\"content\" class=\"col\">
       ";
-        // line 13
+        // line 15
         yield ($context["content_top"] ?? null);
         yield "
 
@@ -78,38 +80,38 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
         <div class=\"bareeq-card__head\">
           <div>
             <h1 class=\"bareeq-card__title\">";
-        // line 18
+        // line 20
         yield ($context["heading_title"] ?? null);
         yield "</h1>
             ";
-        // line 19
+        // line 21
         if (($context["weight"] ?? null)) {
-            // line 20
+            // line 22
             yield "              <div class=\"bareeq-card__sub\">";
             yield ($context["weight"] ?? null);
             yield "</div>
             ";
         }
-        // line 22
+        // line 24
         yield "          </div>
         </div>
 
         <div id=\"shopping-cart\" class=\"bareeq-cart\">
           ";
-        // line 26
+        // line 28
         yield ($context["list"] ?? null);
         yield "
         </div>
       </div>
 
       ";
-        // line 30
+        // line 32
         yield ($context["content_bottom"] ?? null);
         yield "
     </div>
 
     ";
-        // line 33
+        // line 35
         yield ($context["column_right"] ?? null);
         yield "
   </div>
@@ -153,11 +155,11 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
                 \$('#alert').prepend('<div class=\"alert alert-success alert-dismissible\"><i class=\"fa-solid fa-circle-exclamation\"></i> ' + json['success'] + ' <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\"></button></div>');
 
                 \$('#shopping-cart').load('index.php?route=checkout/cart.list&language=";
-        // line 74
+        // line 76
         yield ($context["language"] ?? null);
         yield "', {}, function() {
                     \$('#cart').load('index.php?route=common/cart.info&language=";
-        // line 75
+        // line 77
         yield ($context["language"] ?? null);
         yield "');
                 });
@@ -168,6 +170,7 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
         }
     });
 });
+
 
 \$('#shopping-cart').on('click', '.btn-danger', function(e) {
     e.preventDefault();
@@ -198,7 +201,7 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
                 \$('#alert').prepend('<div class=\"alert alert-success alert-dismissible\"><i class=\"fa-solid fa-circle-exclamation\"></i> ' + json['success'] + ' <button type=\"button\" class=\"btn-close\" data-bs-dismiss=\"alert\"></button></div>');
 
                 \$('#shopping-cart').load('index.php?route=checkout/cart.list&language=";
-        // line 113
+        // line 116
         yield ($context["language"] ?? null);
         yield "');
             }
@@ -211,7 +214,7 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
 
 \$('#shopping-cart').observe(function(e) {
     \$('#cart').load('index.php?route=common/cart.info&language=";
-        // line 123
+        // line 126
         yield ($context["language"] ?? null);
         yield "');
 });
@@ -219,14 +222,14 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
 \$('#cart').on('submit', 'form', function(e) {
     window.setTimeout(function() {
         \$('#shopping-cart').load('index.php?route=checkout/cart.list&language=";
-        // line 128
+        // line 131
         yield ($context["language"] ?? null);
         yield "');
     }, 3000);
 });
 </script>
 ";
-        // line 132
+        // line 135
         yield ($context["footer"] ?? null);
         yield "
 ";
@@ -254,12 +257,14 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  230 => 132,  223 => 128,  215 => 123,  202 => 113,  161 => 75,  157 => 74,  113 => 33,  107 => 30,  100 => 26,  94 => 22,  88 => 20,  86 => 19,  82 => 18,  74 => 13,  68 => 10,  63 => 7,  52 => 5,  48 => 4,  42 => 1,);
+        return array (  233 => 135,  226 => 131,  218 => 126,  205 => 116,  163 => 77,  159 => 76,  115 => 35,  109 => 32,  102 => 28,  96 => 24,  90 => 22,  88 => 21,  84 => 20,  76 => 15,  70 => 12,  65 => 9,  54 => 7,  50 => 6,  42 => 1,);
     }
 
     public function getSourceContext(): Source
     {
         return new Source("{{ header }}
+
+
 <div id=\"checkout-cart\" class=\"container\">
   <ul class=\"breadcrumb\">
     {% for breadcrumb in breadcrumbs %}
@@ -342,6 +347,7 @@ class __TwigTemplate_b52bddead56bd3e9f26e280be0f4f13e extends Template
         }
     });
 });
+
 
 \$('#shopping-cart').on('click', '.btn-danger', function(e) {
     e.preventDefault();

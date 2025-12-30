@@ -1,47 +1,47 @@
 <?php
 // En-tête
-$_['heading_title']                   = 'إشعار أمني مهم!';
+$_['heading_title']                   = 'Notification de Sécurité Importante!';
 
 // Texte
-$_['text_install']                    = 'مجلد التثبيت';
-$_['text_install_description']        = 'يجب حذف مجلد التثبيت!';
-$_['text_install_success']            = 'نجاح: تم حذف مجلد التثبيت!';
-$_['text_storage']                    = 'مسار التخزين';
-$_['text_storage_description']        = 'من المهم جدًا نقل مجلد التخزين خارج مجلد الويب (مثل public_html أو www أو htdocs).';
-$_['text_storage_move']               = 'جارٍ نقل %s إلى %s من %s ملفات التخزين';
-$_['text_storage_success']            = 'نجاح: تم نقل مجلد التخزين!';
-$_['text_storage_delete']             = 'حذف مجلد التخزين السابق';
-$_['text_storage_delete_description'] = 'يجب حذف مجلد التخزين السابق!';
-$_['text_storage_delete_success']     = 'نجاح: تم حذف مجلد التخزين السابق!';
-$_['text_admin']                      = 'إعادة تسمية مجلد الإدارة';
-$_['text_admin_description']          = 'يرجى إدخال اسم جديد لمجلد الإدارة في الحقل أدناه.';
-$_['text_admin_move']                 = 'جارٍ نقل %s إلى %s من %s ملفات الإدارة';
-$_['text_admin_success']              = 'نجاح: تم إعادة تسمية مجلد الإدارة!';
-$_['text_admin_delete']               = 'حذف مجلد الإدارة السابق';
-$_['text_admin_delete_description']   = 'يجب حذف مجلد الإدارة السابق!';
-$_['text_admin_delete_success']       = 'نجاح: تم حذف مجلد الإدارة السابق!';
-$_['text_path']                       = 'المسار';
+$_['text_install']                    = 'Répertoire d\'installation';
+$_['text_install_description']        = 'Votre répertoire d\'installation doit être supprimé!';
+$_['text_install_success']            = 'Succès: Le répertoire d\'installation a été supprimé!';
+$_['text_storage']                    = 'Chemin de stockage';
+$_['text_storage_description']        = 'Il est très important de déplacer le répertoire de stockage en dehors du répertoire web (par exemple, public_html, www ou htdocs).';
+$_['text_storage_move']               = 'Déplacement de %s envers %s de %s fichiers de stockage';
+$_['text_storage_success']            = 'Succès: Le répertoire de stockage a été déplacé!';
+$_['text_storage_delete']             = 'Supprimer le répertoire de stockage précédent';
+$_['text_storage_delete_description'] = 'Le répertoire de stockage précédent doit être supprimé!';
+$_['text_storage_delete_success']     = 'Succès: Le répertoire de stockage précédent a été supprimé!';
+$_['text_admin']                      = 'Renommer le répertoire admin';
+$_['text_admin_description']          = 'Veuillez saisir un nouveau nom de répertoire admin dans le champ ci-dessous.';
+$_['text_admin_move']                 = 'Déplacement de %s envers %s de %s fichiers admin';
+$_['text_admin_success']              = 'Succès: Le répertoire admin a été renommé!';
+$_['text_admin_delete']               = 'Supprimer le répertoire admin précédent';
+$_['text_admin_delete_description']   = 'Le répertoire admin précédent doit être supprimé!';
+$_['text_admin_delete_success']       = 'Succès: Le répertoire admin précédent a été supprimé!';
+$_['text_path']                       = 'Chemin';
 
 // Entrée
-$_['entry_path']                      = 'المسار';
-$_['entry_path_current']              = 'المسار الحالي';
-$_['entry_path_new']                  = 'المسار الجديد';
-$_['entry_name']                      = 'اسم المجلد';
+$_['entry_path']                      = 'Chemin';
+$_['entry_path_current']              = 'Chemin Actuel';
+$_['entry_path_new']                  = 'Nouveau Chemin';
+$_['entry_name']                      = 'Nom du Répertoire';
 
 // Bouton
-$_['button_move']                     = 'نقل';
+$_['button_move']                     = 'Déplacer';
 
 // Aide
-$_['help_storage']                    = 'يجب أن يبدأ اسم مجلد التخزين كما يلي: `storage_`.';
+$_['help_storage']                    = 'Le nom du répertoire de stockage doit débuter comme suit: `storage_`.';
 
 // Erreur
-$_['error_permission']                = 'تحذير: ليس لديك صلاحية تعديل إعدادات الأمان!';
-$_['error_install']                   = 'تحذير: مجلد التثبيت غير موجود!';
-$_['error_storage']                   = 'تحذير: مجلد التخزين غير موجود!';
-$_['error_storage_root']              = 'تحذير: يجب أن يكون مجلد التخزين خارج مجلد الجذر!';
-$_['error_storage_name']              = 'تحذير: يجب أن يبدأ اسم مجلد التخزين كما يلي: `storage_`. مثال: `storage_`.';
-$_['error_admin']                     = 'تحذير: مجلد الإدارة غير موجود!';
-$_['error_admin_allowed']             = 'تحذير: لا يمكن استخدام اسم مجلد الإدارة!';
-$_['error_admin_exists']              = 'تحذير: اسم مجلد الإدارة موجود بالفعل!';
-$_['error_writable']                  = 'تحذير: يجب جعل ملفات config.php و admin/config.php قابلة للكتابة!';
-$_['error_remove']                    = 'تحذير: المجلد المراد حذفه غير موجود!';
+$_['error_permission']                = 'Attention: Vous n\'avez pas la permission de modifier la sécurité!';
+$_['error_install']                   = 'Attention: Le répertoire d\'installation n\'existe pas!';
+$_['error_storage']                   = 'Attention: Le répertoire de stockage n\'existe pas!';
+$_['error_storage_root']              = 'Attention: Le répertoire de stockage doit être situé en dehors du répertoire racine!';
+$_['error_storage_name']              = 'Attention: Le nom du répertoire de stockage doit débuter comme suit: `storage_`. Exemple: `storage_`.';
+$_['error_admin']                     = 'Attention: Le répertoire admin n\'existe pas!';
+$_['error_admin_allowed']             = 'Attention: Le nom de répertoire admin ne peut être utilisé!';
+$_['error_admin_exists']              = 'Attention: Le nom du répertoire admin existe déjà!';
+$_['error_writable']                  = 'Attention: Les fichiers config.php et admin/config.php doivent être rendus modifiables!';
+$_['error_remove']                    = 'Attention: Le répertoire à supprimer n\'existe pas!';

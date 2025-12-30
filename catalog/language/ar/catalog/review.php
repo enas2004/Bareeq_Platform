@@ -1,43 +1,43 @@
 <?php
-// En-tête
-$_['heading_title']     = 'Avis';
+// العنوان
+$_['heading_title']     = 'التقييمات';
 
-// Texte
-$_['text_success']      = 'Succès: Vous avez modifié les avis!';
-$_['text_next']         = 'Succès: Vous avez modifié les évaluations de %s produit(s) sur %s!';
-$_['text_list']         = 'Liste des Avis';
-$_['text_add']          = 'Ajouter un Avis';
-$_['text_edit']         = 'Modifier l\'Avis';
-$_['text_filter']       = 'Filtrer';
+// النصوص
+$_['text_success']      = 'تم بنجاح: لقد قمت بتعديل التقييمات!';
+$_['text_next']         = 'تم بنجاح: لقد قمت بتعديل تقييم %s منتج(منتجات) على %s!';
+$_['text_list']         = 'قائمة التقييمات';
+$_['text_add']          = 'إضافة تقييم';
+$_['text_edit']         = 'تعديل التقييم';
+$_['text_filter']       = 'تصفية';
 
-// Colonne
-$_['column_product']    = 'Produit';
-$_['column_author']     = 'Auteur';
-$_['column_rating']     = 'Évaluation';
-$_['column_status']     = 'Statut';
-$_['column_date_added'] = 'Date d\'ajout';
-$_['column_action']     = 'Action';
+// الأعمدة
+$_['column_product']    = 'المنتج';
+$_['column_author']     = 'المؤلف';
+$_['column_rating']     = 'التقييم';
+$_['column_status']     = 'الحالة';
+$_['column_date_added'] = 'تاريخ الإضافة';
+$_['column_action']     = 'إجراء';
 
-// Entrée
-$_['entry_product']     = 'Produit';
-$_['entry_author']      = 'Auteur';
-$_['entry_rating']      = 'Évaluation';
-$_['entry_status']      = 'Statut';
-$_['entry_text']        = 'Texte';
-$_['entry_date_added']  = 'Date d\'ajout';
-$_['entry_date_from']   = 'Date de Début';
-$_['entry_date_to']     = 'Date de Fin';
+// الإدخالات
+$_['entry_product']     = 'المنتج';
+$_['entry_author']      = 'المؤلف';
+$_['entry_rating']      = 'التقييم';
+$_['entry_status']      = 'الحالة';
+$_['entry_text']        = 'النص';
+$_['entry_date_added']  = 'تاريخ الإضافة';
+$_['entry_date_from']   = 'تاريخ البداية';
+$_['entry_date_to']     = 'تاريخ الانتهاء';
 
-// Aide
-$_['help_product']      = '(Autocomplétion)';
+// المساعدة
+$_['help_product']      = '(إكمال تلقائي)';
 
-// Bouton
-$_['button_rating']     = 'Synchroniser les Évaluations des Produits';
+// الأزرار
+$_['button_rating']     = 'مزامنة تقييمات المنتجات';
 
-// Erreur
-$_['error_warning']     = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
-$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les avis!';
-$_['error_product']     = 'Produit requis!';
-$_['error_author']      = 'L\'auteur doit contenir entre 3 et 64 caractères!';
-$_['error_text']        = 'Le texte de l\'avis doit contenir au moins 1 caractère!';
-$_['error_rating']      = 'L\'évaluation de l\'avis est requise!';
+// الأخطاء
+$_['error_warning']     = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
+$_['error_permission']  = 'تحذير: ليس لديك صلاحية لتعديل التقييمات!';
+$_['error_product']     = 'المنتج مطلوب!';
+$_['error_author']      = 'يجب أن يحتوي اسم المؤلف على 3 إلى 64 حرفًا!';
+$_['error_text']        = 'يجب أن يحتوي نص التقييم على حرف واحد على الأقل!';
+$_['error_rating']      = 'تقييم المراجعة مطلوب!';

@@ -1,18 +1,18 @@
 <?php
-// En-tête
-$_['heading_title']     = 'Paiements';
+// العنوان
+$_['heading_title']     = 'المدفوعات';
 
-// Texte
-$_['text_success']      = 'Succès: Vous avez modifié les paiements!';
-$_['text_list']         = 'Liste des paiements';
+// النصوص
+$_['text_success']      = 'تم بنجاح: لقد قمت بتعديل طرق الدفع!';
+$_['text_list']         = 'قائمة طرق الدفع';
 
-// Colonne
-$_['column_name']       = 'Méthode de paiement';
-$_['column_vendor']     = 'Fournisseur';
-$_['column_status']     = 'Statut';
-$_['column_sort_order'] = 'Ordre de tri';
-$_['column_action']     = 'Action';
+// الأعمدة
+$_['column_name']       = 'طريقة الدفع';
+$_['column_vendor']     = 'المزوّد';
+$_['column_status']     = 'الحالة';
+$_['column_sort_order'] = 'ترتيب العرض';
+$_['column_action']     = 'الإجراء';
 
-// Erreur
-$_['error_permission']  = 'Attention: Vous n\'êtes pas autorisé à modifier les paiements!';
-$_['error_extension']   = 'Attention: L\'extension n\'existe pas!';
+// الأخطاء
+$_['error_permission']  = 'تحذير: ليس لديك صلاحية لتعديل طرق الدفع!';
+$_['error_extension']   = 'تحذير: الإضافة غير موجودة!';

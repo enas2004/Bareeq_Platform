@@ -1,26 +1,26 @@
 <?php
-// En-tête
-$_['heading_title']       = 'Filtres';
+// العنوان
+$_['heading_title']       = 'الفلاتر';
 
-// Texte
-$_['text_success']        = 'Succès: Vous avez modifié les filtres!';
-$_['text_list']           = 'Liste des Filtres';
-$_['text_add']            = 'Ajouter un Filtre';
-$_['text_edit']           = 'Modifier le Filtre';
+// النصوص
+$_['text_success']        = 'تم بنجاح: لقد قمت بتعديل الفلاتر!';
+$_['text_list']           = 'قائمة الفلاتر';
+$_['text_add']            = 'إضافة فلتر';
+$_['text_edit']           = 'تعديل الفلتر';
 
-// Colonne
-$_['column_name']         = 'Filtre';
-$_['column_filter_group'] = 'Groupe de Filtres';
-$_['column_sort_order']   = 'Ordre de Tri';
-$_['column_action']       = 'Action';
+// الأعمدة
+$_['column_name']         = 'الفلتر';
+$_['column_filter_group'] = 'مجموعة الفلاتر';
+$_['column_sort_order']   = 'ترتيب العرض';
+$_['column_action']       = 'الإجراء';
 
-// Entrée
-$_['entry_name']          = 'Nom du Filtre';
-$_['entry_filter_group']  = 'Nom du Groupe de Filtres';
-$_['entry_sort_order']    = 'Ordre de Tri';
+// الإدخالات
+$_['entry_name']          = 'اسم الفلتر';
+$_['entry_filter_group']  = 'اسم مجموعة الفلاتر';
+$_['entry_sort_order']    = 'ترتيب العرض';
 
-// Erreur
-$_['error_warning']       = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
-$_['error_permission']    = 'Attention: Vous n\'avez pas la permission de modifier les filtres!';
-$_['error_name']          = 'Le nom du filtre doit contenir entre 1 et 64 caractères!';
-$_['error_filter_group']  = 'Le groupe de filtres est requis!';
+// الأخطاء
+$_['error_warning']       = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
+$_['error_permission']    = 'تحذير: ليس لديك صلاحية لتعديل الفلاتر!';
+$_['error_name']          = 'يجب أن يكون اسم الفلتر بين 1 و 64 حرفًا!';
+$_['error_filter_group']  = 'مجموعة الفلاتر مطلوبة!';

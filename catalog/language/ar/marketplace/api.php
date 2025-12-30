@@ -1,16 +1,16 @@
 <?php
-// En-tête
-$_['heading_title']    = 'API Marketplace OpenCart';
+// العنوان
+$_['heading_title']    = 'واجهة برمجة التطبيقات لسوق OpenCart';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les informations de votre API!';
-$_['text_signup']      = 'Veuillez entrer vos informations API OpenCart que vous pouvez obtenir <a href="https://www.opencart.com/index.php?route=account/store" target="_blank" class="alert-link">ici</a>.';
+// النصوص
+$_['text_success']     = 'تم التعديل بنجاح: لقد تم تعديل معلومات API الخاصة بك!';
+$_['text_signup']      = 'يرجى إدخال معلومات API الخاصة بـ OpenCart والتي يمكنك الحصول عليها <a href="https://www.opencart.com/index.php?route=account/store" target="_blank" class="alert-link">من هنا</a>.';
 
-// Entrée
-$_['entry_username']   = 'Nom d\'utilisateur';
-$_['entry_secret']     = 'Clé secrète';
+// الإدخالات
+$_['entry_username']   = 'اسم المستخدم';
+$_['entry_secret']     = 'المفتاح السري';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier l\'API du marketplace!';
-$_['error_username']   = 'Nom d\'utilisateur requis!';
-$_['error_secret']     = 'Clé secrète requise!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديك إذن لتعديل API السوق!';
+$_['error_username']   = 'اسم المستخدم مطلوب!';
+$_['error_secret']     = 'المفتاح السري مطلوب!';

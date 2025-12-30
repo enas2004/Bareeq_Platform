@@ -1,23 +1,23 @@
 <?php
 // En-tête
-$_['heading_title']    = 'مدير الصور';
+$_['heading_title']    = 'Gestionnaire d\'Images';
 
 // Texte
-$_['text_uploaded']    = 'تم بنجاح: تم رفع الملف الخاص بك!';
-$_['text_directory']   = 'تم بنجاح: تم إنشاء المجلد!';
-$_['text_delete']      = 'تم بنجاح: تم حذف الملف أو المجلد الخاص بك!';
+$_['text_uploaded']    = 'Succès: Votre fichier a été téléversé!';
+$_['text_directory']   = 'Succès: Répertoire créé!';
+$_['text_delete']      = 'Succès: Votre fichier ou répertoire a été supprimé!';
 
 // Entrée
-$_['entry_search']     = 'بحث..';
-$_['entry_folder']     = 'اسم المجلد';
+$_['entry_search']     = 'Rechercher..';
+$_['entry_folder']     = 'Nom du Répertoire';
 
 // Erreur
-$_['error_permission'] = 'تحذير: الإذن مرفوض!';
-$_['error_filename']   = 'تحذير: يجب أن يحتوي اسم الملف على ما بين 3 و255 حرفًا!';
-$_['error_folder']     = 'تحذير: يجب أن يحتوي اسم المجلد على ما بين 3 و255 حرفًا!';
-$_['error_exists']     = 'تحذير: يوجد بالفعل ملف أو مجلد بنفس الاسم!';
-$_['error_directory']  = 'تحذير: المجلد غير موجود!';
-$_['error_filesize']   = 'تحذير: حجم الملف غير صحيح!';
-$_['error_file_type']  = 'تحذير: نوع الملف غير صحيح!';
-$_['error_upload']     = 'تحذير: لم يتم رفع الملف بسبب سبب غير معروف!';
-$_['error_delete']     = 'تحذير: لا يمكنك حذف هذا المجلد!';
+$_['error_permission'] = 'Attention: Permission refusée!';
+$_['error_filename']   = 'Attention: Le nom du fichier doit contenir entre 3 et 255 caractères!';
+$_['error_folder']     = 'Attention: Le nom du répertoire doit contenir entre 3 et 255 caractères!';
+$_['error_exists']     = 'Attention: Un fichier ou répertoire avec le même nom existe déjà!';
+$_['error_directory']  = 'Attention: Le répertoire n\'existe pas!';
+$_['error_filesize']   = 'Attention: Taille de fichier incorrecte!';
+$_['error_file_type']  = 'Attention: Type de fichier incorrect!';
+$_['error_upload']     = 'Attention: Le fichier n\'a pas pu être téléversé pour une raison inconnue!';
+$_['error_delete']     = 'Attention: Vous ne pouvez pas supprimer ce répertoire!';

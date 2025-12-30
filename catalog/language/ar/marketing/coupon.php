@@ -1,56 +1,56 @@
 <?php
-// En-tête
-$_['heading_title']       = 'Coupons';
+// العنوان
+$_['heading_title']       = 'الكوبونات';
 
-// Texte
-$_['text_success']        = 'Succès: Vous avez modifié les coupons!';
-$_['text_list']           = 'Liste des coupons';
-$_['text_add']            = 'Ajouter un coupon';
-$_['text_edit']           = 'Modifier un coupon';
-$_['text_percent']        = 'Pourcentage';
-$_['text_amount']         = 'Montant fixe';
-$_['text_coupon']         = 'Historique';
+// النصوص
+$_['text_success']        = 'تم التعديل بنجاح: لقد تم تعديل الكوبونات!';
+$_['text_list']           = 'قائمة الكوبونات';
+$_['text_add']            = 'إضافة كوبون';
+$_['text_edit']           = 'تعديل كوبون';
+$_['text_percent']        = 'نسبة مئوية';
+$_['text_amount']         = 'مبلغ ثابت';
+$_['text_coupon']         = 'السجل';
 
-// Colonne
-$_['column_name']         = 'Nom du coupon';
-$_['column_code']         = 'Code';
-$_['column_discount']     = 'Remise';
-$_['column_date_start']   = 'Date de début';
-$_['column_date_end']     = 'Date de fin';
-$_['column_status']       = 'Statut';
-$_['column_order_id']     = 'ID de commande';
-$_['column_customer']     = 'Client';
-$_['column_amount']       = 'Montant';
-$_['column_date_added']   = 'Date d\'ajout';
-$_['column_action']       = 'Action';
+// الأعمدة
+$_['column_name']         = 'اسم الكوبون';
+$_['column_code']         = 'الكود';
+$_['column_discount']     = 'الخصم';
+$_['column_date_start']   = 'تاريخ البداية';
+$_['column_date_end']     = 'تاريخ الانتهاء';
+$_['column_status']       = 'الحالة';
+$_['column_order_id']     = 'رقم الطلب';
+$_['column_customer']     = 'العميل';
+$_['column_amount']       = 'المبلغ';
+$_['column_date_added']   = 'تاريخ الإضافة';
+$_['column_action']       = 'إجراء';
 
-// Entrée
-$_['entry_name']          = 'Nom du coupon';
-$_['entry_code']          = 'Code';
-$_['entry_type']          = 'Type';
-$_['entry_discount']      = 'Remise';
-$_['entry_logged']        = 'Connexion client';
-$_['entry_shipping']      = 'Expédition gratuite';
-$_['entry_total']         = 'Montant total';
-$_['entry_category']      = 'Catégorie';
-$_['entry_product']       = 'Produits';
-$_['entry_date']          = 'Dates';
-$_['entry_uses_total']    = 'Utilisations par coupon';
-$_['entry_uses_customer'] = 'Utilisations par client';
-$_['entry_status']        = 'Statut';
+// الإدخالات
+$_['entry_name']          = 'اسم الكوبون';
+$_['entry_code']          = 'الكود';
+$_['entry_type']          = 'النوع';
+$_['entry_discount']      = 'الخصم';
+$_['entry_logged']        = 'تسجيل دخول العميل';
+$_['entry_shipping']      = 'شحن مجاني';
+$_['entry_total']         = 'إجمالي المبلغ';
+$_['entry_category']      = 'القسم';
+$_['entry_product']       = 'المنتجات';
+$_['entry_date']          = 'التواريخ';
+$_['entry_uses_total']    = 'عدد مرات الاستخدام للكوبون';
+$_['entry_uses_customer'] = 'عدد مرات الاستخدام لكل عميل';
+$_['entry_status']        = 'الحالة';
 
-// Aide
-$_['help_code']           = 'Le code que le client entre pour obtenir la remise.';
-$_['help_type']           = 'Pourcentage ou montant fixe.';
-$_['help_logged']         = 'Le client doit être connecté pour utiliser le coupon.';
-$_['help_total']          = 'Le montant total qui doit être atteint avant que le coupon ne soit valide.';
-$_['help_category']       = 'Choisissez tous les produits sous la catégorie sélectionnée.';
-$_['help_product']        = 'Choisissez des produits spécifiques auxquels le coupon s\'appliquera. Ne sélectionnez aucun produit pour appliquer le coupon à tout le panier.';
-$_['help_uses_total']     = 'Le nombre maximum de fois que le coupon peut être utilisé par un client. Laissez vide pour illimité.';
-$_['help_uses_customer']  = 'Le nombre maximum de fois que le coupon peut être utilisé par un client unique. Laissez vide pour illimité.';
+// المساعدة
+$_['help_code']           = 'الكود الذي يدخله العميل للحصول على الخصم.';
+$_['help_type']           = 'نسبة مئوية أو مبلغ ثابت.';
+$_['help_logged']         = 'يجب على العميل تسجيل الدخول لاستخدام الكوبون.';
+$_['help_total']          = 'إجمالي المبلغ الذي يجب الوصول إليه قبل أن يكون الكوبون صالحًا.';
+$_['help_category']       = 'اختر جميع المنتجات ضمن القسم المحدد.';
+$_['help_product']        = 'اختر المنتجات التي ينطبق عليها الكوبون فقط. اتركه فارغًا لتطبيق الكوبون على سلة التسوق بالكامل.';
+$_['help_uses_total']     = 'أقصى عدد مرات يمكن استخدام الكوبون من قبل أي عميل. اتركه فارغًا لعدد غير محدود.';
+$_['help_uses_customer']  = 'أقصى عدد مرات يمكن استخدام الكوبون من قبل عميل واحد. اتركه فارغًا لعدد غير محدود.';
 
-// Erreur
-$_['error_permission']    = 'Attention: Vous n\'avez pas la permission de modifier les coupons!';
-$_['error_exists']        = 'Attention: Le code du coupon est déjà utilisé!';
-$_['error_name']          = 'Le nom du coupon doit comporter entre 3 et 128 caractères!';
-$_['error_code']          = 'Le code doit comporter entre 3 et 20 caractères!';
+// الأخطاء
+$_['error_permission']    = 'تحذير: ليس لديك إذن لتعديل الكوبونات!';
+$_['error_exists']        = 'تحذير: الكود مستخدم بالفعل!';
+$_['error_name']          = 'يجب أن يكون اسم الكوبون بين 3 و 128 حرفًا!';
+$_['error_code']          = 'يجب أن يكون الكود بين 3 و 20 حرفًا!';

@@ -1,37 +1,37 @@
 <?php
-// العنوان
-$_['heading_title']        = 'البريد الإلكتروني';
+// En-tête
+$_['heading_title']        = 'Mail';
 
-// النصوص
-$_['text_mail']            = 'إرسال رسائل البريد الإلكتروني للعملاء';
-$_['text_success']         = 'تم إرسال رسالتك بنجاح!';
-$_['text_sent']            = 'تم إرسال رسالتك بنجاح إلى %s - %s مستلمين!';
-$_['text_default']         = 'افتراضي';
-$_['text_newsletter']      = 'جميع مشتركي النشرة الإخبارية';
-$_['text_customer_all']    = 'جميع العملاء';
-$_['text_customer_group']  = 'مجموعة العملاء';
-$_['text_customer']        = 'العملاء';
-$_['text_affiliate_all']   = 'جميع المسوقين بالعمولة';
-$_['text_affiliate']       = 'المسوقون بالعمولة';
-$_['text_product']         = 'المنتجات';
+// Texte
+$_['text_mail']            = 'Envoyez des e-mails aux clients';
+$_['text_success']         = 'Votre message a été envoyé avec succès!';
+$_['text_sent']            = 'Votre message a été envoyé avec succès à %s - %s destinataires!';
+$_['text_default']         = 'Par défaut';
+$_['text_newsletter']      = 'Tous les abonnés à la newsletter';
+$_['text_customer_all']    = 'Tous les clients';
+$_['text_customer_group']  = 'Groupe de clients';
+$_['text_customer']        = 'Clients';
+$_['text_affiliate_all']   = 'Tous les affiliés';
+$_['text_affiliate']       = 'Affiliés';
+$_['text_product']         = 'Produits';
 
-// الإدخالات
-$_['entry_store']          = 'من';
-$_['entry_to']             = 'إلى';
-$_['entry_customer_group'] = 'مجموعة العملاء';
-$_['entry_customer']       = 'العميل';
-$_['entry_affiliate']      = 'المسوق بالعمولة';
-$_['entry_product']        = 'المنتجات';
-$_['entry_subject']        = 'الموضوع';
-$_['entry_message']        = 'الرسالة';
+// Entrée
+$_['entry_store']          = 'De';
+$_['entry_to']             = 'À';
+$_['entry_customer_group'] = 'Groupe de clients';
+$_['entry_customer']       = 'Client';
+$_['entry_affiliate']      = 'Affilié';
+$_['entry_product']        = 'Produits';
+$_['entry_subject']        = 'Sujet';
+$_['entry_message']        = 'Message';
 
-// المساعدة
-$_['help_customer']        = '(إكمال تلقائي)';
-$_['help_affiliate']       = '(إكمال تلقائي)';
-$_['help_product']         = 'أرسل فقط للعملاء الذين طلبوا المنتجات المدرجة. (إكمال تلقائي)';
+// Aide
+$_['help_customer']        = '(Autocomplétion)';
+$_['help_affiliate']       = '(Autocomplétion)';
+$_['help_product']         = 'Envoyer uniquement aux clients ayant commandé des produits dans la liste. (Autocomplétion)';
 
-// الأخطاء
-$_['error_permission']     = 'تحذير: ليس لديك إذن لإرسال البريد الإلكتروني!';
-$_['error_subject']        = 'موضوع البريد الإلكتروني مطلوب!';
-$_['error_message']        = 'رسالة البريد الإلكتروني مطلوبة!';
-$_['error_email']          = 'لا يوجد مستلم للبريد الإلكتروني!';
+// Erreur
+$_['error_permission']     = 'Attention: Vous n\'avez pas la permission d\'envoyer des e-mails!';
+$_['error_subject']        = 'Le sujet de l\'e-mail est requis!';
+$_['error_message']        = 'Le message de l\'e-mail est requis!';
+$_['error_email']          = 'Aucun destinataire d\'e-mail!';

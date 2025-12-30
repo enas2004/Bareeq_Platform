@@ -1,16 +1,17 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Anti-Fraude';
+// العنوان
+$_['heading_title']    = 'مكافحة الاحتيال';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les paramètres anti-fraude!';
-$_['text_list']        = 'Liste Anti-Fraude';
+// النصوص
+$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل إعدادات مكافحة الاحتيال!';
+$_['text_list']        = 'قائمة مكافحة الاحتيال';
 
-// Colonne
-$_['column_name']      = 'Nom Anti-Fraude';
-$_['column_status']    = 'Statut';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم مكافحة الاحتيال';
+$_['column_status']    = 'الحالة';
+$_['column_action']    = 'الإجراء';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les paramètres anti-fraude!';
-$_['error_extension']  = 'Attention: L\'extension n\'existe pas!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل إعدادات مكافحة الاحتيال!';
+$_['error_extension']  = 'تحذير: الإضافة غير موجودة!';
+?>

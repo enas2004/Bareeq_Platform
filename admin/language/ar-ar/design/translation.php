@@ -1,33 +1,32 @@
 <?php
-// العنوان
-$_['heading_title']    = 'محرر اللغة';
+// En-tête
+$_['heading_title']    = 'Éditeur de Langue';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل محرر اللغة!';
-$_['text_list']        = 'قائمة الترجمات';
-$_['text_add']         = 'إضافة ترجمة';
-$_['text_edit']        = 'تعديل ترجمة';
-$_['text_default']     = 'الافتراضي';
-$_['text_store']       = 'المتجر';
-$_['text_language']    = 'اللغة';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié l\'éditeur de langue!';
+$_['text_list']        = 'Liste des Traductions';
+$_['text_add']         = 'Ajouter une Traduction';
+$_['text_edit']        = 'Modifier une Traduction';
+$_['text_default']     = 'Par défaut';
+$_['text_store']       = 'Magasin';
+$_['text_language']    = 'Langue';
 
-// الأعمدة
-$_['column_store']     = 'المتجر';
-$_['column_language']  = 'اللغة';
-$_['column_route']     = 'المسار';
-$_['column_key']       = 'المفتاح';
-$_['column_value']     = 'القيمة';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_store']     = 'Magasin';
+$_['column_language']  = 'Langue';
+$_['column_route']     = 'Itinéraire';
+$_['column_key']       = 'Clé';
+$_['column_value']     = 'Valeur';
+$_['column_action']    = 'Action';
 
-// المدخلات
-$_['entry_store']      = 'المتجر';
-$_['entry_language']   = 'اللغة';
-$_['entry_route']      = 'المسار';
-$_['entry_key']        = 'المفتاح';
-$_['entry_default']    = 'الافتراضي';
-$_['entry_value']      = 'القيمة';
+// Entrée
+$_['entry_store']      = 'Magasin';
+$_['entry_language']   = 'Langue';
+$_['entry_route']      = 'Itinéraire';
+$_['entry_key']        = 'Clé';
+$_['entry_default']    = 'Par défaut';
+$_['entry_value']      = 'Valeur';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل محرر اللغة!';
-$_['error_key']        = 'يجب أن يحتوي المفتاح على 3 إلى 64 حرفًا!';
-?>
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier l\'éditeur de langue!';
+$_['error_key']        = 'La clé doit contenir entre 3 et 64 caractères!';

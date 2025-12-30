@@ -335,8 +335,45 @@ figure {
 img,
 svg {
   vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 16px;
+  object-fit: contain;
+      background: #fff;
+      box-shadow: 0 2px 16px rgba(0, 0, 0, 0.06);
+      padding: 2px;
 }
 
+/* كتلة النص */
+.header-brand-text {
+  display: flex;
+  flex-direction: column;         /* 👈 يخلي النص فوق وتحت */
+  align-items: flex-start;        /* محاذاة على اليمين RTL */
+  line-height: 1.2;
+}
+
+/* كلمة بريق */
+.header-brand-title {
+  font-size: 1.1rem;             /* أكبر */
+  font-weight: 700;
+  color: #6f8a4a;
+  margin-left: 2px;                 /* 💚 الأخضر */
+  margin-bottom: 2px;
+}
+
+/* الجملة تحتها */
+.header-brand-subtitle {
+  font-size: 0.8rem;             /* أصغر */
+  color: #d58a78; 
+  margin-left: 2px;                /* أسود */
+  opacity: .75;                   /* نعومة خفيفة */
+}
+
+
+  @media (max-width: 768px) {
+  .header-brand-title { font-size: .9rem }
+  .header-brand-subtitle { font-size: .75rem }
+}
 
 // Tables
 //

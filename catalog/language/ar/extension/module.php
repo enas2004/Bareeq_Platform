@@ -1,24 +1,25 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Modules';
+// العنوان
+$_['heading_title']    = 'الوحدات';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les modules!';
-$_['text_layout']      = 'Après avoir installé et configuré un module, vous pouvez l\'ajouter à une mise en page <a href="%s" class="alert-link">ici</a>!';
-$_['text_add']         = 'Ajouter un module';
-$_['text_list']        = 'Liste des modules';
+// النصوص
+$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل الوحدات!';
+$_['text_layout']      = 'بعد تثبيت وتكوين وحدة، يمكنك إضافتها إلى التخطيط <a href="%s" class="alert-link">من هنا</a>!';
+$_['text_add']         = 'إضافة وحدة';
+$_['text_list']        = 'قائمة الوحدات';
 
-// Colonne
-$_['column_name']      = 'Nom du module';
-$_['column_status']    = 'Statut';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم الوحدة';
+$_['column_status']    = 'الحالة';
+$_['column_action']    = 'الإجراء';
 
-// Entrée
-$_['entry_code']       = 'Module';
-$_['entry_name']       = 'Nom du module';
+// المدخلات
+$_['entry_code']       = 'الوحدة';
+$_['entry_name']       = 'اسم الوحدة';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les modules!';
-$_['error_extension']  = 'Attention: L\'extension n\'existe pas!';
-$_['error_name']       = 'Le nom du module doit contenir entre 3 et 64 caractères!';
-$_['error_code']       = 'Extension requise!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل الوحدات!';
+$_['error_extension']  = 'تحذير: الإضافة غير موجودة!';
+$_['error_name']       = 'يجب أن يحتوي اسم الوحدة على 3 إلى 64 حرفًا!';
+$_['error_code']       = 'الوحدة مطلوبة!';
+?>

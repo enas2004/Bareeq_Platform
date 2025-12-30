@@ -1,40 +1,40 @@
 <?php
-// العنوان
-$_['heading_title']           = 'المواضيع';
+// En-tête
+$_['heading_title']           = 'Sujets';
 
-// النصوص
-$_['text_success']            = 'تم بنجاح: لقد قمت بتعديل المواضيع!';
-$_['text_list']               = 'قائمة المواضيع';
-$_['text_add']                = 'إضافة موضوع';
-$_['text_edit']               = 'تعديل الموضوع';
-$_['text_default']            = 'افتراضي';
-$_['text_general']            = 'عام';
-$_['text_meta']               = 'وسوم الميتا';
-$_['text_keyword']            = 'لا تستخدم الفراغات، استبدلها بـ - وتأكد من أن رابط SEO فريد على مستوى العالم.';
+// Texte
+$_['text_success']            = 'Succès: Vous avez modifié les sujets!';
+$_['text_list']               = 'Liste des Sujets';
+$_['text_add']                = 'Ajouter un Sujet';
+$_['text_edit']               = 'Modifier le Sujet';
+$_['text_default']            = 'Par Défaut';
+$_['text_general']            = 'Général';
+$_['text_meta']               = 'Balises Meta';
+$_['text_keyword']            = 'N\'utilisez pas d\'espaces, remplacez-les par des - et assurez-vous que l\'URL SEO soit unique à l\'échelle mondiale.';
 
-// الأعمدة
-$_['column_name']             = 'اسم الموضوع';
-$_['column_sort_order']       = 'ترتيب الفرز';
-$_['column_action']           = 'إجراء';
+// Colonne
+$_['column_name']             = 'Nom du Sujet';
+$_['column_sort_order']       = 'Ordre de Tri';
+$_['column_action']           = 'Action';
 
-// الإدخالات
-$_['entry_image']             = 'صورة';
-$_['entry_name']              = 'اسم الموضوع';
-$_['entry_description']       = 'الوصف';
-$_['entry_meta_title']        = 'عنوان وسم الميتا';
-$_['entry_meta_keyword']      = 'كلمات مفتاحية لوسم الميتا';
-$_['entry_meta_description']  = 'وصف وسم الميتا';
-$_['entry_store']             = 'المتاجر';
-$_['entry_sort_order']        = 'ترتيب الفرز';
-$_['entry_status']            = 'الحالة';
-$_['entry_keyword']           = 'الكلمة المفتاحية';
-$_['entry_layout']            = 'استبدال التخطيط';
+// Entrée
+$_['entry_image']             = 'Image';
+$_['entry_name']              = 'Nom du Sujet';
+$_['entry_description']       = 'Description';
+$_['entry_meta_title']        = 'Titre de la Balise Meta';
+$_['entry_meta_keyword']      = 'Mots-clés de la Balise Meta';
+$_['entry_meta_description']  = 'Description de la Balise Meta';
+$_['entry_store']             = 'Magasins';
+$_['entry_sort_order']        = 'Ordre de Tri';
+$_['entry_status']            = 'Statut';
+$_['entry_keyword']           = 'Mot-clé';
+$_['entry_layout']            = 'Disposition de Remplacement';
 
-// الأخطاء
-$_['error_warning']           = 'تحذير: يرجى التحقق من النموذج بعناية للأخطاء!';
-$_['error_permission']        = 'تحذير: ليس لديك صلاحية لتعديل المواضيع!';
-$_['error_name']              = 'اسم الموضوع يجب أن يحتوي بين 1 و 255 حرفًا!';
-$_['error_meta_title']        = 'عنوان الميتا يجب أن يحتوي أكثر من حرف واحد وأقل من 255 حرفًا!';
-$_['error_keyword']           = 'رابط SEO يجب أن يحتوي بين 1 و 64 حرفًا!';
-$_['error_keyword_exists']    = 'رابط SEO يجب أن يكون فريدًا!';
-$_['error_keyword_character'] = 'الكلمة المفتاحية يمكن أن تحتوي فقط على الأحرف a-z و 0-9 و - و _!';
+// Erreur
+$_['error_warning']           = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
+$_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les sujets!';
+$_['error_name']              = 'Le nom du sujet doit contenir entre 1 et 255 caractères!';
+$_['error_meta_title']        = 'Le titre Meta doit contenir plus de 1 caractère et moins de 255 caractères!';
+$_['error_keyword']           = 'L\'URL SEO doit contenir entre 1 et 64 caractères!';
+$_['error_keyword_exists']    = 'L\'URL SEO doit être unique!';
+$_['error_keyword_character'] = 'Le mot-clé ne peut utiliser que les caractères a-z, 0-9, - et _ !';

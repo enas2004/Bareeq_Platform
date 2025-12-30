@@ -1,42 +1,37 @@
 <?php
-// En-tête
-$_['heading_title']           = 'URL SEO';
+// العنوان
+$_['heading_title']           = 'روابط SEO';
 
-// Texte
-$_['text_success']            = 'Succès: Vous avez modifié les URL SEO!';
-$_['text_list']               = 'Liste des URL SEO';
-$_['text_add']                = 'Ajouter une URL SEO';
-$_['text_edit']               = 'Modifier une URL SEO';
-$_['text_filter']             = 'Filtrer';
-$_['text_default']            = 'Par défaut';
+// النصوص
+$_['text_success']            = 'تم بنجاح: لقد قمتِ بتعديل روابط SEO!';
+$_['text_list']               = 'قائمة روابط SEO';
+$_['text_add']                = 'إضافة رابط SEO';
+$_['text_edit']               = 'تعديل رابط SEO';
+$_['text_filter']             = 'تصفية';
+$_['text_default']            = 'الافتراضي';
 
-// Colonne
-$_['column_key']              = 'Clé';
-$_['column_value']            = 'Valeur';
-$_['column_keyword']          = 'Mot-clé';
-$_['column_sort_order']       = 'Ordre de tri';
-$_['column_store']            = 'Magasin';
-$_['column_language']         = 'Langue';
-$_['column_action']           = 'Action';
+// الأعمدة
+$_['column_key']              = 'المفتاح';
+$_['column_value']            = 'القيمة';
+$_['column_keyword']          = 'الكلمة المفتاحية';
+$_['column_sort_order']       = 'ترتيب الفرز';
+$_['column_store']            = 'المتجر';
+$_['column_language']         = 'اللغة';
+$_['column_action']           = 'الإجراء';
 
-// Entrée
-$_['entry_store']             = 'Magasin';
-$_['entry_language']          = 'Langue';
-$_['entry_key']               = 'Clé';
-$_['entry_value']             = 'Valeur';
-$_['entry_keyword']           = 'Mot-clé';
-$_['entry_sort_order']        = 'Ordre de tri';
+// المدخلات
+$_['entry_store']             = 'المتجر';
+$_['entry_language']          = 'اللغة';
+$_['entry_key']               = 'المفتاح';
+$_['entry_value']             = 'القيمة';
+$_['entry_keyword']           = 'الكلمة المفتاحية';
+$_['entry_sort_order']        = 'ترتيب الفرز';
 
-// Aide
-$_['help_keyword']            = 'Assurez-vous d\'utiliser uniquement les caractères a-z, 0-9, - ou _ pour les espaces. Utilisez / pour les catégories.';
-$_['help_sort_order']         = 'L\'ordre de tri des mots-clés dans l\'URL.';
+// المساعدة
+$_['help_keyword']            = 'تأكدي من استخدام الأحرف a-z، الأرقام 0-9، والرمزين - أو _ فقط للمسافات. استخدمي / للفئات.';
+$_['help_sort_order']         = 'ترتيب عرض الكلمات المفتاحية في الرابط.';
 
-// Erreur
-$_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les URL SEO!';
-$_['error_exists']            = 'Attention: La combinaison de magasin, langue, clé, valeur et mot-clé existe déjà!';
-$_['error_key']               = 'La clé doit contenir entre 1 et 64 caractères!';
-$_['error_value']             = 'La valeur doit contenir entre 1 et 255 caractères!';
-$_['error_value_exists']      = 'La valeur est déjà utilisée!';
-$_['error_keyword']           = 'Le mot-clé doit contenir entre 1 et 64 caractères!';
-$_['error_keyword_exists']    = 'Le mot-clé est déjà utilisé!';
-$_['error_keyword_character'] = 'Le mot-clé ne peut utiliser que les caractères a-z, 0-9, - et _ !';
+// الأخطاء
+$_['error_permission']        = 'تحذير: ليس لديكِ صلاحية لتعديل روابط SEO!';
+$_['error_exists']            = 'تحذير: تركيبة المتجر واللغة والمفتاح والقيمة والكلمة المفتاحية موجودة مسبقًا!';
+$_['error_key']               = 'يجب أن_]()_

@@ -1,9 +1,9 @@
 <?php
-// النصوص
-$_['text_subject']   = '%s - تم رفض حسابك!';
-$_['text_welcome']   = 'مرحباً وشكراً لتسجيلك في %s!';
-$_['text_denied']    = 'عذراً، تم رفض طلبك. لمزيد من المعلومات، يمكنك التواصل مع صاحب المتجر من هنا:';
-$_['text_thanks']    = 'شكراً لك،';
+// Texte
+$_['text_subject']   = '%s - Votre compte a été refusé!';
+$_['text_welcome']   = 'Bienvenue et merci de vous être inscrit sur %s!';
+$_['text_denied']    = 'Malheureusement, votre demande a été refusée. Pour plus d\'informations, vous pouvez contacter le propriétaire du magasin ici:';
+$_['text_thanks']    = 'Merci,';
 
-// الزر
-$_['button_contact'] = 'اتصل بنا';
+// Bouton
+$_['button_contact'] = 'Contactez-nous';

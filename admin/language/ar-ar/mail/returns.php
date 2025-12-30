@@ -1,8 +1,8 @@
 <?php
-// النصوص
-$_['text_subject']       = '%s - تحديث حالة الإرجاع %s';
-$_['text_return_id']     = 'رقم الإرجاع:';
-$_['text_date_added']    = 'تاريخ الإرجاع:';
-$_['text_return_status'] = 'تم تحديث حالة إرجاعك إلى الحالة التالية:';
-$_['text_comment']       = 'التعليقات المتعلقة بإرجاعك هي:';
-$_['text_footer']        = 'يرجى الرد على هذا البريد الإلكتروني إذا كانت لديك أي أسئلة.';
+// Texte
+$_['text_subject']       = '%s - Mise à jour du retour %s';
+$_['text_return_id']     = 'ID de retour:';
+$_['text_date_added']    = 'Date de retour:';
+$_['text_return_status'] = 'Votre retour a été mis à jour avec le statut suivant:';
+$_['text_comment']       = 'Les commentaires concernant votre retour sont:';
+$_['text_footer']        = 'Veuillez répondre à cet e-mail si vous avez des questions.';

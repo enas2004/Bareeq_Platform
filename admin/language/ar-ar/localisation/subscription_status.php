@@ -1,22 +1,22 @@
 <?php
-// العنوان
-$_['heading_title']      = 'حالات الاشتراك';
+// En-tête
+$_['heading_title']      = 'Statuts d\'Abonnement';
 
-// النصوص
-$_['text_success']       = 'تم بنجاح: تم تعديل حالات الاشتراك!';
-$_['text_list']          = 'قائمة حالات الاشتراك';
-$_['text_add']           = 'إضافة حالة اشتراك';
-$_['text_edit']          = 'تعديل حالة اشتراك';
+// Texte
+$_['text_success']       = 'Succès: Vous avez modifié les statuts d\'abonnement!';
+$_['text_list']          = 'Liste des Statuts d\'Abonnement';
+$_['text_add']           = 'Ajouter un Statut d\'Abonnement';
+$_['text_edit']          = 'Modifier un Statut d\'Abonnement';
 
-// الأعمدة
-$_['column_name']        = 'اسم حالة الاشتراك';
-$_['column_action']      = 'الإجراء';
+// Colonne
+$_['column_name']        = 'Nom du Statut d\'Abonnement';
+$_['column_action']      = 'Action';
 
-// الإدخالات
-$_['entry_name']         = 'اسم حالة الاشتراك';
+// Entrée
+$_['entry_name']         = 'Nom du Statut d\'Abonnement';
 
-// الأخطاء
-$_['error_permission']   = 'تحذير: ليس لديك صلاحية لتعديل حالات الاشتراك!';
-$_['error_name']         = 'يجب أن يكون اسم حالة الاشتراك بين 3 و32 حرفاً!';
-$_['error_default']      = 'تحذير: لا يمكن حذف حالة الاشتراك هذه لأنها محددة حالياً كحالة اشتراك افتراضية للمتجر!';
-$_['error_subscription'] = 'تحذير: لا يمكن حذف حالة الاشتراك هذه لأنها مرتبطة حالياً بـ %s اشتراك!';
+// Erreur
+$_['error_permission']   = 'Attention: Vous n\'êtes pas autorisé à modifier les statuts d\'abonnement!';
+$_['error_name']         = 'Le nom du statut d\'abonnement doit comporter entre 3 et 32 caractères!';
+$_['error_default']      = 'Attention: Ce statut d\'abonnement ne peut pas être supprimé car il est actuellement assigné comme statut d\'abonnement par défaut du magasin!';
+$_['error_subscription'] = 'Attention: Ce statut d\'abonnement ne peut pas être supprimé car il est actuellement assigné à %s abonnements!';

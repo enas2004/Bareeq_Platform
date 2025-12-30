@@ -1,7 +1,6 @@
 <?php
-// العنوان
-$_['heading_title']  = 'الصفحة غير موجودة!';
+// En-tête
+$_['heading_title']  = 'Page Introuvable!';
 
-// النصوص
-$_['text_not_found'] = 'الصفحة التي تبحثين عنها غير موجودة! يرجى التواصل مع المسؤول إذا استمرت المشكلة.';
-?>
+// Texte
+$_['text_not_found'] = 'La page que vous recherchez est introuvable! Veuillez contacter votre administrateur si le problème persiste.';

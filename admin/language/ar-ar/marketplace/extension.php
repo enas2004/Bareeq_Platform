@@ -1,10 +1,10 @@
 <?php
-// العنوان
-$_['heading_title'] = 'الإضافات';
+// En-tête
+$_['heading_title'] = 'Extensions';
 
-// النصوص
-$_['text_success']  = 'تم التعديل بنجاح: لقد تم تعديل الإضافات!';
-$_['text_list']     = 'قائمة الإضافات';
-$_['text_install']  = 'تثبيت';
-$_['text_type']     = 'اختر نوع الإضافة';
-$_['text_filter']   = 'تصفية';
+// Texte
+$_['text_success']  = 'Succès: Vous avez modifié les extensions!';
+$_['text_list']     = 'Liste des extensions';
+$_['text_install']  = 'Installation';
+$_['text_type']     = 'Choisissez le type d\'extension';
+$_['text_filter']   = 'Filtrer';

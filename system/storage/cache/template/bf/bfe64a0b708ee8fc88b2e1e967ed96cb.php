@@ -144,150 +144,207 @@ class __TwigTemplate_42432a881f673862a2ff3b16f4368a82 extends Template
 <body>
 <div id=\"alert\"></div>
 <div id=\"container\">
-  <header id=\"header\" class=\"navbar navbar-expand navbar-light bg-light\">
-    <div class=\"container-fluid\">
-      <a href=\"";
-        // line 35
-        yield ($context["home"] ?? null);
-        yield "\" class=\"navbar-brand d-none d-lg-block\"><img src=\"view/image/logo.png\" alt=\"";
-        yield ($context["heading_title"] ?? null);
-        yield "\" title=\"";
-        yield ($context["heading_title"] ?? null);
-        yield "\"/></a>
-      ";
-        // line 36
+
+<header id=\"header\" class=\"navbar navbar-expand navbar-light bg-light\">
+  <div class=\"container-fluid\">
+    <div class=\"header-brand d-flex align-items-center\">
+    
+    <img class=\"header-brand-logo\"
+         src=\"view/image/my-logo (2).png\"
+         alt=\"بريق\"/>
+
+    <div class=\"header-brand-text\">
+        <span class=\"header-brand-title\">بريق</span>
+        <span class=\"header-brand-subtitle\">في الواقع والخيال</span>
+    </div>
+
+</div>
+
+    
+
+    ";
+        // line 51
         if (($context["logged"] ?? null)) {
-            // line 37
-            yield "        <button type=\"button\" id=\"button-menu\" class=\"btn btn-link d-inline-block d-lg-none\"><i class=\"fa-solid fa-bars\"></i></button>
-        <ul class=\"nav navbar-nav\">
-          <li id=\"nav-notification\" class=\"nav-item dropdown\">
-            <a href=\"#\" data-bs-toggle=\"dropdown\" class=\"nav-link dropdown-toggle\"><i class=\"fa-regular fa-bell\"></i>";
-            // line 40
+            // line 52
+            yield "      <button type=\"button\" id=\"button-menu\" class=\"btn btn-link d-inline-block d-lg-none\">
+        <i class=\"fa-solid fa-bars\"></i>
+      </button>
+
+      <ul class=\"nav navbar-nav\">
+        <li id=\"nav-notification\" class=\"nav-item dropdown\">
+          <a href=\"#\" data-bs-toggle=\"dropdown\" class=\"nav-link dropdown-toggle\">
+            <i class=\"fa-regular fa-bell\"></i>
+            ";
+            // line 60
             if (($context["notification_total"] ?? null)) {
-                yield " <span class=\"badge bg-danger\">";
+                // line 61
+                yield "              <span class=\"badge bg-danger\">";
                 yield ($context["notification_total"] ?? null);
-                yield "</span>";
+                yield "</span>
+            ";
             }
-            yield "</a>
-            <div class=\"dropdown-menu dropdown-menu-end\">
-              ";
-            // line 42
+            // line 63
+            yield "          </a>
+          <div class=\"dropdown-menu dropdown-menu-end\">
+            ";
+            // line 65
             if (($context["notifications"] ?? null)) {
-                // line 43
-                yield "                ";
+                // line 66
+                yield "              ";
                 $context['_parent'] = $context;
                 $context['_seq'] = CoreExtension::ensureTraversable(($context["notifications"] ?? null));
                 foreach ($context['_seq'] as $context["_key"] => $context["notification"]) {
-                    // line 44
-                    yield "                  <a href=\"";
-                    yield CoreExtension::getAttribute($this->env, $this->source, $context["notification"], "href", [], "any", false, false, false, 44);
+                    // line 67
+                    yield "                <a href=\"";
+                    yield CoreExtension::getAttribute($this->env, $this->source, $context["notification"], "href", [], "any", false, false, false, 67);
                     yield "\" data-bs-toggle=\"modal\" class=\"dropdown-item\">";
-                    yield CoreExtension::getAttribute($this->env, $this->source, $context["notification"], "title", [], "any", false, false, false, 44);
+                    yield CoreExtension::getAttribute($this->env, $this->source, $context["notification"], "title", [], "any", false, false, false, 67);
                     yield "</a>
-                ";
+              ";
                 }
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_key'], $context['notification'], $context['_parent']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 46
-                yield "                <a href=\"";
+                // line 69
+                yield "              <a href=\"";
                 yield ($context["notification_all"] ?? null);
-                yield "\" class=\"dropdown-item text-center text-primary\">";
+                yield "\" class=\"dropdown-item text-center text-primary\">
+                ";
+                // line 70
                 yield ($context["text_notification_all"] ?? null);
-                yield "</a>
-              ";
+                yield "
+              </a>
+            ";
             } else {
-                // line 48
-                yield "                <span class=\"dropdown-item text-center\">";
+                // line 73
+                yield "              <span class=\"dropdown-item text-center\">";
                 yield ($context["text_no_results"] ?? null);
                 yield "</span>
-              ";
+            ";
             }
-            // line 50
-            yield "            </div>
-          </li>
-          <li id=\"nav-language\" class=\"nav-item dropdown\">";
-            // line 52
+            // line 75
+            yield "          </div>
+        </li>
+
+        <li id=\"nav-language\" class=\"nav-item dropdown\">
+          ";
+            // line 79
             yield ($context["language"] ?? null);
-            yield "</li>
-          <li id=\"nav-profile\" class=\"nav-item dropdown\">
-            <a href=\"#\" data-bs-toggle=\"dropdown\" class=\"nav-link dropdown-toggle\"><img src=\"";
-            // line 54
+            yield "
+        </li>
+
+        <li id=\"nav-profile\" class=\"nav-item dropdown\">
+          <a href=\"#\" data-bs-toggle=\"dropdown\" class=\"nav-link dropdown-toggle\">
+            <img src=\"";
+            // line 84
             yield ($context["image"] ?? null);
             yield "\" alt=\"";
             yield ($context["firstname"] ?? null);
             yield " ";
             yield ($context["lastname"] ?? null);
-            yield "\" title=\"";
+            yield "\"
+                 title=\"";
+            // line 85
             yield ($context["firstname"] ?? null);
             yield " ";
             yield ($context["lastname"] ?? null);
-            yield "\" class=\"rounded-circle\"/><span class=\"d-none d-md-inline d-lg-inline\">&nbsp;&nbsp;&nbsp;";
+            yield "\" class=\"rounded-circle\"/>
+            <span class=\"d-none d-md-inline d-lg-inline\">
+              &nbsp;&nbsp;&nbsp;";
+            // line 87
             yield ($context["firstname"] ?? null);
             yield " ";
             yield ($context["lastname"] ?? null);
-            yield " <i class=\"fa-solid fa-caret-down fa-fw\"></i></span></a>
-            <ul class=\"dropdown-menu dropdown-menu-end\">
-              <li><a href=\"";
-            // line 56
+            yield "
+              <i class=\"fa-solid fa-caret-down fa-fw\"></i>
+            </span>
+          </a>
+          <ul class=\"dropdown-menu dropdown-menu-end\">
+            <li>
+              <a href=\"";
+            // line 93
             yield ($context["profile"] ?? null);
-            yield "\" class=\"dropdown-item\"><i class=\"fa-solid fa-user-circle fa-fw\"></i> ";
+            yield "\" class=\"dropdown-item\">
+                <i class=\"fa-solid fa-user-circle fa-fw\"></i> ";
+            // line 94
             yield ($context["text_profile"] ?? null);
-            yield "</a></li>
-              <li><hr class=\"dropdown-divider\"></li>
-              <li><h6 class=\"dropdown-header\">";
-            // line 58
+            yield "
+              </a>
+            </li>
+            <li><hr class=\"dropdown-divider\"></li>
+            <li><h6 class=\"dropdown-header\">";
+            // line 98
             yield ($context["text_store"] ?? null);
             yield "</h6></li>
-              ";
-            // line 59
+            ";
+            // line 99
             $context['_parent'] = $context;
             $context['_seq'] = CoreExtension::ensureTraversable(($context["stores"] ?? null));
             foreach ($context['_seq'] as $context["_key"] => $context["store"]) {
-                // line 60
-                yield "                <a href=\"";
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["store"], "href", [], "any", false, false, false, 60);
+                // line 100
+                yield "              <a href=\"";
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["store"], "href", [], "any", false, false, false, 100);
                 yield "\" target=\"_blank\" class=\"dropdown-item\">";
-                yield CoreExtension::getAttribute($this->env, $this->source, $context["store"], "name", [], "any", false, false, false, 60);
+                yield CoreExtension::getAttribute($this->env, $this->source, $context["store"], "name", [], "any", false, false, false, 100);
                 yield "</a>
-              ";
+            ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_key'], $context['store'], $context['_parent']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 62
-            yield "              <li><hr class=\"dropdown-divider\"></li>
-              <li><h6 class=\"dropdown-header\">";
-            // line 63
+            // line 102
+            yield "            <li><hr class=\"dropdown-divider\"></li>
+            <li><h6 class=\"dropdown-header\">";
+            // line 103
             yield ($context["text_help"] ?? null);
             yield "</h6></li>
-              <li><a href=\"https://www.opencart.com\" target=\"_blank\" class=\"dropdown-item\"><i class=\"fa-brands fa-opencart fa-fw\"></i> ";
-            // line 64
+            <li>
+              <a href=\"https://www.opencart.com\" target=\"_blank\" class=\"dropdown-item\">
+                <i class=\"fa-brands fa-opencart fa-fw\"></i> ";
+            // line 106
             yield ($context["text_homepage"] ?? null);
-            yield "</a></li>
-              <li><a href=\"https://docs.opencart.com\" target=\"_blank\" class=\"dropdown-item\"><i class=\"fa-solid fa-file fa-fw\"></i> ";
-            // line 65
+            yield "
+              </a>
+            </li>
+            <li>
+              <a href=\"https://docs.opencart.com\" target=\"_blank\" class=\"dropdown-item\">
+                <i class=\"fa-solid fa-file fa-fw\"></i> ";
+            // line 111
             yield ($context["text_documentation"] ?? null);
-            yield "</a></li>
-              <li><a href=\"https://forum.opencart.com\" target=\"_blank\" class=\"dropdown-item\"><i class=\"fa-solid fa-comments fa-fw\"></i> ";
-            // line 66
+            yield "
+              </a>
+            </li>
+            <li>
+              <a href=\"https://forum.opencart.com\" target=\"_blank\" class=\"dropdown-item\">
+                <i class=\"fa-solid fa-comments fa-fw\"></i> ";
+            // line 116
             yield ($context["text_support"] ?? null);
-            yield "</a></li>
-            </ul>
-          </li>
-          <li id=\"nav-logout\" class=\"nav-item\"><a href=\"";
-            // line 69
+            yield "
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li id=\"nav-logout\" class=\"nav-item\">
+          <a href=\"";
+            // line 123
             yield ($context["logout"] ?? null);
-            yield "\" class=\"nav-link\"><i class=\"fa-solid fa-sign-out\"></i> <span class=\"d-none d-md-inline\">";
+            yield "\" class=\"nav-link\">
+            <i class=\"fa-solid fa-sign-out\"></i>
+            <span class=\"d-none d-md-inline\">";
+            // line 125
             yield ($context["text_logout"] ?? null);
-            yield "</span></a></li>
-        </ul>
-      ";
+            yield "</span>
+          </a>
+        </li>
+      </ul>
+    ";
         }
-        // line 72
-        yield "    </div>
-  </header>
-";
+        // line 130
+        yield "  </div>
+</header>
+
+  ";
         yield from [];
     }
 
@@ -312,7 +369,7 @@ class __TwigTemplate_42432a881f673862a2ff3b16f4368a82 extends Template
      */
     public function getDebugInfo(): array
     {
-        return array (  288 => 72,  280 => 69,  274 => 66,  270 => 65,  266 => 64,  262 => 63,  259 => 62,  248 => 60,  244 => 59,  240 => 58,  233 => 56,  216 => 54,  211 => 52,  207 => 50,  201 => 48,  193 => 46,  182 => 44,  177 => 43,  175 => 42,  166 => 40,  161 => 37,  159 => 36,  151 => 35,  143 => 29,  134 => 27,  129 => 26,  118 => 24,  113 => 23,  100 => 21,  96 => 20,  91 => 18,  87 => 17,  83 => 16,  78 => 13,  72 => 11,  69 => 10,  63 => 8,  61 => 7,  57 => 6,  53 => 5,  45 => 2,  42 => 1,);
+        return array (  344 => 130,  336 => 125,  331 => 123,  321 => 116,  313 => 111,  305 => 106,  299 => 103,  296 => 102,  285 => 100,  281 => 99,  277 => 98,  270 => 94,  266 => 93,  255 => 87,  248 => 85,  240 => 84,  232 => 79,  226 => 75,  220 => 73,  214 => 70,  209 => 69,  198 => 67,  193 => 66,  191 => 65,  187 => 63,  181 => 61,  179 => 60,  169 => 52,  167 => 51,  143 => 29,  134 => 27,  129 => 26,  118 => 24,  113 => 23,  100 => 21,  96 => 20,  91 => 18,  87 => 17,  83 => 16,  78 => 13,  72 => 11,  69 => 10,  63 => 8,  61 => 7,  57 => 6,  53 => 5,  45 => 2,  42 => 1,);
     }
 
     public function getSourceContext(): Source
@@ -349,7 +406,107 @@ class __TwigTemplate_42432a881f673862a2ff3b16f4368a82 extends Template
 <body>
 <div id=\"alert\"></div>
 <div id=\"container\">
-  <header id=\"header\" class=\"navbar navbar-expand navbar-light bg-light\">
+
+<header id=\"header\" class=\"navbar navbar-expand navbar-light bg-light\">
+  <div class=\"container-fluid\">
+    <div class=\"header-brand d-flex align-items-center\">
+    
+    <img class=\"header-brand-logo\"
+         src=\"view/image/my-logo (2).png\"
+         alt=\"بريق\"/>
+
+    <div class=\"header-brand-text\">
+        <span class=\"header-brand-title\">بريق</span>
+        <span class=\"header-brand-subtitle\">في الواقع والخيال</span>
+    </div>
+
+</div>
+
+    
+
+    {% if logged %}
+      <button type=\"button\" id=\"button-menu\" class=\"btn btn-link d-inline-block d-lg-none\">
+        <i class=\"fa-solid fa-bars\"></i>
+      </button>
+
+      <ul class=\"nav navbar-nav\">
+        <li id=\"nav-notification\" class=\"nav-item dropdown\">
+          <a href=\"#\" data-bs-toggle=\"dropdown\" class=\"nav-link dropdown-toggle\">
+            <i class=\"fa-regular fa-bell\"></i>
+            {% if notification_total %}
+              <span class=\"badge bg-danger\">{{ notification_total }}</span>
+            {% endif %}
+          </a>
+          <div class=\"dropdown-menu dropdown-menu-end\">
+            {% if notifications %}
+              {% for notification in notifications %}
+                <a href=\"{{ notification.href }}\" data-bs-toggle=\"modal\" class=\"dropdown-item\">{{ notification.title }}</a>
+              {% endfor %}
+              <a href=\"{{ notification_all }}\" class=\"dropdown-item text-center text-primary\">
+                {{ text_notification_all }}
+              </a>
+            {% else %}
+              <span class=\"dropdown-item text-center\">{{ text_no_results }}</span>
+            {% endif %}
+          </div>
+        </li>
+
+        <li id=\"nav-language\" class=\"nav-item dropdown\">
+          {{ language }}
+        </li>
+
+        <li id=\"nav-profile\" class=\"nav-item dropdown\">
+          <a href=\"#\" data-bs-toggle=\"dropdown\" class=\"nav-link dropdown-toggle\">
+            <img src=\"{{ image }}\" alt=\"{{ firstname }} {{ lastname }}\"
+                 title=\"{{ firstname }} {{ lastname }}\" class=\"rounded-circle\"/>
+            <span class=\"d-none d-md-inline d-lg-inline\">
+              &nbsp;&nbsp;&nbsp;{{ firstname }} {{ lastname }}
+              <i class=\"fa-solid fa-caret-down fa-fw\"></i>
+            </span>
+          </a>
+          <ul class=\"dropdown-menu dropdown-menu-end\">
+            <li>
+              <a href=\"{{ profile }}\" class=\"dropdown-item\">
+                <i class=\"fa-solid fa-user-circle fa-fw\"></i> {{ text_profile }}
+              </a>
+            </li>
+            <li><hr class=\"dropdown-divider\"></li>
+            <li><h6 class=\"dropdown-header\">{{ text_store }}</h6></li>
+            {% for store in stores %}
+              <a href=\"{{ store.href }}\" target=\"_blank\" class=\"dropdown-item\">{{ store.name }}</a>
+            {% endfor %}
+            <li><hr class=\"dropdown-divider\"></li>
+            <li><h6 class=\"dropdown-header\">{{ text_help }}</h6></li>
+            <li>
+              <a href=\"https://www.opencart.com\" target=\"_blank\" class=\"dropdown-item\">
+                <i class=\"fa-brands fa-opencart fa-fw\"></i> {{ text_homepage }}
+              </a>
+            </li>
+            <li>
+              <a href=\"https://docs.opencart.com\" target=\"_blank\" class=\"dropdown-item\">
+                <i class=\"fa-solid fa-file fa-fw\"></i> {{ text_documentation }}
+              </a>
+            </li>
+            <li>
+              <a href=\"https://forum.opencart.com\" target=\"_blank\" class=\"dropdown-item\">
+                <i class=\"fa-solid fa-comments fa-fw\"></i> {{ text_support }}
+              </a>
+            </li>
+          </ul>
+        </li>
+
+        <li id=\"nav-logout\" class=\"nav-item\">
+          <a href=\"{{ logout }}\" class=\"nav-link\">
+            <i class=\"fa-solid fa-sign-out\"></i>
+            <span class=\"d-none d-md-inline\">{{ text_logout }}</span>
+          </a>
+        </li>
+      </ul>
+    {% endif %}
+  </div>
+</header>
+
+  {# <header id=\"header\" class=\"navbar navbar-expand navbar-light bg-light\">
     <div class=\"container-fluid\">
       <a href=\"{{ home }}\" class=\"navbar-brand d-none d-lg-block\"><img src=\"view/image/logo.png\" alt=\"{{ heading_title }}\" title=\"{{ heading_title }}\"/></a>
       {% if logged %}
@@ -389,7 +546,7 @@ class __TwigTemplate_42432a881f673862a2ff3b16f4368a82 extends Template
         </ul>
       {% endif %}
     </div>
-  </header>
-", "admin/view/template/common/header.twig", "C:\\xampp\\htdocs\\opencart\\admin\\view\\template\\common\\header.twig");
+  </header> #}
+", "admin/view/template/common/header.twig", "C:\\xampp\\htdocs\\bareeq_platform\\admin\\view\\template\\common\\header.twig");
     }
 }

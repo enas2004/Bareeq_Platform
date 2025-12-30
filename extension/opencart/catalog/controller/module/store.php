@@ -1,54 +1,70 @@
 <?php
 namespace Opencart\Catalog\Controller\Extension\Opencart\Module;
+
 /**
- * Class Store
+ * Class FeaturedStore
  *
  * @package Opencart\Catalog\Controller\Extension\Opencart\Module
  */
-class Store extends \Opencart\System\Engine\Controller {
+class FeaturedStore extends \Opencart\System\Engine\Controller {
+
 	/**
 	 * Index
 	 *
+	 * @param array<string, mixed> $setting
+	 *
 	 * @return string
 	 */
-	public function index(): string {
-		$status = true;
+	public function index(array $setting): string {
 
-		if ($this->config->get('module_store_admin')) {
-			$this->user = new \Opencart\System\Library\Cart\User($this->registry);
+		$this->load->language('extension/opencart/module/featured_store');
 
-			$status = $this->user->isLogged();
-		}
+		$data['stores'] = [];
 
-		if ($status) {
-			$this->load->language('extension/opencart/module/store');
+		// Model: Stores
+		$this->load->model('setting/store');
 
-			$data['store_id'] = $this->config->get('config_store_id');
+		// Model: Image
+		$this->load->model('tool/image');
 
-			// Stores
-			$data['stores'] = [];
+		// تأكد أن المتاجر محددة من الإعدادات
+		if (!empty($setting['store'])) {
 
-			$data['stores'][] = [
-				'store_id' => 0,
-				'name'     => $this->language->get('text_default'),
-				'url'      => HTTP_SERVER . 'index.php?route=common/home&session_id=' . $this->session->getId()
-			];
+			foreach ($setting['store'] as $store_id) {
 
-			$this->load->model('setting/store');
+				$store_info = $this->model_setting_store->getStore((int)$store_id);
 
-			$results = $this->model_setting_store->getStores();
+				if ($store_info) {
 
-			foreach ($results as $result) {
-				$data['stores'][] = [
-					'store_id' => $result['store_id'],
-					'name'     => $result['name'],
-					'url'      => $result['url'] . 'index.php?route=common/home&session_id=' . $this->session->getId()
-				];
+					// صورة المتجر
+					if (!empty($store_info['image']) && is_file(DIR_IMAGE . $store_info['image'])) {
+						$image = $this->model_tool_image->resize(
+							$store_info['image'],
+							$setting['width'],
+							$setting['height']
+						);
+					} else {
+						$image = $this->model_tool_image->resize(
+							'no_image.png',
+							$setting['width'],
+							$setting['height']
+						);
+					}
+
+					$data['stores'][] = [
+						'store_id' => $store_info['store_id'],
+						'name'     => $store_info['name'],
+						'url'      => $store_info['url'],
+						'image'    => $image
+					];
+				}
 			}
-
-			return $this->load->view('extension/opencart/module/store', $data);
-		} else {
-			return '';
 		}
+
+		if ($data['stores']) {
+			return $this->load->view('extension/opencart/module/featured_store', $data);
+		}
+
+		return '';
 	}
 }

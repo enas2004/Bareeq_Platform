@@ -1,36 +1,36 @@
 <?php
-// العنوان
-$_['heading_title']    = 'مواقع المتاجر';
+// En-tête
+$_['heading_title']    = 'Emplacements des Magasins';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: تم تعديل مواقع المتاجر!';
-$_['text_list']        = 'قائمة مواقع المتاجر';
-$_['text_add']         = 'إضافة موقع متجر';
-$_['text_edit']        = 'تعديل موقع متجر';
-$_['text_geocode']     = 'فشل تحديد الموقع الجغرافي للسبب التالي:';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié les emplacements des magasins!';
+$_['text_list']        = 'Liste des Emplacements des Magasins';
+$_['text_add']         = 'Ajouter un Emplacement de Magasin';
+$_['text_edit']        = 'Modifier un Emplacement de Magasin';
+$_['text_geocode']     = 'Le géocodage n\'a pas réussi pour la raison suivante:';
 
-// الأعمدة
-$_['column_name']      = 'اسم المتجر';
-$_['column_address']   = 'العنوان';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_name']      = 'Nom du Magasin';
+$_['column_address']   = 'Adresse';
+$_['column_action']    = 'Action';
 
-// الإدخالات
-$_['entry_name']       = 'اسم المتجر';
-$_['entry_address']    = 'العنوان';
-$_['entry_geocode']    = 'رمز الموقع الجغرافي';
-$_['entry_telephone']  = 'الهاتف';
-$_['entry_image']      = 'الصورة';
-$_['entry_open']       = 'ساعات العمل';
-$_['entry_comment']    = 'ملاحظات';
+// Entrée
+$_['entry_name']       = 'Nom du Magasin';
+$_['entry_address']    = 'Adresse';
+$_['entry_geocode']    = 'Géocode';
+$_['entry_telephone']  = 'Téléphone';
+$_['entry_image']      = 'Image';
+$_['entry_open']       = 'Horaires d\'Ouverture';
+$_['entry_comment']    = 'Commentaire';
 
-// المساعدة
-$_['help_telephone']   = 'يرجى إدخال رقم هاتف موقع متجرك.';
-$_['help_geocode']     = 'يرجى إدخال رمز الموقع الجغرافي لموقع متجرك يدوياً.';
-$_['help_open']        = 'أدخل ساعات عمل متاجرك.';
-$_['help_comment']     = 'هذا الحقل لأي ملاحظات خاصة ترغب بإبلاغها للعميل، مثل: المتجر لا يقبل الشيكات.';
+// Aide
+$_['help_telephone']   = 'Veuillez saisir le numéro de téléphone de l\'emplacement de votre magasin.';
+$_['help_geocode']     = 'Veuillez saisir manuellement le géocode de l\'emplacement de votre magasin.';
+$_['help_open']        = 'Remplissez les horaires d\'ouverture de vos magasins.';
+$_['help_comment']     = 'Ce champ est pour toutes les notes spéciales que vous souhaitez communiquer au client, par exemple: Le magasin n\'accepte pas les chèques.';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل مواقع المتاجر!';
-$_['error_name']       = 'يجب أن يكون اسم المتجر بين 3 و32 حرفاً!';
-$_['error_address']    = 'يجب أن يكون العنوان بين 3 و128 حرفاً!';
-$_['error_telephone']  = 'يجب أن يكون رقم الهاتف بين 3 و32 حرفاً!';
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les emplacements des magasins!';
+$_['error_name']       = 'Le nom du magasin doit contenir entre 3 et 32 caractères!';
+$_['error_address']    = 'L\'adresse doit contenir entre 3 et 128 caractères!';
+$_['error_telephone']  = 'Le numéro de téléphone doit contenir entre 3 et 32 caractères!';

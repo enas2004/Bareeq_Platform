@@ -1,23 +1,23 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Statuts des Commandes';
+// العنوان
+$_['heading_title']    = 'حالات الطلبات';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les statuts des commandes!';
-$_['text_list']        = 'Liste des Statuts des Commandes';
-$_['text_add']         = 'Ajouter un Statut de Commande';
-$_['text_edit']        = 'Modifier un Statut de Commande';
+// النصوص
+$_['text_success']     = 'تم بنجاح: تم تعديل حالات الطلبات!';
+$_['text_list']        = 'قائمة حالات الطلبات';
+$_['text_add']         = 'إضافة حالة طلب';
+$_['text_edit']        = 'تعديل حالة طلب';
 
-// Colonne
-$_['column_name']      = 'Nom du Statut de Commande';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم حالة الطلب';
+$_['column_action']    = 'الإجراء';
 
-// Entrée
-$_['entry_name']       = 'Nom du Statut de Commande';
+// الإدخالات
+$_['entry_name']       = 'اسم حالة الطلب';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les statuts des commandes!';
-$_['error_name']       = 'Le nom du statut de commande doit contenir entre 3 et 32 caractères!';
-$_['error_default']    = 'Attention: Ce statut de commande ne peut pas être supprimé car il est actuellement défini comme le statut de commande par défaut du magasin!';
-$_['error_download']   = 'Attention: Ce statut de commande ne peut pas être supprimé car il est actuellement défini comme le statut de téléchargement par défaut!';
-$_['error_order']      = 'Attention: Ce statut de commande ne peut pas être supprimé car il est actuellement assigné à %s commandes!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل حالات الطلبات!';
+$_['error_name']       = 'يجب أن يكون اسم حالة الطلب بين 3 و32 حرفاً!';
+$_['error_default']    = 'تحذير: لا يمكن حذف حالة الطلب هذه لأنها محددة حالياً كحالة افتراضية للمتجر!';
+$_['error_download']   = 'تحذير: لا يمكن حذف حالة الطلب هذه لأنها محددة حالياً كحالة افتراضية للتحميل!';
+$_['error_order']      = 'تحذير: لا يمكن حذف حالة الطلب هذه لأنها مرتبطة حالياً بـ %s طلب!';

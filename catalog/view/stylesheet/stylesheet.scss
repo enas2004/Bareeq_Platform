@@ -845,6 +845,7 @@ label:has(+ textarea:required):before {
 .custom-banner-box {
   /* نكسر حدود الـ container ونخلي البنر بعرض الشاشة */
   width: 100vw;                                /* عرض الشاشة كامل */
+  align-items: center;
   margin-inline: calc(50% - 50vw);             /* يطلع برّه الـ container يمين ويسار */
   background: #fdf0e3;                          /* نفس البيج */
   padding: 70px 0;                              /* مسافة فوق وتحت */
@@ -1286,222 +1287,128 @@ html[dir="rtl"] #header-main #menu .navbar-nav {
   color: #3f5f3a;
 }
 
-/* ================== قسم المتاجر (متاجر العالم الافتراضي) ================== */
+/* ================== تصميم المتاجر ================== */
 
-.stores-section {
-  background-color: #c0bfbe;   // نفس خلفية التصميم
-  padding: 80px 0;
-  
+/* عنوان قسم المتاجر */
+.stores-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #2f2f2f;
+  margin-top: 40px;
+  margin-bottom: 24px;
 }
 
-.stores-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 24px;
-  text-align: center;
+/* نزول بسيط للكروت */
+.stores {
   margin-top: 10px;
 }
 
-/* الشارة الصغيرة فوق العنوان (مثل: المتاجر) */
-.stores-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 6px 18px;
-  margin-bottom: 16px;
 
-  font-size: 0.85rem;
-  font-weight: 600;
-  color: #8a6b4c;
-
-  background: #fbeeda;
-  border-radius: 999px;
+/* نفس الشبكة الموجودة */
+.stores {
+  margin-top: 32px;
+  margin-bottom: 56px;
+  row-gap: 22px;
 }
 
-/* عنوان ووصف القسم */
-.stores-title {
-  font-size: 2rem;
-  font-weight: 700;
-  color: #3a3025;
-  margin-bottom: 8px;
+/* نجعل العمود يتمدّد مع الكرت */
+.stores .col {
+  display: flex;
 }
 
-.stores-subtitle {
-  font-size: 0.98rem;
-  color: #8b7a66;
-  margin-bottom: 38px;
-}
-
-/* شبكة الكروت (3 أعمدة على الديسكتوب) */
-.stores-grid {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 24px;
-  margin-bottom: 32px;
-
-  @media (max-width: 992px) {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  @media (max-width: 576px) {
-    grid-template-columns: 1fr;
-  }
-}
-
-/* الكرت الواحد للمتجر */
-.store-card {
-  background: #ffffff;
+/* الكرت */
+.stores .store-item.card {
+  width: 100%;
   border-radius: 22px;
   overflow: hidden;
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.05);
-  border: 1px solid #f1e4d5;
+  background: #ffffff;
+  border: 1px solid #f2e8dd;
+  box-shadow: 0 18px 40px rgba(15, 23, 42, 0.08);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
 
+.stores .store-item.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 25px 55px rgba(15, 23, 42, .14);
+}
+
+/* الرابط يغطي الكرت بالكامل */
+.stores .store-item.card a {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 100%;
+  color: inherit;
+  text-decoration: none;
 }
 
-.store-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 22px 45px rgba(0, 0, 0, 0.08);
-}
-
-/* صورة المتجر أعلى الكرت */
-.store-card__image {
-  position: relative;
-  overflow: hidden;
-}
-
-.store-card__image img {
+/* الصورة */
+.stores .store-item img.card-img-top {
   width: 100%;
-  height: 210px;            // عدّلي الارتفاع حسب ذوقك
+  height: 230px;
   object-fit: cover;
   display: block;
 }
 
-/* أيقونة المفضلة والبادج أعلى الصورة */
-.store-card__favorite {
-  position: absolute;
-  top: 12px;
-  left: 14px;              // في RTL تطلع يسار
-  width: 32px;
-  height: 32px;
-  border-radius: 999px;
-  background: rgba(255, 255, 255, 0.9);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  color: #888;
-}
-
-.store-card__badge {
-  position: absolute;
-  top: 14px;
-  right: 18px;
-  padding: 4px 10px;
-  border-radius: 999px;
-  font-size: 0.78rem;
-  font-weight: 600;
-  background: #e7f5d9;
-  color: #6d8b41;
-}
-
-/* محتوى الكرت أسفل الصورة */
-.store-card__body {
-  padding: 18px 20px 16px;
-  text-align: right;
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.store-card__name {
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: #3a3025;
-  margin: 0;
-}
-
-.store-card__desc {
-  font-size: 0.9rem;
-  color: #8b7a66;
-  margin: 0 0 6px 0;
-}
-
-/* السطر الأخير: تقييم + سعر/نص */
-.store-card__meta {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
-  margin-top: 6px;
-}
-
-.store-card__rating {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  font-size: 0.85rem;
-  color: #8b7a66;
-}
-
-.store-card__rating i {
-  color: #f4b400; // نجمة ذهبية
-  font-size: 0.9rem;
-}
-
-.store-card__price {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: #3a3025;
-}
-
-/* زر "عرض جميع المتاجر" تحت الشبكة */
-.stores-cta-wrapper {
+/* جسم الكرت */
+.stores .store-item .card-body {
+  padding: 18px 20px;
   text-align: center;
 }
 
-.stores-cta-btn {
-  display: inline-flex;
-  align-items: center;
+/* اسم المتجر */
+.stores .store-item .card-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin: 0;
+  color: #111827;
+}
+
+/* تحسين للموبايل */
+@media(max-width: 576px){
+  .stores .store-item img.card-img-top{
+    height: 200px;
+  }
+}
+
+/* جعل شبكة المتاجر في المنتصف */
+
+.stores {
+  display: flex;
   justify-content: center;
-  gap: 6px;
-
-  padding: 0.8rem 2.4rem;
-  border-radius: 999px;
-
-  background: #8a9b6a;
-  color: #ffffff;
-  font-size: 0.95rem;
-  font-weight: 600;
-  text-decoration: none;
-  border: none;
-
-  box-shadow: 0 10px 25px rgba(84, 148, 93, 0.25);
-  transition: all 0.2s ease-in-out;
 }
 
-.stores-cta-btn:hover {
-  background: #89a05e;
-  color: #ffffff;
-  transform: translateY(-1px);
-  box-shadow: 0 12px 28px rgba(84, 148, 93, 0.3);
+/* لأن BootStrap يحط width تلقائي
+   نلغيها ونحكم العرض نحن */
+
+.stores .row {
+  width: auto;
 }
+
+/* تقليل عرض الشبكة بحيث تتوسّط */
+.stores {
+  max-width: 1100px;
+  margin: 0 auto 60px auto;
+}
+
+
+
+
 
 /* ================== قسم النشرة الإخبارية ================== */
 
 .newsletter-section {
-  width: 100vw;                               // فل عرض الصفحة
-  margin-inline: calc(5% - 5vw);            // يطلع من حدود الـ container
+  /* بدلاً من 100vw والمارجن الغريب */
+  max-width: 1200px;          // عرض معقول داخل الصفحة
+  margin: 60px auto 80px;     // يتوسّط أفقياً + مسافة فوق وتحت
+  padding: 80px 0 90px;
+
   background: linear-gradient(
     135deg,
     #9fb58a 0%,
     #c1b38c 45%,
     #d7b49b 100%
   );
-  padding: 80px 0 90px;
   border-radius: 25px;
   color: #ffffff;
 }
@@ -3047,4 +2954,5 @@ $bareeq-border:  #f1e4d5;
   border-radius: 18px;
   object-fit: contain;
 }
+
 

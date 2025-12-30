@@ -1,9 +1,10 @@
 <?php
 namespace Opencart\Catalog\Controller\Common;
+
 /**
  * Class Content Bottom
  *
- * Can be called from $this->load->controller('common/column_bottom');
+ * Can be called from $this->load->controller('common/content_bottom');
  *
  * @package Opencart\Catalog\Controller\Common
  */
@@ -105,6 +106,44 @@ class ContentBottom extends \Opencart\System\Engine\Controller {
 					}
 				}
 			}
+		}
+
+		// =========================
+		// ✅ جلب بيانات المتاجر هنا
+		// =========================
+
+		// تحميل مودل المتاجر
+		$this->load->model('catalog/store');
+
+		// تحميل مودل الصور
+		$this->load->model('tool/image');
+
+		$data['stores'] = [];
+
+		$results = $this->model_catalog_store->getStores();
+
+		foreach ($results as $result) {
+			// تجهيز الصورة
+			if (!empty($result['image']) && is_file(DIR_IMAGE . html_entity_decode($result['image'], ENT_QUOTES, 'UTF-8'))) {
+				$thumb = $this->model_tool_image->resize(
+					$result['image'],
+					$this->config->get('config_image_category_width'),
+					$this->config->get('config_image_category_height')
+				);
+			} else {
+				$thumb = $this->model_tool_image->resize(
+					'placeholder.png',
+					$this->config->get('config_image_category_width'),
+					$this->config->get('config_image_category_height')
+				);
+			}
+
+			$data['stores'][] = [
+				'id'    => $result['store_id'],
+				'name'  => $result['name'],
+				'url'   => $result['url'],
+				'thumb' => $thumb
+			];
 		}
 
 		return $this->load->view('common/content_bottom', $data);

@@ -1,17 +1,16 @@
 <?php
-// العنوان
-$_['heading_title']    = 'أسعار الصرف';
+// En-tête
+$_['heading_title']    = 'Taux de Change';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل أسعار الصرف!';
-$_['text_list']        = 'قائمة أسعار الصرف';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié les taux de change!';
+$_['text_list']        = 'Liste des Taux de Change';
 
-// الأعمدة
-$_['column_name']      = 'اسم سعر الصرف';
-$_['column_status']    = 'الحالة';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_name']      = 'Nom du Taux de Change';
+$_['column_status']    = 'Statut';
+$_['column_action']    = 'Action';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل أسعار الصرف!';
-$_['error_extension']  = 'تحذير: الإضافة غير موجودة!';
-?>
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les taux de change!';
+$_['error_extension']  = 'Attention: L\'extension n\'existe pas!';

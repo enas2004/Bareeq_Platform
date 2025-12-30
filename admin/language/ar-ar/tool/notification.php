@@ -1,14 +1,14 @@
 <?php
-// العنوان
-$_['heading_title']    = 'الإشعارات';
+// En-tête
+$_['heading_title']    = 'Notifications';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: لقد تم تعديل الإشعارات!';
-$_['text_list']        = 'قائمة الإشعارات';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié les notifications!';
+$_['text_list']        = 'Liste des notifications';
 
-// الأعمدة
-$_['column_message']   = 'الرسالة';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_message']   = 'Message';
+$_['column_action']    = 'Action';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديك إذن لتعديل الإشعارات!';
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les notifications!';

@@ -1,34 +1,34 @@
 <?php
-// العنوان
-$_['heading_title']    = 'المعرّفات';
+// Heading
+$_['heading_title']    = 'Identifiants';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: لقد قمت بتعديل المعرّفات!';
-$_['text_list']        = 'قائمة المعرّفات';
-$_['text_add']         = 'إضافة معرّف';
-$_['text_edit']        = 'تعديل المعرّف';
-$_['text_regex']       = 'تعبير نمطي (Regex)';
+// Text
+$_['text_success']     = 'Succès: Vous avez modifié les identifiants!';
+$_['text_list']        = 'Liste des Identifiants';
+$_['text_add']         = 'Ajouter des Identifiants';
+$_['text_edit']        = 'Modifier des Identifiants';
+$_['text_regex']       = 'Regex';
 
-// الأعمدة
-$_['column_name']      = 'اسم المعرّف';
-$_['column_code']      = 'الرمز';
-$_['column_action']    = 'الإجراء';
+// Column
+$_['column_name']      = 'Nom de l\'Identifiant';
+$_['column_code']      = 'Code';
+$_['column_action']    = 'Action';
 
-// الإدخالات
-$_['entry_name']       = 'اسم المعرّف';
-$_['entry_code']       = 'الرمز';
-$_['entry_validation'] = 'التحقق';
-$_['entry_status']     = 'الحالة';
+// Entry
+$_['entry_name']       = 'Nom de l\'Identifiant';
+$_['entry_code']       = 'Code';
+$_['entry_validation'] = 'Validation';
+$_['entry_status']     = 'Statut';
 
-// التعليمات
-$_['help_name']        = 'مثال: رقم إدارة المخزون (SKU)، الرمز العالمي للمنتج (UPC)، رقم الباركود الأوروبي (EAN)، رقم المقال الياباني (JAN)، رقم الكتاب المعياري الدولي (ISBN)، أو رقم قطعة الشركة المصنعة (MPN).';
-$_['help_code']        = 'مثال: SKU، UPC، EAN، JAN، ISBN أو MPN';
-$_['help_regex']       = 'استخدم تعبيرًا نمطيًا (Regex). مثال: /[^a-zA-Z0-9_-]/';
-$_['help_status']      = 'قم بتفعيل عرض معرّفات المنتج في صفحة تفاصيل المنتج.';
+// Help
+$_['help_name']        = 'Exemple: l\'Unité de Gestion des Stocks, le Code Universel des Produits, le Code-Barres EAN, le Numéro d\'Article Japonais, le Numéro International Normalisé du Livre (ISBN) ou le Numéro de Pièce du Fabriquant (MPN)';
+$_['help_code']        = 'Exemple: GDT, CUP, EAN, JAN, ISBN or MPN';
+$_['help_regex']       = 'Utilisez regex. Exemple: /[^a-zA-Z0-9_-]/';
+$_['help_status']      = 'Activer les identifiants de produits sur la page de détails de produit';
 
-// الأخطاء
-$_['error_warning']    = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
-$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل المعرّفات!';
-$_['error_name']       = 'يجب أن يكون اسم المعرّف بين 1 و 64 حرفًا!';
-$_['error_exists']     = 'المعرّف غير موجود!';
-$_['error_code']       = 'يجب أن يحتوي رمز المعرّف على ما بين 3 و 48 حرفًا!';
+// Error
+$_['error_warning']    = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
+$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les identifiants!';
+$_['error_name']       = 'Le nom de l\'identifiant doit contenir entre 1 et 64 caractères!';
+$_['error_exists']     = 'L\'identifiant n\'existe pas!';
+$_['error_code']       = 'Le code de l\'identifiant doit contenir entre 3 et 48 caractères!';

@@ -1,36 +1,37 @@
 <?php
-// En-tête
-$_['heading_title']     = 'Approbations RGPD';
+// العنوان
+$_['heading_title']     = 'موافقات اللائحة العامة لحماية البيانات (GDPR)';
 
-// Texte
-$_['text_success']      = 'Succès: Vous avez modifié les approbations RGPD!';
-$_['text_list']         = 'Liste des Approbations RGPD';
-$_['text_info']         = '<strong>RGPD</strong> Les demandes de suppression de compte seront traitées après <strong>%s jours</strong> pour permettre la détection de fraude, les rétrofacturations ou les remboursements.';
-$_['text_approve']      = 'Approuver';
-$_['text_deny']         = 'Refuser';
-$_['text_delete']       = 'Supprimer';
-$_['text_unverified']   = 'Non Vérifié';
-$_['text_pending']      = 'En Attente';
-$_['text_processing']   = 'En Cours';
-$_['text_complete']     = 'Terminé';
-$_['text_denied']       = 'Refusé';
-$_['text_export']       = 'Exporter';
-$_['text_remove']       = 'Retirer';
-$_['text_filter']       = 'Filtrer';
+// النصوص
+$_['text_success']      = 'تم بنجاح: لقد قمتِ بتعديل موافقات اللائحة العامة لحماية البيانات!';
+$_['text_list']         = 'قائمة موافقات GDPR';
+$_['text_info']         = '<strong>GDPR</strong> سيتم تنفيذ طلبات حذف الحساب بعد <strong>%s يوم</strong> للسماح بالكشف عن الاحتيال أو عمليات الاسترجاع أو المبالغ المستردة.';
+$_['text_approve']      = 'موافقة';
+$_['text_deny']         = 'رفض';
+$_['text_delete']       = 'حذف';
+$_['text_unverified']   = 'غير مُتحقق';
+$_['text_pending']      = 'قيد الانتظار';
+$_['text_processing']   = 'قيد المعالجة';
+$_['text_complete']     = 'مكتمل';
+$_['text_denied']       = 'مرفوض';
+$_['text_export']       = 'تصدير';
+$_['text_remove']       = 'إزالة';
+$_['text_filter']       = 'تصفية';
 
-// Colonne
-$_['column_email']      = 'E-Mail';
-$_['column_request']    = 'Demande';
-$_['column_status']     = 'Statut';
-$_['column_date_added'] = 'Date d\'Ajout';
-$_['column_action']     = 'Action';
+// الأعمدة
+$_['column_email']      = 'البريد الإلكتروني';
+$_['column_request']    = 'الطلب';
+$_['column_status']     = 'الحالة';
+$_['column_date_added'] = 'تاريخ الإضافة';
+$_['column_action']     = 'الإجراء';
 
-// Entrée
-$_['entry_email']       = 'E-Mail';
-$_['entry_action']      = 'Action';
-$_['entry_status']      = 'Statut';
-$_['entry_date_from']   = 'Date de Début';
-$_['entry_date_to']     = 'Date de Fin';
+// المدخلات
+$_['entry_email']       = 'البريد الإلكتروني';
+$_['entry_action']      = 'الإجراء';
+$_['entry_status']      = 'الحالة';
+$_['entry_date_from']   = 'من تاريخ';
+$_['entry_date_to']     = 'إلى تاريخ';
 
-// Erreur
-$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les approbations RGPD!';
+// الأخطاء
+$_['error_permission']  = 'تحذير: ليس لديكِ صلاحية لتعديل موافقات اللائحة العامة لحماية البيانات (GDPR)!';
+?>

@@ -1,17 +1,16 @@
 <?php
-// العنوان
-$_['heading_title']    = 'التغذيات (Feeds)';
+// En-tête
+$_['heading_title']    = 'Flux';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل التغذيات!';
-$_['text_list']        = 'قائمة التغذيات';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié les flux!';
+$_['text_list']        = 'Liste des flux';
 
-// الأعمدة
-$_['column_name']      = 'اسم تغذية المنتجات';
-$_['column_status']    = 'الحالة';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_name']      = 'Nom du flux de produits';
+$_['column_status']    = 'Statut';
+$_['column_action']    = 'Action';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل التغذيات!';
-$_['error_extension']  = 'تحذير: الإضافة غير موجودة!';
-?>
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les flux!';
+$_['error_extension']  = 'Attention: L\'extension n\'existe pas!';

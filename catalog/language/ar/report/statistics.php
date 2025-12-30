@@ -1,24 +1,24 @@
 <?php
-// En-tête
-$_['heading_title']         = 'Statistiques';
+// العنوان
+$_['heading_title']         = 'الإحصاءات';
 
-// Texte
-$_['text_success']          = 'Succès: Vous avez modifié les statistiques!';
-$_['text_list']             = 'Liste des statistiques';
-$_['text_order_sale']       = 'Ventes de commandes';
-$_['text_order_processing'] = 'Commandes en traitement';
-$_['text_order_complete']   = 'Commandes terminées';
-$_['text_order_other']      = 'Autres commandes';
-$_['text_returns']          = 'Retours';
-$_['text_customer']         = 'Clients en attente d\'approbation';
-$_['text_affiliate']        = 'Affiliés en attente d\'approbation';
-$_['text_product']          = 'Produits en rupture de stock';
-$_['text_review']           = 'Avis en attente';
+// النصوص
+$_['text_success']          = 'تم بنجاح: لقد قمت بتعديل الإحصاءات!';
+$_['text_list']             = 'قائمة الإحصاءات';
+$_['text_order_sale']       = 'مبيعات الطلبات';
+$_['text_order_processing'] = 'الطلبات قيد المعالجة';
+$_['text_order_complete']   = 'الطلبات المكتملة';
+$_['text_order_other']      = 'طلبات أخرى';
+$_['text_returns']          = 'العائدات';
+$_['text_customer']         = 'العملاء في انتظار الموافقة';
+$_['text_affiliate']        = 'الشركاء في انتظار الموافقة';
+$_['text_product']          = 'المنتجات نفدت من المخزون';
+$_['text_review']           = 'التعليقات في انتظار الموافقة';
 
-// Colonne
-$_['column_name']           = 'Nom des statistiques';
-$_['column_value']          = 'Valeur';
-$_['column_action']         = 'Action';
+// الأعمدة
+$_['column_name']           = 'اسم الإحصاءات';
+$_['column_value']          = 'القيمة';
+$_['column_action']         = 'الإجراء';
 
-// Erreur
-$_['error_permission']      = 'Avertissement: Vous n\'avez pas la permission de modifier les statistiques!';
+// الأخطاء
+$_['error_permission']      = 'تحذير: ليس لديك الإذن لتعديل الإحصاءات!';

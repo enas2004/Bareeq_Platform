@@ -1,10 +1,10 @@
 <?php
-// النصوص
-$_['text_list']        = 'لقد قمت بإنشاء قائمة المُصنعين';
-$_['text_next']        = 'لقد قمت بإنشاء %s من أصل %s مُصنع';
-$_['text_success']     = 'تم بنجاح: لقد قمت بتعديل المُصنعين!';
+// Texte
+$_['text_list']        = 'Vous avez généré la liste des fabricants';
+$_['text_next']        = 'Vous avez généré %s sur %s fabricants';
+$_['text_success']     = 'Succès: Vous avez modifié les fabricants!';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديك إذن لتعديل المُصنعين!';
-$_['error_directory']  = 'تحذير: المجلد %s غير موجود أو غير قابل للكتابة!';
-$_['error_file']       = 'تحذير: لا يمكن كتابة الملف %s!';
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'avez pas l\'autorisation de modifier les fabricants !';
+$_['error_directory']  = 'Attention: Le répertoire %s n\'existe pas ou n\'est pas accessible en écriture !';
+$_['error_file']       = 'Attention: Impossible d\'écrire le fichier %s !';

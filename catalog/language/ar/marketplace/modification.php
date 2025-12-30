@@ -1,26 +1,26 @@
 <?php
-// En-tête
-$_['heading_title']     = 'Modifications';
+// العنوان
+$_['heading_title']     = 'التعديلات';
 
-// Texte
-$_['text_success']      = 'Succès: Vous avez modifié les modifications!';
-$_['text_refresh']      = 'Chaque fois que vous activez / désactivez ou supprimez une modification, vous devez cliquer sur le bouton actualiser pour reconstruire le cache de vos modifications!';
-$_['text_list']         = 'Liste des modifications';
-$_['text_info']         = 'Informations sur les modifications';
+// النصوص
+$_['text_success']      = 'تم بنجاح: لقد تم تعديل التعديلات!';
+$_['text_refresh']      = 'في كل مرة تقوم فيها بتفعيل / تعطيل أو حذف تعديل، يجب النقر على زر التحديث لإعادة بناء ذاكرة التخزين المؤقت للتعديلات!';
+$_['text_list']         = 'قائمة التعديلات';
+$_['text_info']         = 'معلومات عن التعديلات';
 
-// Colonne
-$_['column_name']       = 'Nom de la modification';
-$_['column_author']     = 'Auteur';
-$_['column_version']    = 'Version';
-$_['column_status']     = 'Statut';
-$_['column_date_added'] = 'Date ajoutée';
-$_['column_action']     = 'Action';
+// الأعمدة
+$_['column_name']       = 'اسم التعديل';
+$_['column_author']     = 'المؤلف';
+$_['column_version']    = 'الإصدار';
+$_['column_status']     = 'الحالة';
+$_['column_date_added'] = 'تاريخ الإضافة';
+$_['column_action']     = 'الإجراء';
 
-// Entrée
-$_['entry_name']        = 'Nom de la modification';
-$_['entry_description'] = 'Description';
-$_['entry_code']        = 'Code';
+// الإدخالات
+$_['entry_name']        = 'اسم التعديل';
+$_['entry_description'] = 'الوصف';
+$_['entry_code']        = 'الكود';
 $_['entry_xml']         = 'XML';
 
-// Erreur
-$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les modifications!';
+// الأخطاء
+$_['error_permission']  = 'تحذير: ليس لديك إذن لتعديل التعديلات!';

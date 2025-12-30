@@ -1,30 +1,30 @@
 <?php
-// العنوان
-$_['heading_title']    = 'فئات الوزن';
+// En-tête
+$_['heading_title']    = 'Classes de Poids';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: تم تعديل فئات الوزن!';
-$_['text_list']        = 'قائمة فئات الوزن';
-$_['text_add']         = 'إضافة فئة وزن';
-$_['text_edit']        = 'تعديل فئة وزن';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié les classes de poids!';
+$_['text_list']        = 'Liste des Classes de Poids';
+$_['text_add']         = 'Ajouter une Classe de Poids';
+$_['text_edit']        = 'Modifier une Classe de Poids';
 
-// الأعمدة
-$_['column_title']     = 'اسم الوزن';
-$_['column_unit']      = 'وحدة الوزن';
-$_['column_value']     = 'القيمة';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_title']     = 'Titre du Poids';
+$_['column_unit']      = 'Unité de Poids';
+$_['column_value']     = 'Valeur';
+$_['column_action']    = 'Action';
 
-// الإدخالات
-$_['entry_title']      = 'اسم الوزن';
-$_['entry_unit']       = 'وحدة الوزن';
-$_['entry_value']      = 'القيمة';
+// Entrée
+$_['entry_title']      = 'Titre du Poids';
+$_['entry_unit']       = 'Unité de Poids';
+$_['entry_value']      = 'Valeur';
 
-// المساعدة
-$_['help_value']       = 'القيمة بالنسبة للوزن الافتراضي في الوحدة الحالية. ضع 1 إذا كانت هذه هي الوحدة الافتراضية.';
+// Aide
+$_['help_value']       = 'La valeur de votre poids par défaut dans l\'unité de poids actuelle. Définissez à 1 pour votre poids par défaut.';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل فئات الوزن!';
-$_['error_title']      = 'يجب أن يكون اسم الوزن بين 3 و32 حرفاً!';
-$_['error_unit']       = 'يجب أن تكون وحدة الوزن بين 1 و4 أحرف!';
-$_['error_default']    = 'تحذير: لا يمكن حذف فئة الوزن هذه لأنها محددة حالياً كفئة الوزن الافتراضية للمتجر!';
-$_['error_product']    = 'تحذير: لا يمكن حذف فئة الوزن هذه لأنها مرتبطة حالياً بـ %s منتج!';
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les classes de poids!';
+$_['error_title']      = 'Le titre du poids doit comporter entre 3 et 32 caractères!';
+$_['error_unit']       = 'L\'unité de poids doit comporter entre 1 et 4 caractères!';
+$_['error_default']    = 'Attention: Cette classe de poids ne peut pas être supprimée car elle est actuellement définie comme la classe de poids par défaut du magasin!';
+$_['error_product']    = 'Attention: Cette classe de poids ne peut pas être supprimée car elle est actuellement assignée à %s produits!';

@@ -1,25 +1,25 @@
 <?php
-// Heading
-$_['heading_title']     = 'خصائص المجموعة';
+// En-tête
+$_['heading_title']          = 'Groupes d\'Attributs';
 
-// Text
-$_['text_success']      = 'تم بنجاح: لقد قمت بتعديل مجموعات الخصائص!';
-$_['text_list']         = 'قائمة مجموعات الخصائص';
-$_['text_add']          = 'إضافة مجموعة خصائص';
-$_['text_edit']         = 'تعديل مجموعة الخصائص';
+// Texte
+$_['text_success']           = 'Succès: Vous avez modifié les groupes d\'attributs!';
+$_['text_list']              = 'Liste des Groupes d\'Attributs';
+$_['text_add']               = 'Ajouter un Groupe d\'Attributs';
+$_['text_edit']              = 'Modifier le Groupe d\'Attributs';
 
-// Column
-$_['column_name']       = 'اسم مجموعة الخصائص';
-$_['column_sort_order'] = 'ترتيب الفرز';
-$_['column_action']     = 'الإجراء';
+// Colonne
+$_['column_name']            = 'Nom du Groupe d\'Attributs';
+$_['column_sort_order']      = 'Ordre de Tri';
+$_['column_action']          = 'Action';
 
-// Entry
-$_['entry_name']        = 'اسم مجموعة الخصائص';
-$_['entry_sort_order']  = 'ترتيب الفرز';
+// Entrée
+$_['entry_name']             = 'Nom du Groupe d\'Attributs';
+$_['entry_sort_order']       = 'Ordre de Tri';
 
-// Error
-$_['error_warning']     = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
-$_['error_permission']  = 'تحذير: ليس لديك صلاحية لتعديل مجموعات الخصائص!';
-$_['error_name']        = 'يجب أن يكون اسم مجموعة الخصائص بين 1 و 64 حرفًا!';
-$_['error_attribute']   = 'تحذير: لا يمكن حذف مجموعة الخصائص هذه لأنها مرتبطة حاليًا بـ %s من الخصائص!';
-$_['error_product']     = 'تحذير: لا يمكن حذف مجموعة الخصائص هذه لأنها مرتبطة حاليًا بـ %s من المنتجات!';
+// Erreur
+$_['error_warning']          = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
+$_['error_permission']       = 'Attention: Vous n\'avez pas l\'autorisation de modifier les groupes d\'attributs!';
+$_['error_name']             = 'Le nom du groupe d\'attributs doit contenir entre 1 et 64 caractères!';
+$_['error_attribute']        = 'Attention: Cet attribut ne peut pas être supprimé car il est actuellement assigné à %s attributs!';
+$_['error_product']          = 'Attention: Ce groupe d\'attributs ne peut pas être supprimé car il est actuellement assigné à %s produits!';

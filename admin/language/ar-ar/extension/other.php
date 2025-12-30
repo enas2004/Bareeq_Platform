@@ -1,17 +1,16 @@
 <?php
-// العنوان
-$_['heading_title']    = 'إضافات أخرى';
+// En-tête
+$_['heading_title']    = 'Autres';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل إضافة أخرى!';
-$_['text_list']        = 'قائمة الإضافات الأخرى';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié une autre extension!';
+$_['text_list']        = 'Liste des autres extensions';
 
-// الأعمدة
-$_['column_name']      = 'اسم الإضافة الأخرى';
-$_['column_status']    = 'الحالة';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_name']      = 'Nom de l\'autre extension';
+$_['column_status']    = 'Statut';
+$_['column_action']    = 'Action';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل إضافة أخرى!';
-$_['error_extension']  = 'تحذير: الإضافة غير موجودة!';
-?>
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier une autre extension!';
+$_['error_extension']  = 'Attention: L\'extension n\'existe pas!';

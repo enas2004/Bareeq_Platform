@@ -1,30 +1,31 @@
 <?php
-// En-tête
-$_['heading_title']     = 'Groupes de Clients';
+// العنوان
+$_['heading_title']     = 'مجموعات العملاء';
 
-// Texte
-$_['text_success']      = 'Succès: Vous avez modifié les groupes de clients!';
-$_['text_list']         = 'Liste des Groupes de Clients';
-$_['text_add']          = 'Ajouter un Groupe de Clients';
-$_['text_edit']         = 'Modifier le Groupe de Clients';
+// النصوص
+$_['text_success']      = 'تم بنجاح: لقد قمتِ بتعديل مجموعات العملاء!';
+$_['text_list']         = 'قائمة مجموعات العملاء';
+$_['text_add']          = 'إضافة مجموعة عملاء';
+$_['text_edit']         = 'تعديل مجموعة العملاء';
 
-// Colonne
-$_['column_name']       = 'Nom du Groupe de Clients';
-$_['column_sort_order'] = 'Ordre de Tri';
-$_['column_action']     = 'Action';
+// الأعمدة
+$_['column_name']       = 'اسم مجموعة العملاء';
+$_['column_sort_order'] = 'ترتيب الفرز';
+$_['column_action']     = 'الإجراء';
 
-// Entrée
-$_['entry_name']        = 'Nom du Groupe de Clients';
-$_['entry_description'] = 'Description';
-$_['entry_approval']    = 'Approuver les Nouveaux Clients';
-$_['entry_sort_order']  = 'Ordre de Tri';
+// المدخلات
+$_['entry_name']        = 'اسم مجموعة العملاء';
+$_['entry_description'] = 'الوصف';
+$_['entry_approval']    = 'يتطلب موافقة العملاء الجدد';
+$_['entry_sort_order']  = 'ترتيب الفرز';
 
-// Aide
-$_['help_approval']     = 'Les clients doivent être approuvés par un administrateur avant de pouvoir se connecter.';
+// المساعدة
+$_['help_approval']     = 'يجب أن تتم موافقة العملاء من قبل الإدارة قبل أن يتمكنوا من تسجيل الدخول.';
 
-// Erreur
-$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les groupes de clients!';
-$_['error_name']        = 'Le nom du groupe de clients doit contenir entre 3 et 32 caractères!';
-$_['error_default']     = 'Attention: Ce groupe de clients ne peut pas être supprimé car il est actuellement défini comme groupe de clients par défaut du magasin!';
-$_['error_store']       = 'Attention: Ce groupe de clients ne peut pas être supprimé car il est actuellement attribué à %s magasins!';
-$_['error_customer']    = 'Attention: Ce groupe de clients ne peut pas être supprimé car il est actuellement attribué à %s clients!';
+// الأخطاء
+$_['error_permission']  = 'تحذير: ليس لديكِ صلاحية لتعديل مجموعات العملاء!';
+$_['error_name']        = 'يجب أن يحتوي اسم مجموعة العملاء على 3 إلى 32 حرفًا!';
+$_['error_default']     = 'تحذير: لا يمكن حذف مجموعة العملاء هذه لأنها المجموعة الافتراضية للمتجر!';
+$_['error_store']       = 'تحذير: لا يمكن حذف مجموعة العملاء هذه لأنها مرتبطة حاليًا بـ %s متجر!';
+$_['error_customer']    = 'تحذير: لا يمكن حذف مجموعة العملاء هذه لأنها مرتبطة حاليًا بـ %s عميل!';
+?>

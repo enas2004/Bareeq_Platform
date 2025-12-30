@@ -1,4 +1,4 @@
-<div id="carousel-banner-{{ module }}" class="custom-banner-box">
+{# <div id="carousel-banner-{{ module }}" class="custom-banner-box">
   {% if banners %}
     {% set banner = banners[0] %}
 
@@ -88,6 +88,109 @@
         </p>
       </article>
 
+    </div>
+  </div>
+</section> #}
+
+
+
+{# تعريف الترجمة في نفس الملف #}
+{% set lang = 'ar' %} {# غيري هذا إلى 'en' لتجربة اللغة الإنجليزية #}
+
+{% set translations = {
+  'ar': {
+    'banner_default_desc': 'استكشف عالماً جديداً من التسوق الإلكتروني في الواقع الافتراضي. اختبر تجربة تسوق فريدة تجمع بين الابتكار والخيال.',
+    'start_shopping': 'ابدأ التسوق الآن',
+    'learn_more': 'تعرف علينا',
+    'features_badge': 'المميزات',
+    'features_title': 'لماذا تختار بريق؟',
+    'features_subtitle': 'نقدم لك تجربة تسوق فريدة تجمع بين التكنولوجيا المتقدمة والراحة.',
+    'feature1_title': 'تجربة ثلاثية الأبعاد',
+    'feature1_text': 'استكشف المنتجات في بيئة ثلاثية الأبعاد تفاعلية.',
+    'feature2_title': 'تسليم فوري',
+    'feature2_text': 'احصل على منتجاتك الرقمية فوراً بعد الشراء.',
+    'feature3_title': 'أمان متقدم',
+    'feature3_text': 'نحمي بياناتك بأحدث تقنيات التشفير.',
+    'feature4_title': 'دعم على مدار الساعة',
+    'feature4_text': 'فريق دعم متاح 24/7 لمساعدتك في أي وقت.'
+  },
+  'en': {
+    'banner_default_desc': 'Explore a new world of online shopping in virtual reality. Experience a unique shopping journey combining innovation and imagination.',
+    'start_shopping': 'Start Shopping',
+    'learn_more': 'Learn More',
+    'features_badge': 'Features',
+    'features_title': 'Why Choose Bareeq?',
+    'features_subtitle': 'We offer a unique shopping experience combining advanced technology and convenience.',
+    'feature1_title': '3D Experience',
+    'feature1_text': 'Explore products in an interactive 3D environment.',
+    'feature2_title': 'Instant Delivery',
+    'feature2_text': 'Get your digital products instantly after purchase.',
+    'feature3_title': 'Advanced Security',
+    'feature3_text': 'We protect your data with the latest encryption technologies.',
+    'feature4_title': '24/7 Support',
+    'feature4_text': 'Support team available 24/7 to assist you anytime.'
+  }
+} %}
+
+{% set t = translations[lang] %}
+
+<div id="carousel-banner-{{ module }}" class="custom-banner-box">
+  {% if banners %}
+    {% set banner = banners[0] %}
+
+    <div class="banner-content row align-items-center">
+      <div class="col-lg-6 col-md-12 banner-image text-center">
+        <img src="{{ banner.image }}" alt="{{ banner.title }}" class="img-fluid"/>
+      </div>
+
+      <div class="col-lg-6 col-md-12 banner-text text-center text-lg-start">
+        <h2 class="banner-title">{{ banner.title }}</h2>
+
+        <p class="banner-desc">
+          {{ banner.description ?: t.banner_default_desc }}
+        </p>
+
+        {% if banner.link %}
+          <a href="{{ banner.link }}" class="banner-btn">{{ t.start_shopping }}</a>
+        {% endif %}
+
+        <a href="#" class="banner-btn-outline">{{ t.learn_more }}</a>
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<!-- المميزات - لماذا تختار بريق؟ -->
+<section class="features-section" id="features">
+  <div class="features-container">
+    <div class="features-badge">{{ t.features_badge }}</div>
+    <h2 class="features-title">{{ t.features_title }}</h2>
+    <p class="features-subtitle">{{ t.features_subtitle }}</p>
+
+    <div class="features-grid">
+      <article class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-vr-cardboard"></i></div>
+        <h3 class="feature-title">{{ t.feature1_title }}</h3>
+        <p class="feature-text">{{ t.feature1_text }}</p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-bolt"></i></div>
+        <h3 class="feature-title">{{ t.feature2_title }}</h3>
+        <p class="feature-text">{{ t.feature2_text }}</p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-shield-halved"></i></div>
+        <h3 class="feature-title">{{ t.feature3_title }}</h3>
+        <p class="feature-text">{{ t.feature3_text }}</p>
+      </article>
+
+      <article class="feature-card">
+        <div class="feature-icon"><i class="fa-solid fa-headset"></i></div>
+        <h3 class="feature-title">{{ t.feature4_title }}</h3>
+        <p class="feature-text">{{ t.feature4_text }}</p>
+      </article>
     </div>
   </div>
 </section>

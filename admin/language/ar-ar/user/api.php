@@ -1,32 +1,32 @@
 <?php
-// العنوان
-$_['heading_title']        = 'واجهات برمجة التطبيقات (APIs)';
+// En-tête
+$_['heading_title']        = 'APIs';
 
-// النصوص
-$_['text_success']         = 'تم بنجاح: لقد عدّلت واجهات برمجة التطبيقات!';
-$_['text_list']            = 'قائمة واجهات برمجة التطبيقات';
-$_['text_add']             = 'إضافة API';
-$_['text_edit']            = 'تعديل API';
-$_['text_ip']              = 'يمكنك إنشاء قائمة بعناوين IP المسموح لها بالوصول إلى API أدناه. عنوان IP الحالي الخاص بك هو %s';
-$_['text_history']         = 'السجل';
+// Texte
+$_['text_success']         = 'Succès: Vous avez modifié les APIs!';
+$_['text_list']            = 'Liste des APIs';
+$_['text_add']             = 'Ajouter une API';
+$_['text_edit']            = 'Modifier une API';
+$_['text_ip']              = 'Ci-dessous, vous pouvez créer une liste d\'adresses IP autorisées à accéder à l\'API. Votre IP actuelle est %s';
+$_['text_history']         = 'Historique';
 
-// الأعمدة
-$_['column_username']      = 'اسم مستخدم API';
-$_['column_status']        = 'الحالة';
+// Colonne
+$_['column_username']      = 'Nom d\'utilisateur API';
+$_['column_status']        = 'Statut';
 $_['column_ip']            = 'IP';
-$_['column_call']          = 'الطلب';
-$_['column_date_added']    = 'تاريخ الإضافة';
-$_['column_date_modified'] = 'تاريخ التعديل';
-$_['column_action']        = 'إجراء';
+$_['column_call']          = 'Requête';
+$_['column_date_added']    = 'Date d\'ajout';
+$_['column_date_modified'] = 'Date de modification';
+$_['column_action']        = 'Action';
 
-// الإدخالات
-$_['entry_username']       = 'اسم مستخدم API';
-$_['entry_key']            = 'مفتاح API';
-$_['entry_status']         = 'الحالة';
+// Entrée
+$_['entry_username']       = 'Nom d\'utilisateur API';
+$_['entry_key']            = 'Clé API';
+$_['entry_status']         = 'Statut';
 $_['entry_ip']             = 'IP';
 
-// الأخطاء
-$_['error_permission']     = 'تحذير: ليس لديك إذن لتعديل واجهات برمجة التطبيقات!';
-$_['error_username']       = 'يجب أن يحتوي اسم مستخدم API على 3 إلى 20 حرفًا!';
-$_['error_key']            = 'يجب أن يحتوي مفتاح API على 64 إلى 256 حرفًا!';
-$_['error_ip']             = 'يجب إضافة عنوان IP واحد على الأقل إلى القائمة المسموح بها!';
+// Erreur
+$_['error_permission']     = 'Attention: Vous n\'avez pas la permission de modifier les APIs!';
+$_['error_username']       = 'Le nom d\'utilisateur API doit contenir entre 3 et 20 caractères!';
+$_['error_key']            = 'La clé API doit contenir entre 64 et 256 caractères!';
+$_['error_ip']             = 'Vous devez ajouter au moins une IP à la liste autorisée!';

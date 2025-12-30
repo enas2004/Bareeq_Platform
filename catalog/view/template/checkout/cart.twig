@@ -1,4 +1,6 @@
 {{ header }}
+
+
 <div id="checkout-cart" class="container">
   <ul class="breadcrumb">
     {% for breadcrumb in breadcrumbs %}
@@ -81,6 +83,7 @@ $('#shopping-cart').on('submit', '#output-cart form', function(e) {
         }
     });
 });
+
 
 $('#shopping-cart').on('click', '.btn-danger', function(e) {
     e.preventDefault();

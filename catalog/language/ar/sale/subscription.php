@@ -1,82 +1,82 @@
 <?php
-// En-tête
-$_['heading_title']              = 'Abonnements';
+// العنوان
+$_['heading_title']              = 'الاشتراكات';
 
-// Texte
-$_['text_success']               = 'Succès: Vous avez modifié les abonnements!';
-$_['text_list']                  = 'Liste des Abonnements';
-$_['text_add']                   = 'Ajouter un Abonnement';
-$_['text_edit']                  = 'Abonnement (#%s)';
-$_['text_filter']                = 'Filtrer';
-$_['text_date_added']            = 'Date d\'Ajout';
-$_['text_order_id']              = 'ID de Commande';
-$_['text_order']                 = 'Commande';
-$_['text_product_add']           = 'Ajouter un Produit';
-$_['text_model'] 			     = 'Modèle';
-$_['text_subscription']          = 'Abonnement';
-$_['text_date_next']             = 'Prochaine Date';
-$_['text_remaining']             = 'Restant';
-$_['text_subscription_trial']    = '%s tous les %d %s(s) pendant %d paiement(s) puis ';
-$_['text_subscription_duration'] = '%s tous les %d %s(s) pendant %d paiement(s)';
-$_['text_subscription_cancel']   = '%s tous les %d %s(s) jusqu\'à annulation';
-$_['text_cancel']                = 'Jusqu\'à Annulation';
-$_['text_day']                   = 'Jour';
-$_['text_week']                  = 'Semaine';
-$_['text_semi_month']            = 'Demi-Mois';
-$_['text_month']                 = 'Mois';
-$_['text_year']                  = 'Année';
-$_['text_payment_method']        = 'Méthode de Paiement';
-$_['text_payment']               = 'Veuillez svp sélectionner la préférence de la méthode de paiement pour cet abonnement.';
-$_['text_shipping_method']       = 'Méthode d\'Expédition';
-$_['text_shipping']              = 'Veuillez svp sélectionner la préférence de la méthode d\'Expédition pour cet abonnement.';
-$_['text_history']               = 'Historique';
-$_['text_history_add']           = 'Ajouter à l\'Historique';
-$_['text_log']                   = 'Rapports';
+// النصوص
+$_['text_success']               = 'تم بنجاح: لقد قمت بتعديل الاشتراكات!';
+$_['text_list']                  = 'قائمة الاشتراكات';
+$_['text_add']                   = 'إضافة اشتراك';
+$_['text_edit']                  = 'اشتراك (#%s)';
+$_['text_filter']                = 'تصفية';
+$_['text_date_added']            = 'تاريخ الإضافة';
+$_['text_order_id']              = 'رقم الطلب';
+$_['text_order']                 = 'الطلب';
+$_['text_product_add']           = 'إضافة منتج';
+$_['text_model']                 = 'الطراز';
+$_['text_subscription']          = 'الاشتراك';
+$_['text_date_next']             = 'التاريخ التالي';
+$_['text_remaining']             = 'المتبقي';
+$_['text_subscription_trial']    = '%s كل %d %s لمدة %d دفعة(ات) ثم ';
+$_['text_subscription_duration'] = '%s كل %d %s لمدة %d دفعة(ات)';
+$_['text_subscription_cancel']   = '%s كل %d %s حتى الإلغاء';
+$_['text_cancel']                = 'حتى الإلغاء';
+$_['text_day']                   = 'يوم';
+$_['text_week']                  = 'أسبوع';
+$_['text_semi_month']            = 'نصف شهر';
+$_['text_month']                 = 'شهر';
+$_['text_year']                  = 'سنة';
+$_['text_payment_method']        = 'طريقة الدفع';
+$_['text_payment']               = 'يرجى اختيار طريقة الدفع المفضلة لهذا الاشتراك.';
+$_['text_shipping_method']       = 'طريقة الشحن';
+$_['text_shipping']              = 'يرجى اختيار طريقة الشحن المفضلة لهذا الاشتراك.';
+$_['text_history']               = 'السجل';
+$_['text_history_add']           = 'إضافة إلى السجل';
+$_['text_log']                   = 'التقارير';
 
-// Colonne
-$_['column_subscription_id']     = 'ID d\'Abonnement';
-$_['column_order_id']            = 'ID de Commande';
-$_['column_customer']            = 'Client';
-$_['column_comment']             = 'Commentaire';
-$_['column_notify']              = 'Client Notifié';
-$_['column_status']              = 'Statut';
-$_['column_date_added']          = 'Date d\'Ajout';
-$_['column_product']             = 'Détails du Produit';
-$_['column_model']               = 'Modèle';
-$_['column_quantity']            = 'Quantité';
-$_['column_trial_price']         = 'Prix d\'Essai';
-$_['column_price']               = 'Prix Unitaire';
-$_['column_amount']              = 'Montant';
-$_['column_code']                = 'Code';
-$_['column_total']               = 'Total';
-$_['column_description']         = 'Description';
-$_['column_action']              = 'Action';
+// الأعمدة
+$_['column_subscription_id']     = 'رقم الاشتراك';
+$_['column_order_id']            = 'رقم الطلب';
+$_['column_customer']            = 'العميل';
+$_['column_comment']             = 'تعليق';
+$_['column_notify']              = 'تم إشعار العميل';
+$_['column_status']              = 'الحالة';
+$_['column_date_added']          = 'تاريخ الإضافة';
+$_['column_product']             = 'تفاصيل المنتج';
+$_['column_model']               = 'الطراز';
+$_['column_quantity']            = 'الكمية';
+$_['column_trial_price']         = 'سعر التجربة';
+$_['column_price']               = 'السعر لكل وحدة';
+$_['column_amount']              = 'المبلغ';
+$_['column_code']                = 'الكود';
+$_['column_total']               = 'الإجمالي';
+$_['column_description']         = 'الوصف';
+$_['column_action']              = 'الإجراء';
 
-// Entrée
-$_['entry_subscription_id']      = 'ID d\'Abonnement';
-$_['entry_order_id']             = 'ID de Commande';
-$_['entry_customer']             = 'Client';
-$_['entry_store']                = 'Magasin';
-$_['entry_language']             = 'Langage';
-$_['entry_currency']             = 'Devise';
-$_['entry_subscription_plan']    = 'Plan d\'Abonnement';
-$_['entry_date_next']            = 'Prochaine Date';
-$_['entry_comment']              = 'Commentaire';
-$_['entry_notify']               = 'Notifier le Client';
-$_['entry_date_from']            = 'Date de Début';
-$_['entry_date_to']              = 'Date de Fin';
-$_['entry_subscription_status']  = 'Statut de l\'Abonnement';
-$_['entry_product']              = 'Veuillez Choisir le Produit';
-$_['entry_option']               = 'Veuillez Choisir les Options';
-$_['entry_quantity']             = 'Quantité';
-$_['entry_payment_address']      = 'Adresse de Paiement';
-$_['entry_shipping_address']     = 'Addresse d\'Expédition';
+// الإدخالات
+$_['entry_subscription_id']      = 'رقم الاشتراك';
+$_['entry_order_id']             = 'رقم الطلب';
+$_['entry_customer']             = 'العميل';
+$_['entry_store']                = 'المتجر';
+$_['entry_language']             = 'اللغة';
+$_['entry_currency']             = 'العملة';
+$_['entry_subscription_plan']    = 'خطة الاشتراك';
+$_['entry_date_next']            = 'التاريخ التالي';
+$_['entry_comment']              = 'تعليق';
+$_['entry_notify']               = 'إشعار العميل';
+$_['entry_date_from']            = 'تاريخ البداية';
+$_['entry_date_to']              = 'تاريخ النهاية';
+$_['entry_subscription_status']  = 'حالة الاشتراك';
+$_['entry_product']              = 'اختر المنتج';
+$_['entry_option']               = 'اختر الخيارات';
+$_['entry_quantity']             = 'الكمية';
+$_['entry_payment_address']      = 'عنوان الدفع';
+$_['entry_shipping_address']     = 'عنوان الشحن';
 
-// Onglet
-$_['tab_order']                  = 'Commandes';
+// التبويبات
+$_['tab_order']                  = 'الطلبات';
 
-// Erreur
-$_['error_permission']           = 'Attention: Vous n\'avez pas la permission de modifier les abonnements!';
-$_['error_subscription_status']  = 'Attention: Le statut de l\'abonnement doit être sélectionné!';
-$_['error_payment_method']       = 'Attention: La méthode de paiement n\'existe pas!';
-$_['error_subscription']         = 'Attention: L\'abonnement n\'est pas encore ajouté!';
+// الأخطاء
+$_['error_permission']           = 'تحذير: ليس لديك إذن لتعديل الاشتراكات!';
+$_['error_subscription_status']  = 'تحذير: يجب تحديد حالة الاشتراك!';
+$_['error_payment_method']       = 'تحذير: طريقة الدفع غير موجودة!';
+$_['error_subscription']         = 'تحذير: لم يتم إضافة الاشتراك بعد!';

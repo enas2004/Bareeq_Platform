@@ -1,13 +1,13 @@
 <?php
-// العنوان
-$_['heading_title']    = 'سجل الأخطاء';
+// En-tête
+$_['heading_title']    = 'Journal des erreurs';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: لقد تم مسح سجل الأخطاء الخاص بك بنجاح!';
-$_['text_list']        = 'قائمة الأخطاء';
+// Texte
+$_['text_success']     = 'Succès: Vous avez effacé avec succès votre journal des erreurs!';
+$_['text_list']        = 'Liste des erreurs';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديك إذن لمسح سجل الأخطاء!';
-$_['error_file']       = 'تحذير: الملف %s غير موجود!';
-$_['error_size']       = 'تحذير: حجم ملف سجل الأخطاء %s هو %s!';
-$_['error_empty']      = 'تحذير: الملف %s فارغ!';
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'avez pas la permission d\'effacer le journal des erreurs!';
+$_['error_file']       = 'Attention: Le fichier %s est introuvable!';
+$_['error_size']       = 'Attention: Le fichier journal des erreurs %s est de taille %s!';
+$_['error_empty']      = 'Attention: Le fichier journal %s est vide!';

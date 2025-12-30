@@ -1,30 +1,30 @@
 <?php
-// العنوان
-$_['heading_title']    = 'فئات الطول';
+// En-tête
+$_['heading_title']    = 'Classes de Longueur';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: تم تعديل فئات الطول!';
-$_['text_list']        = 'قائمة فئات الطول';
-$_['text_add']         = 'إضافة فئة طول';
-$_['text_edit']        = 'تعديل فئة طول';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié les classes de longueur!';
+$_['text_list']        = 'Liste des Classes de Longueur';
+$_['text_add']         = 'Ajouter une Classe de Longueur';
+$_['text_edit']        = 'Modifier une Classe de Longueur';
 
-// الأعمدة
-$_['column_title']     = 'اسم الطول';
-$_['column_unit']      = 'وحدة الطول';
-$_['column_value']     = 'القيمة';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_title']     = 'Titre de la Longueur';
+$_['column_unit']      = 'Unité de Longueur';
+$_['column_value']     = 'Valeur';
+$_['column_action']    = 'Action';
 
-// الإدخالات
-$_['entry_title']      = 'اسم الطول';
-$_['entry_unit']       = 'وحدة الطول';
-$_['entry_value']      = 'القيمة';
+// Entrée
+$_['entry_title']      = 'Titre de la Longueur';
+$_['entry_unit']       = 'Unité de Longueur';
+$_['entry_value']      = 'Valeur';
 
-// المساعدة
-$_['help_value']       = 'القيمة بالنسبة لطولك الافتراضي في الوحدة الحالية. ضع 1 إذا كانت هذه هي الوحدة الافتراضية.';
+// Aide
+$_['help_value']       = 'La valeur de votre longueur par défaut dans l\'unité de longueur actuelle. Réglez sur 1 pour votre longueur par défaut.';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل فئات الطول!';
-$_['error_title']      = 'يجب أن يكون اسم الطول بين 3 و32 حرفاً!';
-$_['error_unit']       = 'يجب أن تكون وحدة الطول بين 1 و4 أحرف!';
-$_['error_default']    = 'تحذير: لا يمكن حذف فئة الطول هذه لأنها محددة حالياً كفئة الطول الافتراضية للمتجر!';
-$_['error_product']    = 'تحذير: لا يمكن حذف فئة الطول هذه لأنها مرتبطة حالياً بـ %s منتج!';
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les classes de longueur!';
+$_['error_title']      = 'Le titre de la longueur doit contenir entre 3 et 32 caractères!';
+$_['error_unit']       = 'L\'unité de longueur doit contenir entre 1 et 4 caractères!';
+$_['error_default']    = 'Attention: Cette classe de longueur ne peut pas être supprimée car elle est actuellement définie comme classe de longueur par défaut du magasin!';
+$_['error_product']    = 'Attention: Cette classe de longueur ne peut pas être supprimée car elle est actuellement attribuée à %s produits!';

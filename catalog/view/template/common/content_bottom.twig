@@ -1,3 +1,112 @@
-{% for module in modules %}
-{{ module }}
-{% endfor %}
+
+{% if stores %}
+   <h2 class="stores-heading">المتاجر</h2>
+  <div class="stores row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+   
+    {% for store in stores %}
+      <div class="col mb-3">
+        <div class="store-item card h-100 text-center">
+
+          <a href="{{ store.url }}" target="_blank" class="text-decoration-none">
+
+            {% if store.thumb %}
+              <img src="{{ store.thumb }}" 
+                   alt="{{ store.name }}" 
+                   class="card-img-top img-fluid"/>
+            {% endif %}
+
+            <div class="card-body">
+              <h3 class="h6 card-title">{{ store.name }}</h3>
+            </div>
+
+          </a>
+
+        </div>
+      </div>
+    {% endfor %}
+
+  </div>
+{% endif %}
+
+{# ===== قسم النشرة الإخبارية ===== #}
+<section class="newsletter-section">
+  <div class="newsletter-container">
+
+    <div class="newsletter-icon-wrap">
+      <i class="fa-regular fa-envelope"></i>
+    </div>
+
+    <h2 class="newsletter-title">اشترك في النشرة الإخبارية</h2>
+
+    <p class="newsletter-subtitle">
+      كن أول من يعرف عن المنتجات الجديدة والعروض الحصرية في عالمنا الافتراضي.
+    </p>
+
+    <form action="{{ newsletter_action|default('#') }}" method="post" class="newsletter-form">
+      <div class="newsletter-input-wrap">
+        <input type="email"
+               name="email"
+               class="newsletter-input"
+               placeholder="أدخل بريدك الإلكتروني"
+               required>
+      </div>
+
+      <button type="submit" class="newsletter-btn">
+        <i class="fa-regular fa-paper-plane"></i>
+        <span>اشترك الآن</span>
+      </button>
+    </form>
+
+    <p class="newsletter-note">
+      لن نشارك بريدك الإلكتروني مع أي جهة خارجية.
+    </p>
+
+  </div>
+</section>
+
+<script>
+//   document.addEventListener('DOMContentLoaded', function () {
+//     // نحدد هل الصفحة هي الهوم ولا لا
+//     var isHome =
+//       window.location.pathname === '/' ||                       // أغلب المواقع
+//       window.location.search.indexOf('route=common/home') !== -1; // نمط أوبن كارت
+
+//     // لو مش هوم نحذف أقسام المتاجر + النشرة
+//     if (!isHome) {
+//       var selectors = ['.stores-section', '.stores', '.newsletter-section'];
+
+//       selectors.forEach(function (sel) {
+//         document.querySelectorAll(sel).forEach(function (el) {
+//           el.remove(); // يشيل العنصر بالكامل من الصفحة
+//         });
+//       });
+//     }
+//   });
+// </script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var isHome =
+      window.location.pathname === '/' ||
+      window.location.search.indexOf('route=common/home') !== -1;
+
+    if (!isHome) {
+      var selectors = [
+        '.stores-heading',        // العنوان "المتاجر"
+        '.stores-section',        // لو عندك ديف يغلف المتاجر
+        '.stores',                // الشبكة نفسها
+        '.newsletter-section'     // النشرة الإخبارية
+      ];
+
+      selectors.forEach(function (sel) {
+        document.querySelectorAll(sel).forEach(function (el) {
+          el.remove();
+        });
+      });
+    }
+  });
+</script>
+
+
+
+

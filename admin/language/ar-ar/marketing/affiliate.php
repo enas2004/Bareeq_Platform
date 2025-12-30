@@ -1,82 +1,82 @@
 <?php
-// العنوان
-$_['heading_title']             = 'المسوقون بالعمولة';
+// En-tête
+$_['heading_title']             = 'Affiliés';
 
-// النصوص
-$_['text_success']              = 'تم بنجاح: لقد قمت بتعديل بيانات المسوقين بالعمولة!';
-$_['text_list']                 = 'قائمة المسوقين بالعمولة';
-$_['text_add']                  = 'إضافة مسوق بالعمولة';
-$_['text_edit']                 = 'تعديل مسوق بالعمولة';
-$_['text_affiliate']            = 'تفاصيل المسوق';
-$_['text_payment']              = 'تفاصيل الدفع';
-$_['text_other']                = 'أخرى';
-$_['text_balance']              = 'الرصيد';
-$_['text_cheque']               = 'شيك';
-$_['text_paypal']               = 'بايبال';
-$_['text_bank']                 = 'تحويل بنكي';
-$_['text_history']              = 'السجل';
-$_['text_history_add']          = 'إضافة سجل';
-$_['text_transaction']          = 'المعاملات';
-$_['text_transaction_add']      = 'إضافة معاملة';
-$_['text_report']               = 'التقارير';
-$_['text_filter']               = 'تصفية';
-$_['text_payment_cheque']       = 'الدفع بالشيك';
-$_['text_payment_paypal']       = 'الدفع عبر بايبال';
-$_['text_payment_bank']         = 'الدفع بالتحويل البنكي';
+// Texte
+$_['text_success']              = 'Succès: Vous avez modifié les affiliés!';
+$_['text_list']                 = 'Liste des affiliés';
+$_['text_add']                  = 'Ajouter un affilié';
+$_['text_edit']                 = 'Modifier un affilié';
+$_['text_affiliate']            = 'Détails de l\'affilié';
+$_['text_payment']              = 'Détails du paiement';
+$_['text_other']                = 'Autre';
+$_['text_balance']              = 'Solde';
+$_['text_cheque']               = 'Chèque';
+$_['text_paypal']               = 'PayPal';
+$_['text_bank']                 = 'Virement bancaire';
+$_['text_history']              = 'Historique';
+$_['text_history_add']          = 'Ajouter un historique';
+$_['text_transaction']          = 'Transactions';
+$_['text_transaction_add']      = 'Ajouter une transaction';
+$_['text_report']               = 'Rapports';
+$_['text_filter']               = 'Filtrer';
+$_['text_payment_cheque']       = 'Paiement par chèque';
+$_['text_payment_paypal']       = 'Paiement PayPal';
+$_['text_payment_bank']         = 'Paiement par virement bancaire';
 
-// الأعمدة
-$_['column_name']               = 'اسم العميل';
-$_['column_tracking']           = 'رمز التتبع';
-$_['column_commission']         = 'العمولة';
-$_['column_balance']            = 'الرصيد';
-$_['column_status']             = 'الحالة';
+// Colonne
+$_['column_name']               = 'Nom du client';
+$_['column_tracking']           = 'Suivi';
+$_['column_commission']         = 'Commission';
+$_['column_balance']            = 'Solde';
+$_['column_status']             = 'Statut';
 $_['column_ip']                 = 'IP';
-$_['column_account']            = 'الحسابات';
-$_['column_store']              = 'المتجر';
-$_['column_country']            = 'الدولة';
-$_['column_date_added']         = 'تاريخ الإضافة';
-$_['column_comment']            = 'التعليقات';
-$_['column_description']        = 'الوصف';
-$_['column_amount']             = 'المبلغ';
-$_['column_action']             = 'الإجراء';
+$_['column_account']            = 'Comptes';
+$_['column_store']              = 'Magasin';
+$_['column_country']            = 'Pays';
+$_['column_date_added']         = 'Date d\'ajout';
+$_['column_comment']            = 'Commentaire';
+$_['column_description']        = 'Description';
+$_['column_amount']             = 'Montant';
+$_['column_action']             = 'Action';
 
-// الإدخالات
-$_['entry_customer']            = 'العميل';
-$_['entry_company']             = 'الشركة';
-$_['entry_tracking']            = 'رمز التتبع';
-$_['entry_website']             = 'الموقع الإلكتروني';
-$_['entry_commission']          = 'العمولة (%)';
-$_['entry_tax']                 = 'الرقم الضريبي';
-$_['entry_payment_method']      = 'طريقة الدفع';
-$_['entry_cheque']              = 'اسم مستفيد الشيك';
-$_['entry_paypal']              = 'البريد الإلكتروني لحساب بايبال';
-$_['entry_bank_name']           = 'اسم البنك';
-$_['entry_bank_branch_number']  = 'رقم الفرع/ABA/BSB';
-$_['entry_bank_swift_code']     = 'رمز SWIFT';
-$_['entry_bank_account_name']   = 'اسم الحساب';
-$_['entry_bank_account_number'] = 'رقم الحساب';
-$_['entry_comment']             = 'تعليق';
-$_['entry_description']         = 'الوصف';
-$_['entry_amount']              = 'المبلغ';
-$_['entry_date_from']           = 'تاريخ البدء';
-$_['entry_date_to']             = 'تاريخ الانتهاء';
-$_['entry_status']              = 'الحالة';
-$_['entry_limit']               = 'الحد';
+// Entrée
+$_['entry_customer']            = 'Client';
+$_['entry_company']             = 'Entreprise';
+$_['entry_tracking']            = 'Code de suivi';
+$_['entry_website']             = 'Site Web';
+$_['entry_commission']          = 'Commission (%)';
+$_['entry_tax']                 = 'Numéro d\'identification fiscale';
+$_['entry_payment_method']      = 'Mode de paiement';
+$_['entry_cheque']              = 'Nom du bénéficiaire du chèque';
+$_['entry_paypal']              = 'Compte e-mail PayPal';
+$_['entry_bank_name']           = 'Nom de la banque';
+$_['entry_bank_branch_number']  = 'Numéro ABA/BSB (Numéro d\'agence)';
+$_['entry_bank_swift_code']     = 'Code SWIFT';
+$_['entry_bank_account_name']   = 'Nom du compte';
+$_['entry_bank_account_number'] = 'Numéro de compte';
+$_['entry_comment']             = 'Commentaire';
+$_['entry_description']         = 'Description';
+$_['entry_amount']              = 'Montant';
+$_['entry_date_from']           = 'Date de début';
+$_['entry_date_to']             = 'Date de fin';
+$_['entry_status']              = 'Statut';
+$_['entry_limit']               = 'Limite';
 
-// المساعدة
-$_['help_tracking']             = 'رمز التتبع الذي سيتم استخدامه لتتبع الإحالات.';
-$_['help_commission']           = 'النسبة المئوية التي يحصل عليها المسوق على كل طلب.';
+// Aide
+$_['help_tracking']             = 'Le code de suivi qui sera utilisé pour suivre les références.';
+$_['help_commission']           = 'Pourcentage que l\'affilié reçoit sur chaque commande.';
 
-// الأخطاء
-$_['error_warning']             = 'تحذير: يرجى التحقق بعناية من النموذج للأخطاء!';
-$_['error_permission']          = 'تحذير: ليس لديك إذن لتعديل المسوقين بالعمولة!';
-$_['error_customer']            = 'العميل مطلوب!';
-$_['error_already']             = 'تحذير: العميل مسجل بالفعل كمسوق!';
-$_['error_tracking']            = 'رمز التتبع مطلوب!';
-$_['error_exists']              = 'رمز التتبع مستخدم بالفعل من قبل مسوق آخر!';
-$_['error_payment_method']      = 'طريقة الدفع مطلوبة!';
-$_['error_cheque']              = 'اسم مستفيد الشيك مطلوب!';
-$_['error_paypal']              = 'عنوان البريد الإلكتروني لبايبال غير صحيح!';
-$_['error_bank_account_name']   = 'اسم الحساب مطلوب!';
-$_['error_bank_account_number'] = 'رقم الحساب مطلوب!';
-$_['error_custom_field']        = 'الحقل %s مطلوب!';
+// Erreur
+$_['error_warning']             = 'Attention: Veuillez vérifier attentivement le formulaire pour les erreurs!';
+$_['error_permission']          = 'Attention: Vous n\'avez pas la permission de modifier les affiliés!';
+$_['error_customer']            = 'Attention: Client requis!';
+$_['error_already']             = 'Attention: Le client est déjà enregistré en tant qu\'affilié!';
+$_['error_tracking']            = 'Code de suivi requis!';
+$_['error_exists']              = 'Le code de suivi est déjà utilisé par un autre affilié!';
+$_['error_payment_method']      = 'Mode de paiement requis!';
+$_['error_cheque']              = 'Nom du bénéficiaire du chèque requis!';
+$_['error_paypal']              = 'l\'adresse email PayPal ne semble pas valide!';
+$_['error_bank_account_name']   = 'Nom du compte requis!';
+$_['error_bank_account_number'] = 'Numéro de compte requis!';
+$_['error_custom_field']        = '%s requis!';

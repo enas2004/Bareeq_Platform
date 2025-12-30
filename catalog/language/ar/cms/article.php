@@ -1,50 +1,50 @@
 <?php
-// En-tête
-$_['heading_title']           = 'Articles';
+// العنوان
+$_['heading_title']           = 'المقالات';
 
-// Texte
-$_['text_success']            = 'Succès: Vous avez modifié les articles!';
-$_['text_next']               = 'Succès: Vous avez modifié les évaluations de %s produit(s) sur %s!';
-$_['text_list']               = 'Liste des Articles';
-$_['text_add']                = 'Ajouter un Article';
-$_['text_edit']               = 'Modifier l\'Article';
-$_['text_default']            = 'Par Défaut';
-$_['text_general']            = 'Général';
-$_['text_meta']               = 'Balises Meta';
-$_['text_keyword']            = 'N\'utilisez pas d\'espaces, remplacez-les par des - et assurez-vous que l\'URL SEO soit unique à l\'échelle mondiale.';
+// النصوص
+$_['text_success']            = 'تم بنجاح: لقد قمت بتعديل المقالات!';
+$_['text_next']               = 'تم بنجاح: لقد قمت بتعديل تقييمات %s منتج(منتجات) على %s!';
+$_['text_list']               = 'قائمة المقالات';
+$_['text_add']                = 'إضافة مقال';
+$_['text_edit']               = 'تعديل المقال';
+$_['text_default']            = 'افتراضي';
+$_['text_general']            = 'عام';
+$_['text_meta']               = 'وسوم ميتا';
+$_['text_keyword']            = 'لا تستخدم الفراغات، استبدلها بـ - وتأكد من أن رابط SEO فريد عالميًا.';
 
-// Colonne
-$_['column_name']             = 'Nom de l\'Article';
-$_['column_author']           = 'Auteur';
-$_['column_rating']           = 'Évaluation';
-$_['column_date_added']       = 'Date d\'ajout';
-$_['column_action']           = 'Action';
+// الأعمدة
+$_['column_name']             = 'اسم المقال';
+$_['column_author']           = 'المؤلف';
+$_['column_rating']           = 'التقييم';
+$_['column_date_added']       = 'تاريخ الإضافة';
+$_['column_action']           = 'إجراء';
 
-// Entrée
-$_['entry_image']             = 'Image';
-$_['entry_name']              = 'Nom de l\'Article';
-$_['entry_description']       = 'Description';
-$_['entry_tag']               = 'Tags';
-$_['entry_meta_title']        = 'Titre de la Balise Meta';
-$_['entry_meta_keyword']      = 'Mots-clés de la Balise Meta';
-$_['entry_meta_description']  = 'Description de la Balise Meta';
-$_['entry_topic']             = 'Sujet';
-$_['entry_author']            = 'Auteur';
-$_['entry_store']             = 'Magasins';
-$_['entry_sort_order']        = 'Ordre de Tri';
-$_['entry_status']            = 'Statut';
-$_['entry_keyword']           = 'Mot-clé';
-$_['entry_layout']            = 'Disposition de Remplacement';
+// الإدخالات
+$_['entry_image']             = 'الصورة';
+$_['entry_name']              = 'اسم المقال';
+$_['entry_description']       = 'الوصف';
+$_['entry_tag']               = 'الوسوم';
+$_['entry_meta_title']        = 'عنوان ميتا';
+$_['entry_meta_keyword']      = 'كلمات ميتا';
+$_['entry_meta_description']  = 'وصف ميتا';
+$_['entry_topic']             = 'الموضوع';
+$_['entry_author']            = 'المؤلف';
+$_['entry_store']             = 'المتاجر';
+$_['entry_sort_order']        = 'ترتيب العرض';
+$_['entry_status']            = 'الحالة';
+$_['entry_keyword']           = 'الكلمة المفتاحية';
+$_['entry_layout']            = 'تجاوز التخطيط';
 
-// Bouton
-$_['button_rating']           = 'Synchroniser les Évaluations des Produits';
+// الأزرار
+$_['button_rating']           = 'مزامنة تقييمات المنتجات';
 
-// Erreur
-$_['error_warning']           = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
-$_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les articles!';
-$_['error_name']              = 'Le nom de l\'article doit contenir entre 1 et 255 caractères!';
-$_['error_meta_title']        = 'Le titre Meta doit contenir plus de 1 caractère et moins de 255 caractères!';
-$_['error_author']            = 'L\'auteur doit contenir entre 3 et 64 caractères!';
-$_['error_keyword']           = 'L\'URL SEO doit contenir entre 1 et 64 caractères!';
-$_['error_keyword_exists']    = 'L\'URL SEO doit être unique!';
-$_['error_keyword_character'] = 'Le mot-clé ne peut utiliser que les caractères a-z, 0-9, - et _ !';
+// الأخطاء
+$_['error_warning']           = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
+$_['error_permission']        = 'تحذير: ليس لديك صلاحية لتعديل المقالات!';
+$_['error_name']              = 'يجب أن يحتوي اسم المقال على 1 إلى 255 حرفًا!';
+$_['error_meta_title']        = 'يجب أن يحتوي عنوان ميتا على أكثر من حرف واحد وأقل من 255 حرفًا!';
+$_['error_author']            = 'يجب أن يحتوي اسم المؤلف على 3 إلى 64 حرفًا!';
+$_['error_keyword']           = 'يجب أن يحتوي رابط SEO على 1 إلى 64 حرفًا!';
+$_['error_keyword_exists']    = 'يجب أن يكون رابط SEO فريدًا!';
+$_['error_keyword_character'] = 'يمكن للكلمة المفتاحية استخدام الأحرف فقط a-z و0-9 و- و_!';

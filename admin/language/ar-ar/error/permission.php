@@ -1,7 +1,6 @@
 <?php
-// العنوان
-$_['heading_title']   = 'الصلاحية مرفوضة!';
+// En-tête
+$_['heading_title']   = 'Permission Refusée!';
 
-// النصوص
-$_['text_permission'] = 'ليس لديكِ صلاحية للوصول إلى هذه الصفحة، يرجى التواصل مع المسؤول.';
-?>
+// Texte
+$_['text_permission'] = 'Vous n\'avez pas la permission d\'accéder à cette page, veuillez';

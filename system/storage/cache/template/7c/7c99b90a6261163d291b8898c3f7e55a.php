@@ -38,6 +38,19 @@ class __TwigTemplate_3df62a08bef58071a903ff8a82b592c0 extends Template
     protected function doDisplay(array $context, array $blocks = []): iterable
     {
         $macros = $this->macros;
+        // line 1
+        yield "<form action=\"";
+        yield ($context["action"] ?? null);
+        yield "\" method=\"post\" class=\"input-group mb-3\">
+\t<input type=\"text\" name=\"search\" value=\"";
+        // line 2
+        yield ($context["search"] ?? null);
+        yield "\" placeholder=\"";
+        yield ($context["text_search"] ?? null);
+        yield "\" class=\"form-control form-control-lg\"/>
+\t<button type=\"submit\" class=\"btn btn-light btn-lg\"><i class=\"fa-solid fa-magnifying-glass\"></i></button>
+</form>
+";
         yield from [];
     }
 
@@ -52,17 +65,25 @@ class __TwigTemplate_3df62a08bef58071a903ff8a82b592c0 extends Template
     /**
      * @codeCoverageIgnore
      */
+    public function isTraitable(): bool
+    {
+        return false;
+    }
+
+    /**
+     * @codeCoverageIgnore
+     */
     public function getDebugInfo(): array
     {
-        return array ();
+        return array (  47 => 2,  42 => 1,);
     }
 
     public function getSourceContext(): Source
     {
-        return new Source("{# <form action=\"{{ action }}\" method=\"post\" class=\"input-group mb-3\">
+        return new Source("<form action=\"{{ action }}\" method=\"post\" class=\"input-group mb-3\">
 \t<input type=\"text\" name=\"search\" value=\"{{ search }}\" placeholder=\"{{ text_search }}\" class=\"form-control form-control-lg\"/>
 \t<button type=\"submit\" class=\"btn btn-light btn-lg\"><i class=\"fa-solid fa-magnifying-glass\"></i></button>
-</form> #}
-", "catalog/view/template/common/search.twig", "C:\\xampp\\htdocs\\opencart\\catalog\\view\\template\\common\\search.twig");
+</form>
+", "catalog/view/template/common/search.twig", "C:\\xampp\\htdocs\\bareeq_platform\\catalog\\view\\template\\common\\search.twig");
     }
 }

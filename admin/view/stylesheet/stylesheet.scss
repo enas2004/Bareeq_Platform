@@ -144,6 +144,11 @@ legend {
   padding: 0 20px;
 }
 
+// .navbar-brand d-none d-lg-block img {
+//   max-height: 40px;
+//   max-width: 40px;
+// }
+
 /* =========================================================
    ALERT
    ========================================================= */
@@ -942,4 +947,272 @@ html[dir="rtl"] .page-header .container-fluid {
 /* خَلّي float-start يعني يسار فعليًا */
 html[dir="rtl"] .page-header .float-start {
   float: left !important;
+}
+
+/* ========== Bareeq Admin Header ========== */
+
+$bareeq-admin-bg: #fdf6ec;
+$bareeq-admin-border: #f0e2d3;
+$bareeq-admin-text: #111827;
+$bareeq-admin-muted: #9b8c7b;
+$bareeq-admin-green: #8a9b6a;
+$bareeq-admin-pill-start: #f7e8d9;
+$bareeq-admin-pill-end: #e4d7c6;
+
+.bareeq-admin-header {
+  background: $bareeq-admin-bg;
+  border-bottom: 1px solid $bareeq-admin-border;
+  padding: 0.65rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 1040;
+
+  .admin-header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  /* ---------------- Header Brand ---------------- */
+
+.header-brand {
+  direction: rtl;                 /* مهم */
+  display: flex;
+  align-items: center;
+  gap: 10px;                      /* مسافة بين الشعار والنص */
+}
+
+/* صورة الشعار */
+.header-brand-logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  object-fit: cover;
+  background: #ffffff;
+  padding: 6px;
+  box-shadow: 0 8px 20px rgba(0,0,0,.06);
+}
+
+/* كتلة النص */
+.header-brand-text {
+  display: flex;
+  flex-direction: column;         /* 👈 يخلي النص فوق وتحت */
+  align-items: flex-start;        /* محاذاة على اليمين RTL */
+  line-height: 1.2;
+}
+
+/* كلمة بريق */
+.header-brand-title {
+  font-size: 1.1rem;             /* أكبر */
+  font-weight: 700;
+  color: #6FA88E;                 /* 💚 الأخضر */
+  //margin-bottom: 2px;
+}
+
+/* الجملة تحتها */
+.header-brand-subtitle {
+  font-size: 0.8rem;             /* أصغر */
+  color: #d58a78;                 /* أسود */
+  //opacity: .75;                   /* نعومة خفيفة */
+}
+
+
+  @media (max-width: 768px) {
+  .header-brand-title { font-size: .9rem }
+  .header-brand-subtitle { font-size: .75rem }
+}
+
+
+  /* يمين الهيدر – الشعار والعنوان */
+  .admin-brand {
+   
+    .admin-brand-logo img {
+      width: 90px;
+      //height: 40px;
+      border-radius: 16px;
+      //object-fit: contain;
+      background: #fff;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+      padding: 6px;
+    }
+
+    /* براند الهيدر */
+.header-brand-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #6f8a4a; /* أخضر ناعم */
+}
+
+    .admin-brand-text {
+      line-height: 1.3;
+    }
+
+    .admin-brand-title {
+      font-size: 1.05rem;
+      font-weight: 800;
+      color: $bareeq-admin-text;
+    }
+
+    .admin-brand-subtitle {
+      font-size: 0.8rem;
+      color: $bareeq-admin-muted;
+    }
+  }
+
+  /* يسار الهيدر – المستخدم والإشعارات */
+  .admin-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+  }
+
+  /* كبسولة المستخدم */
+  .admin-user-chip {
+    .admin-user-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.75rem;
+      text-decoration: none;
+      padding: 0.35rem 0.9rem 0.35rem 0.5rem;
+      border-radius: 999px;
+      background: linear-gradient(
+        135deg,
+        $bareeq-admin-pill-start 0%,
+        $bareeq-admin-pill-end 100%
+      );
+      box-shadow: 0 8px 18px rgba(0, 0, 0, 0.06);
+      color: $bareeq-admin-text;
+    }
+
+    .admin-user-info {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.05rem;
+    }
+
+    .admin-user-role {
+      font-size: 0.78rem;
+      font-weight: 700;
+      color: $bareeq-admin-text;
+    }
+
+    .admin-user-status {
+      font-size: 0.7rem;
+      color: $bareeq-admin-muted;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.25rem;
+
+      .status-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #4ade80; // أخضر
+        box-shadow: 0 0 0 4px rgba(74, 222, 128, 0.3);
+      }
+    }
+
+    .admin-user-avatar {
+      width: 34px;
+      height: 34px;
+      border-radius: 16px;
+      background: #f2e6d7;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+
+  /* زر المنيو للموبايل */
+  .admin-menu-toggle {
+    color: $bareeq-admin-text;
+    font-size: 1.1rem;
+  }
+
+  /* جرس الإشعارات */
+  .admin-bell {
+    .bell-icon {
+      position: relative;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+      border-radius: 999px;
+      background: #fff;
+      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.06);
+      color: #111827;
+      font-size: 0.95rem;
+    }
+
+    .bell-dot {
+      position: absolute;
+      top: 4px;
+      right: 7px;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: #ff6b81; // وردي للإشعار
+      box-shadow: 0 0 0 3px rgba(255, 107, 129, 0.28);
+    }
+  }
+
+  /* اللغة */
+  #nav-language {
+    font-size: 0.85rem;
+    color: $bareeq-admin-muted;
+  }
+
+  /* تسجيل الخروج */
+  .admin-logout-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.85rem;
+    color: $bareeq-admin-muted;
+    text-decoration: none;
+    padding: 0.25rem 0.4rem;
+    border-radius: 999px;
+
+    i {
+      font-size: 0.9rem;
+    }
+
+    &:hover {
+      color: $bareeq-admin-text;
+      background: rgba(0, 0, 0, 0.03);
+    }
+  }
+
+  /* موبايل وتابلت */
+  @media (max-width: 767.98px) {
+    .admin-header-inner {
+      padding-inline: 0.75rem;
+    }
+
+    .admin-brand-title {
+      font-size: 0.95rem;
+    }
+
+    .admin-brand-subtitle {
+      font-size: 0.75rem;
+    }
+
+    .admin-user-link {
+      padding-inline: 0.7rem;
+    }
+
+    #nav-language {
+      display: none;
+    }
+  }
 }

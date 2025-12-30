@@ -1,25 +1,25 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Groupes d\'utilisateurs';
+// العنوان
+$_['heading_title']    = 'مجموعات المستخدمين';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les groupes d\'utilisateurs!';
-$_['text_list']        = 'Groupe d\'utilisateurs';
-$_['text_add']         = 'Ajouter un groupe d\'utilisateurs';
-$_['text_edit']        = 'Modifier un groupe d\'utilisateurs';
-$_['text_access']      = 'Accès';
-$_['text_modify']      = 'Modifier';
+// النصوص
+$_['text_success']     = 'تم بنجاح: لقد عدّلت مجموعات المستخدمين!';
+$_['text_list']        = 'قائمة مجموعات المستخدمين';
+$_['text_add']         = 'إضافة مجموعة مستخدمين';
+$_['text_edit']        = 'تعديل مجموعة مستخدمين';
+$_['text_access']      = 'الوصول';
+$_['text_modify']      = 'تعديل';
 
-// Colonne
-$_['column_name']      = 'Nom du groupe d\'utilisateurs';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم مجموعة المستخدمين';
+$_['column_action']    = 'الإجراء';
 
-// Entrée
-$_['entry_name']       = 'Nom du groupe d\'utilisateurs';
-$_['entry_permission'] = 'Permissions';
-$_['entry_extension']  = 'Extensions';
+// الإدخالات
+$_['entry_name']       = 'اسم مجموعة المستخدمين';
+$_['entry_permission'] = 'الصلاحيات';
+$_['entry_extension']  = 'الإضافات';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les groupes d\'utilisateurs!';
-$_['error_name']       = 'Le nom du groupe d\'utilisateurs doit contenir entre 3 et 64 caractères!';
-$_['error_user']       = 'Attention: Ce groupe d\'utilisateurs ne peut pas être supprimé car il est actuellement attribué à %s utilisateurs!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديك إذن لتعديل مجموعات المستخدمين!';
+$_['error_name']       = 'يجب أن يحتوي اسم مجموعة المستخدمين على 3 إلى 64 حرفًا!';
+$_['error_user']       = 'تحذير: لا يمكن حذف هذه المجموعة لأنها مُستخدمة حاليًا من قبل %s مستخدم!';

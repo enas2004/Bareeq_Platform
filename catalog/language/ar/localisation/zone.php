@@ -1,30 +1,30 @@
 <?php
-// En-tête
-$_['heading_title']          = 'Zones';
+// العنوان
+$_['heading_title']          = 'المناطق';
 
-// Texte
-$_['text_success']           = 'Succès: Vous avez modifié les zones!';
-$_['text_list']              = 'Liste des Zones';
-$_['text_add']               = 'Ajouter une Zone';
-$_['text_edit']              = 'Modifier une Zone';
-$_['text_filter']            = 'Filtrer';
+// النصوص
+$_['text_success']           = 'تم بنجاح: تم تعديل المناطق!';
+$_['text_list']              = 'قائمة المناطق';
+$_['text_add']               = 'إضافة منطقة';
+$_['text_edit']              = 'تعديل منطقة';
+$_['text_filter']            = 'تصفية';
 
-// Colonne
-$_['column_name']            = 'Nom de la Zone';
-$_['column_code']            = 'Code de la Zone';
-$_['column_country']         = 'Pays';
-$_['column_action']          = 'Action';
+// الأعمدة
+$_['column_name']            = 'اسم المنطقة';
+$_['column_code']            = 'رمز المنطقة';
+$_['column_country']         = 'البلد';
+$_['column_action']          = 'الإجراء';
 
-// Entrée
-$_['entry_name']             = 'Nom de la Zone';
-$_['entry_code']             = 'Code de la Zone';
-$_['entry_country']          = 'Pays';
-$_['entry_status']           = 'Statut';
+// الإدخالات
+$_['entry_name']             = 'اسم المنطقة';
+$_['entry_code']             = 'رمز المنطقة';
+$_['entry_country']          = 'البلد';
+$_['entry_status']           = 'الحالة';
 
-// Erreur
-$_['error_permission']       = 'Attention: Vous n\'êtes pas autorisé à modifier les zones!';
-$_['error_name']             = 'Le nom de la zone doit comporter entre 1 et 128 caractères!';
-$_['error_default']          = 'Attention: Cette zone ne peut pas être supprimée car elle est actuellement définie comme zone par défaut du magasin!';
-$_['error_store']            = 'Attention: Cette zone ne peut pas être supprimée car elle est actuellement assignée à %s magasins!';
-$_['error_address']          = 'Attention: Cette zone ne peut pas être supprimée car elle est actuellement assignée à %s entrées du carnet d\'adresses!';
-$_['error_zone_to_geo_zone'] = 'Attention: Cette zone ne peut pas être supprimée car elle est actuellement assignée à %s zones géographiques!';
+// الأخطاء
+$_['error_permission']       = 'تحذير: ليس لديك صلاحية لتعديل المناطق!';
+$_['error_name']             = 'يجب أن يكون اسم المنطقة بين 1 و128 حرفاً!';
+$_['error_default']          = 'تحذير: لا يمكن حذف هذه المنطقة لأنها محددة حالياً كمنطقة افتراضية للمتجر!';
+$_['error_store']            = 'تحذير: لا يمكن حذف هذه المنطقة لأنها مرتبطة حالياً بـ %s متجر!';
+$_['error_address']          = 'تحذير: لا يمكن حذف هذه المنطقة لأنها مرتبطة حالياً بـ %s عنوان!';
+$_['error_zone_to_geo_zone'] = 'تحذير: لا يمكن حذف هذه المنطقة لأنها مرتبطة حالياً بـ %s مناطق جغرافية!';

@@ -1,34 +1,34 @@
 <?php
-// العنوان
-$_['heading_title']           = 'المصنعون';
+// En-tête
+$_['heading_title']           = 'Fabricants';
 
-// النصوص
-$_['text_success']            = 'تم بنجاح: لقد قمت بتعديل المصنعين!';
-$_['text_list']               = 'قائمة المصنعين';
-$_['text_add']                = 'إضافة مصنع';
-$_['text_edit']               = 'تعديل المصنع';
-$_['text_default']            = 'الافتراضي';
-$_['text_keyword']            = 'لا تستخدم المسافات، استبدل المسافات بعلامة "-" وتأكد أن رابط SEO فريد على مستوى الموقع.';
+// Texte
+$_['text_success']            = 'Succès: Vous avez modifié les fabricants!';
+$_['text_list']               = 'Liste des Fabricants';
+$_['text_add']                = 'Ajouter un Fabricant';
+$_['text_edit']               = 'Modifier le Fabricant';
+$_['text_default']            = 'Par Défaut';
+$_['text_keyword']            = 'N\'utilisez pas d\'espaces, remplacez plutôt les espaces par - et assurez-vous que l\'URL SEO soit unique à l\'échelle mondiale.';
 
-// الأعمدة
-$_['column_image']            = 'الصورة';
-$_['column_name']             = 'اسم المصنع';
-$_['column_sort_order']       = 'ترتيب العرض';
-$_['column_action']           = 'الإجراء';
+// Colonne
+$_['column_image']            = 'Image';
+$_['column_name']             = 'Nom du Fabricant';
+$_['column_sort_order']       = 'Ordre de Tri';
+$_['column_action']           = 'Action';
 
-// الإدخالات
-$_['entry_name']              = 'اسم المصنع';
-$_['entry_store']             = 'المتاجر';
-$_['entry_keyword']           = 'الكلمة الدلالية (SEO)';
-$_['entry_image']             = 'الصورة';
-$_['entry_sort_order']        = 'ترتيب العرض';
-$_['entry_layout']            = 'استبدال التخطيط';
+// Entrée
+$_['entry_name']              = 'Nom du Fabricant';
+$_['entry_store']             = 'Magasins';
+$_['entry_keyword']           = 'Mot-clé';
+$_['entry_image']             = 'Image';
+$_['entry_sort_order']        = 'Ordre de Tri';
+$_['entry_layout']            = 'Remplacement de la Disposition';
 
-// الأخطاء
-$_['error_warning']           = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
-$_['error_permission']        = 'تحذير: ليس لديك صلاحية لتعديل المصنعين!';
-$_['error_name']              = 'يجب أن يحتوي اسم المصنع على ما بين 1 و 64 حرفًا!';
-$_['error_keyword']           = 'يجب أن يحتوي رابط SEO على ما بين 1 و 64 حرفًا!';
-$_['error_keyword_exists']    = 'رابط SEO مستخدم مسبقًا! يجب أن يكون فريدًا.';
-$_['error_keyword_character'] = 'يمكن أن تحتوي الكلمة الدلالية فقط على الأحرف a-z، الأرقام 0-9، والرمزين "-" و "_"!';
-$_['error_product']           = 'تحذير: لا يمكن حذف هذا المصنع لأنه مرتبط حاليًا بـ %s من المنتجات!';
+// Erreur
+$_['error_warning']           = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
+$_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les fabricants!';
+$_['error_name']              = 'Le nom du fabricant doit contenir entre 1 et 64 caractères!';
+$_['error_keyword']           = 'L\'URL SEO doit contenir entre 1 et 64 caractères!';
+$_['error_keyword_exists']    = 'L\'URL SEO doit être unique!';
+$_['error_keyword_character'] = 'Le mot-clé ne peut utiliser que les caractères a-z, 0-9, - et _ !';
+$_['error_product']           = 'Attention: Ce fabricant ne peut pas être supprimé car il est actuellement assigné à %s produits!';

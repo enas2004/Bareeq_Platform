@@ -1,22 +1,22 @@
 <?php
-// العنوان
-$_['heading_title']    = 'حالات الإرجاع';
+// En-tête
+$_['heading_title']    = 'Statuts de Retour';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: تم تعديل حالات الإرجاع!';
-$_['text_list']        = 'قائمة حالات الإرجاع';
-$_['text_add']         = 'إضافة حالة إرجاع';
-$_['text_edit']        = 'تعديل حالة إرجاع';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié les statuts de retour!';
+$_['text_list']        = 'Liste des Statuts de Retour';
+$_['text_add']         = 'Ajouter un Statut de Retour';
+$_['text_edit']        = 'Modifier un Statut de Retour';
 
-// الأعمدة
-$_['column_name']      = 'اسم حالة الإرجاع';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_name']      = 'Nom du Statut de Retour';
+$_['column_action']    = 'Action';
 
-// الإدخالات
-$_['entry_name']       = 'اسم حالة الإرجاع';
+// Entrée
+$_['entry_name']       = 'Nom du Statut de Retour';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل حالات الإرجاع!';
-$_['error_name']       = 'يجب أن يكون اسم حالة الإرجاع بين 3 و32 حرفاً!';
-$_['error_default']    = 'تحذير: لا يمكن حذف حالة الإرجاع هذه لأنها محددة حالياً كحالة إرجاع افتراضية!';
-$_['error_return']     = 'تحذير: لا يمكن حذف حالة الإرجاع هذه لأنها مرتبطة حالياً بـ %s إرجاع!';
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les statuts de retour!';
+$_['error_name']       = 'Le nom du statut de retour doit comporter entre 3 et 32 caractères!';
+$_['error_default']    = 'Attention: Ce statut de retour ne peut pas être supprimé car il est actuellement assigné comme statut de retour par défaut!';
+$_['error_return']     = 'Attention: Ce statut de retour ne peut pas être supprimé car il est actuellement assigné à %s retours!';

@@ -1,21 +1,21 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Statuts de Stock';
+// العنوان
+$_['heading_title']    = 'حالات المخزون';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les statuts de stock!';
-$_['text_list']        = 'Liste des Statuts de Stock';
-$_['text_add']         = 'Ajouter un Statut de Stock';
-$_['text_edit']        = 'Modifier un Statut de Stock';
+// النصوص
+$_['text_success']     = 'تم بنجاح: تم تعديل حالات المخزون!';
+$_['text_list']        = 'قائمة حالات المخزون';
+$_['text_add']         = 'إضافة حالة مخزون';
+$_['text_edit']        = 'تعديل حالة مخزون';
 
-// Colonne
-$_['column_name']      = 'Nom du Statut de Stock';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم حالة المخزون';
+$_['column_action']    = 'الإجراء';
 
-// Entrée
-$_['entry_name']       = 'Nom du Statut de Stock';
+// الإدخالات
+$_['entry_name']       = 'اسم حالة المخزون';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les statuts de stock!';
-$_['error_name']       = 'Le nom du statut de stock doit comporter entre 3 et 32 caractères!';
-$_['error_product']    = 'Attention: Ce statut de stock ne peut pas être supprimé car il est actuellement assigné à %s produits!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل حالات المخزون!';
+$_['error_name']       = 'يجب أن يكون اسم حالة المخزون بين 3 و32 حرفاً!';
+$_['error_product']    = 'تحذير: لا يمكن حذف حالة المخزون هذه لأنها مرتبطة حالياً بـ %s منتج!';

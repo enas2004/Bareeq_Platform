@@ -1,28 +1,29 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Bannières';
+// العنوان
+$_['heading_title']    = 'اللافتات الإعلانية';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les bannières!';
-$_['text_list']        = 'Liste des Bannières';
-$_['text_add']         = 'Ajouter une Bannière';
-$_['text_edit']        = 'Modifier une Bannière';
-$_['text_default']     = 'Par défaut';
+// النصوص
+$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل اللافتات الإعلانية!';
+$_['text_list']        = 'قائمة اللافتات الإعلانية';
+$_['text_add']         = 'إضافة لافتة إعلانية';
+$_['text_edit']        = 'تعديل اللافتة الإعلانية';
+$_['text_default']     = 'الافتراضي';
 
-// Colonne
-$_['column_name']      = 'Nom de la Bannière';
-$_['column_status']    = 'Statut';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم اللافتة الإعلانية';
+$_['column_status']    = 'الحالة';
+$_['column_action']    = 'الإجراء';
 
-// Entrée
-$_['entry_name']       = 'Nom de la Bannière';
-$_['entry_title']      = 'Titre';
-$_['entry_link']       = 'Lien';
-$_['entry_image']      = 'Image';
-$_['entry_status']     = 'Statut';
-$_['entry_sort_order'] = 'Ordre de Tri';
+// المدخلات
+$_['entry_name']       = 'اسم اللافتة الإعلانية';
+$_['entry_title']      = 'العنوان';
+$_['entry_link']       = 'الرابط';
+$_['entry_image']      = 'الصورة';
+$_['entry_status']     = 'الحالة';
+$_['entry_sort_order'] = 'ترتيب الفرز';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les bannières!';
-$_['error_name']       = 'Le nom de la bannière doit contenir entre 3 et 64 caractères!';
-$_['error_title']      = 'Le titre de la bannière doit contenir entre 2 et 64 caractères!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل اللافتات الإعلانية!';
+$_['error_name']       = 'يجب أن يحتوي اسم اللافتة الإعلانية على 3 إلى 64 حرفًا!';
+$_['error_title']      = 'يجب أن يحتوي عنوان اللافتة الإعلانية على 2 إلى 64 حرفًا!';
+?>

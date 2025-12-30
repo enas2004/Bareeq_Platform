@@ -1,5 +1,5 @@
 <?php
-// النصوص
-$_['text_article'] = 'عرض %s من أصل %s لمقالة %s';
-$_['text_next']    = 'لقد عرضت %s من أصل %s في %s دول';
-$_['text_success'] = 'تم بنجاح: لقد قمت بتعديل المقالات!';
+// Texte
+$_['text_article'] = 'Interprétation des rendus graphiques %s envers %s de %s articles';
+$_['text_next']    = 'Vous avez rendu %s à %s de %s pays';
+$_['text_success'] = 'Succès: Vous avez modifié les articles!';

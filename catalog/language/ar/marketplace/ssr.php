@@ -1,23 +1,23 @@
 <?php
-// En-tête
-$_['heading_title']        = 'Générateur de Site Statique';
+// العنوان
+$_['heading_title']        = 'مولد الموقع الثابت';
 
-// Texte
-$_['text_success']         = 'Succès: Vous avez modifié le générateur de site statique!';
-$_['text_list']            = 'Liste GSS (SSR)';
-$_['text_ssr']             = 'Le Générateur de Site Statique permet de pré-afficher les modèles et les données statiques. En cas de problème, vous pouvez activer ou désactiver le rendu de site statique ici.';
-$_['text_progress']        = 'Progression';
-$_['text_render']          = 'Générateurs de Site Statique';
+// النصوص
+$_['text_success']         = 'تم بنجاح: لقد قمت بتعديل مولد الموقع الثابت!';
+$_['text_list']            = 'قائمة GSS (SSR)';
+$_['text_ssr']             = 'يتيح مولد الموقع الثابت عرض النماذج والبيانات الثابتة مسبقًا. في حالة وجود مشكلة، يمكنك تفعيل أو تعطيل العرض الثابت للموقع هنا.';
+$_['text_progress']        = 'التقدم';
+$_['text_render']          = 'مولدات الموقع الثابت';
 
-// Entrée
-$_['entry_progress']       = 'Progression';
+// الإدخال
+$_['entry_progress']       = 'التقدم';
  
-// Colonne
-$_['column_code']          = 'Code GSS (SSR)';
-$_['column_progress']      = 'Progression';
-$_['column_sort_order']    = 'Ordre de Tri';
-$_['column_date_modified'] = 'Date de Modification';
-$_['column_action']        = 'Action';
+// الأعمدة
+$_['column_code']          = 'كود GSS (SSR)';
+$_['column_progress']      = 'التقدم';
+$_['column_sort_order']    = 'ترتيب العرض';
+$_['column_date_modified'] = 'تاريخ التعديل';
+$_['column_action']        = 'الإجراء';
 
-// Erreur
-$_['error_permission']     = 'Attention: Vous n\'avez pas la permission de modifier le générateur de site statique!';
+// الأخطاء
+$_['error_permission']     = 'تحذير: ليس لديك إذن لتعديل مولد الموقع الثابت!';

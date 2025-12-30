@@ -1,32 +1,32 @@
 <?php
-// En-tête
-$_['heading_title']      = 'Sauvegarde &amp; Restauration';
+// العنوان
+$_['heading_title']      = 'النسخ الاحتياطي والاستعادة';
 
-// Texte
-$_['text_success']       = 'Succès: Vous avez modifié votre base de données avec succès!';
-$_['text_backup']        = 'Sauvegarde de la table %s, enregistrements %s à %s';
-$_['text_restore']       = 'Restauration %s sur %s';
-$_['text_option']        = 'Options de sauvegarde';
-$_['text_history']       = 'Historique des sauvegardes';
-$_['text_progress']      = 'Progression';
-$_['text_import']        = 'Pour les fichiers de sauvegarde volumineux, il est préférable de télécharger le fichier SQL via FTP dans le répertoire <strong>~/storage/backup/</strong>.';
+// النصوص
+$_['text_success']       = 'تم بنجاح: لقد قمت بتعديل قاعدة البيانات بنجاح!';
+$_['text_backup']        = 'نسخ جدول %s، السجلات من %s إلى %s';
+$_['text_restore']       = 'استعادة %s على %s';
+$_['text_option']        = 'خيارات النسخ الاحتياطي';
+$_['text_history']       = 'تاريخ النسخ الاحتياطية';
+$_['text_progress']      = 'التقدم';
+$_['text_import']        = 'بالنسبة لملفات النسخ الاحتياطي الكبيرة، من الأفضل رفع ملف SQL عبر FTP إلى المجلد <strong>~/storage/backup/</strong>.';
 
-// Colonne
-$_['column_filename']    = 'Nom du fichier';
-$_['column_size']        = 'Taille';
-$_['column_date_added']  = 'Date d\'ajout';
-$_['column_action']      = 'Action';
+// الأعمدة
+$_['column_filename']    = 'اسم الملف';
+$_['column_size']        = 'الحجم';
+$_['column_date_added']  = 'تاريخ الإضافة';
+$_['column_action']      = 'الإجراء';
 
-// Entrée
-$_['entry_progress']     = 'Progression';
-$_['entry_export']       = 'Exporter';
+// الإدخالات
+$_['entry_progress']     = 'التقدم';
+$_['entry_export']       = 'تصدير';
 
-// Erreur
-$_['error_permission']   = 'Attention: Vous n\'avez pas la permission de modifier la sauvegarde &amp; restauration!';
-$_['error_export']       = 'Attention: Vous devez sélectionner au moins une table à exporter!';
-$_['error_table']        = 'La table %s n\'est pas dans la liste autorisée!';
-$_['error_file']         = 'Le fichier est introuvable!';
-$_['error_directory']    = 'Le répertoire est introuvable!';
-$_['error_not_found']    = 'Erreur: Impossible de trouver le fichier %s!';
-$_['error_headers_sent'] = 'Erreur: Les en-têtes ont déjà été envoyés!';
-$_['error_upload_size']  = 'Le fichier téléchargé ne peut pas dépasser %s!';
+// الأخطاء
+$_['error_permission']   = 'تحذير: ليس لديك إذن لتعديل النسخ الاحتياطي والاستعادة!';
+$_['error_export']       = 'تحذير: يجب اختيار جدول واحد على الأقل للتصدير!';
+$_['error_table']        = 'الجدول %s غير موجود في القائمة المسموح بها!';
+$_['error_file']         = 'الملف غير موجود!';
+$_['error_directory']    = 'المجلد غير موجود!';
+$_['error_not_found']    = 'خطأ: لا يمكن العثور على الملف %s!';
+$_['error_headers_sent'] = 'خطأ: تم إرسال الرؤوس مسبقًا!';
+$_['error_upload_size']  = 'لا يمكن أن يتجاوز حجم الملف المرفوع %s!';

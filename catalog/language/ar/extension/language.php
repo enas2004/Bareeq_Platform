@@ -1,17 +1,18 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Langues';
+// العنوان
+$_['heading_title']    = 'اللغات';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les langues!';
-$_['text_list']        = 'Liste des langues';
+// النصوص
+$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل اللغات!';
+$_['text_list']        = 'قائمة اللغات';
 
-// Colonne
-$_['column_name']      = 'Nom de la langue';
-$_['column_status']    = 'Statut';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم اللغة';
+$_['column_status']    = 'الحالة';
+$_['column_action']    = 'الإجراء';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les langues!';
-$_['error_extension']  = 'Attention: L\'extension n\'existe pas!';
-$_['error_default']    = 'Attention: Ce langage ne peut pas être supprimé car il est actuellement défini comme le langage par défaut du magasin!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل اللغات!';
+$_['error_extension']  = 'تحذير: الإضافة غير موجودة!';
+$_['error_default']    = 'تحذير: لا يمكن حذف هذه اللغة لأنها محددة حاليًا كلغة افتراضية للمتجر!';
+?>

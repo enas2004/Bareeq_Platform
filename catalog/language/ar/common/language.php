@@ -1,3 +1,3 @@
 <?php
 // Erreur
-$_['error_language'] = 'Attention: La langue n\'a pas pu être trouvée!';
+$_['error_language'] = 'تحذير: لم يتم العثور على اللغة!';

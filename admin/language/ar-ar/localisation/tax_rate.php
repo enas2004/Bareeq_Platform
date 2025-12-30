@@ -1,31 +1,31 @@
 <?php
-// العنوان
-$_['heading_title']        = 'معدلات الضرائب';
+// En-tête
+$_['heading_title']        = 'Taux de Taxes';
 
-// النصوص
-$_['text_success']         = 'تم بنجاح: تم تعديل معدلات الضرائب!';
-$_['text_list']            = 'قائمة معدلات الضرائب';
-$_['text_add']             = 'إضافة معدل ضريبة';
-$_['text_edit']            = 'تعديل معدل ضريبة';
-$_['text_percent']         = 'نسبة مئوية';
-$_['text_amount']          = 'مبلغ ثابت';
+// Texte
+$_['text_success']         = 'Succès: Vous avez modifié les taux de taxes!';
+$_['text_list']            = 'Liste des Taux de Taxes';
+$_['text_add']             = 'Ajouter un Taux de Taxes';
+$_['text_edit']            = 'Modifier un Taux de Taxes';
+$_['text_percent']         = 'Pourcentage';
+$_['text_amount']          = 'Montant Fixe';
 
-// الأعمدة
-$_['column_name']          = 'اسم الضريبة';
-$_['column_rate']          = 'معدل الضريبة';
-$_['column_type']          = 'النوع';
-$_['column_geo_zone']      = 'المنطقة الجغرافية';
-$_['column_action']        = 'الإجراء';
+// Colonne
+$_['column_name']          = 'Nom de la Taxe';
+$_['column_rate']          = 'Taux de Taxes';
+$_['column_type']          = 'Type';
+$_['column_geo_zone']      = 'Zone Géographique';
+$_['column_action']        = 'Action';
 
-// الإدخالات
-$_['entry_name']           = 'اسم الضريبة';
-$_['entry_rate']           = 'معدل الضريبة';
-$_['entry_type']           = 'النوع';
-$_['entry_customer_group'] = 'مجموعة العملاء';
-$_['entry_geo_zone']       = 'المنطقة الجغرافية';
+// Entrée
+$_['entry_name']           = 'Nom de la Taxe';
+$_['entry_rate']           = 'Taux de Taxes';
+$_['entry_type']           = 'Type';
+$_['entry_customer_group'] = 'Groupe de Clients';
+$_['entry_geo_zone']       = 'Zone Géographique';
 
-// الأخطاء
-$_['error_permission']     = 'تحذير: ليس لديك صلاحية لتعديل معدلات الضرائب!';
-$_['error_tax_rule']       = 'تحذير: لا يمكن حذف هذا المعدل لأنه مرتبط حالياً بـ %s فئات ضريبية!';
-$_['error_name']           = 'يجب أن يكون اسم الضريبة بين 3 و32 حرفاً!';
-$_['error_rate']           = 'معدل الضريبة مطلوب!';
+// Erreur
+$_['error_permission']     = 'Attention: Vous n\'êtes pas autorisé à modifier les taux de taxes!';
+$_['error_tax_rule']       = 'Attention: Ce taux de taxes ne peut pas être supprimé car il est actuellement assigné à %s classes de taxes!';
+$_['error_name']           = 'Le nom de la taxe doit comporter entre 3 et 32 caractères!';
+$_['error_rate']           = 'Le taux de taxes est requis!';

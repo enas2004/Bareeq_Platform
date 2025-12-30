@@ -1,27 +1,27 @@
 <?php
-// En-tête
-$_['heading_title']      = 'Zones Géographiques';
+// العنوان
+$_['heading_title']      = 'المناطق الجغرافية';
 
-// Texte
-$_['text_success']       = 'Succès: Vous avez modifié les zones géographiques!';
-$_['text_list']          = 'Liste des Zones Géographiques';
-$_['text_add']           = 'Ajouter une Zone Géographique';
-$_['text_edit']          = 'Modifier une Zone Géographique';
-$_['text_geo_zone']      = 'Zones Géographiques';
+// النصوص
+$_['text_success']       = 'تم بنجاح: تم تعديل المناطق الجغرافية!';
+$_['text_list']          = 'قائمة المناطق الجغرافية';
+$_['text_add']           = 'إضافة منطقة جغرافية';
+$_['text_edit']          = 'تعديل منطقة جغرافية';
+$_['text_geo_zone']      = 'المناطق الجغرافية';
 
-// Colonne
-$_['column_name']        = 'Nom de la Zone Géographique';
-$_['column_description'] = 'Description';
-$_['column_action']      = 'Action';
+// الأعمدة
+$_['column_name']        = 'اسم المنطقة الجغرافية';
+$_['column_description'] = 'الوصف';
+$_['column_action']      = 'الإجراء';
 
-// Entrée
-$_['entry_name']         = 'Nom de la Zone Géographique';
-$_['entry_description']  = 'Description';
-$_['entry_country']      = 'Pays';
-$_['entry_zone']         = 'Zone';
+// الإدخالات
+$_['entry_name']         = 'اسم المنطقة الجغرافية';
+$_['entry_description']  = 'الوصف';
+$_['entry_country']      = 'الدولة';
+$_['entry_zone']         = 'المنطقة';
 
-// Erreur
-$_['error_permission']   = 'Attention: Vous n\'avez pas la permission de modifier les zones géographiques!';
-$_['error_name']         = 'Le nom de la zone géographique doit contenir entre 3 et 32 caractères!';
-$_['error_description']  = 'Le nom de la description doit contenir entre 3 et 255 caractères!';
-$_['error_tax_rate']     = 'Attention: Cette zone géographique ne peut pas être supprimée car elle est actuellement attribuée à une ou plusieurs taxes!';
+// الأخطاء
+$_['error_permission']   = 'تحذير: ليس لديك صلاحية لتعديل المناطق الجغرافية!';
+$_['error_name']         = 'يجب أن يكون اسم المنطقة الجغرافية بين 3 و32 حرفاً!';
+$_['error_description']  = 'يجب أن يكون الوصف بين 3 و255 حرفاً!';
+$_['error_tax_rate']     = 'تحذير: لا يمكن حذف هذه المنطقة الجغرافية لأنها مرتبطة حالياً بضريبة واحدة أو أكثر!';

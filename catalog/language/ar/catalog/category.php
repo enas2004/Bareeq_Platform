@@ -1,50 +1,50 @@
 <?php
-// En-tête
-$_['heading_title']           = 'Catégories';
+// العنوان
+$_['heading_title']           = 'الأقسام';
 
-// Texte
-$_['text_success']            = 'Succès: Vous avez modifié les catégories!';
-$_['text_list']               = 'Liste des Catégories';
-$_['text_add']                = 'Ajouter une Catégorie';
-$_['text_edit']               = 'Modifier la Catégorie';
-$_['text_filter']             = 'Filtre';
-$_['text_default']            = 'Par Défaut';
-$_['text_general']            = 'Général';
-$_['text_meta']               = 'Balises Meta';
-$_['text_keyword']            = 'N\'utilisez pas d\'espaces, remplacez plutôt les espaces par - et assurez-vous que l\'URL SEO soit unique à l\'échelle mondiale.';
+// النصوص
+$_['text_success']            = 'تم بنجاح: لقد قمت بتعديل الأقسام!';
+$_['text_list']               = 'قائمة الأقسام';
+$_['text_add']                = 'إضافة قسم';
+$_['text_edit']               = 'تعديل القسم';
+$_['text_filter']             = 'تصفية';
+$_['text_default']            = 'الافتراضي';
+$_['text_general']            = 'عام';
+$_['text_meta']               = 'وسوم الميتا';
+$_['text_keyword']            = 'لا تستخدم المسافات، استبدل المسافات بعلامة "-" وتأكد أن رابط الـ SEO فريد على مستوى الموقع.';
 
-// Colonne
-$_['column_image']            = 'Image';
-$_['column_name']             = 'Nom de la Catégorie';
-$_['column_status']           = 'Statut';
-$_['column_sort_order']       = 'Ordre de Tri';
-$_['column_action']           = 'Action';
+// الأعمدة
+$_['column_image']            = 'الصورة';
+$_['column_name']             = 'اسم القسم';
+$_['column_status']           = 'الحالة';
+$_['column_sort_order']       = 'ترتيب العرض';
+$_['column_action']           = 'الإجراء';
 
-// Entrée
-$_['entry_name']              = 'Nom de la Catégorie';
-$_['entry_description']       = 'Description';
-$_['entry_meta_title']        = 'Titre de la Balise Meta';
-$_['entry_meta_keyword']      = 'Mots-clés de la Balise Meta';
-$_['entry_meta_description']  = 'Description de la Balise Meta';
-$_['entry_store']             = 'Magasins';
-$_['entry_keyword']           = 'Mot-clé';
-$_['entry_parent']            = 'Parent';
-$_['entry_filter']            = 'Filtres';
-$_['entry_image']             = 'Image';
-$_['entry_sort_order']        = 'Ordre de Tri';
-$_['entry_status']            = 'Statut';
-$_['entry_layout']            = 'Remplacement de la Disposition';
+// الإدخالات
+$_['entry_name']              = 'اسم القسم';
+$_['entry_description']       = 'الوصف';
+$_['entry_meta_title']        = 'عنوان وسم الميتا';
+$_['entry_meta_keyword']      = 'كلمات وسم الميتا';
+$_['entry_meta_description']  = 'وصف وسم الميتا';
+$_['entry_store']             = 'المتاجر';
+$_['entry_keyword']           = 'الكلمة الدلالية (SEO)';
+$_['entry_parent']            = 'القسم الرئيسي';
+$_['entry_filter']            = 'الفلاتر';
+$_['entry_image']             = 'الصورة';
+$_['entry_sort_order']        = 'ترتيب العرض';
+$_['entry_status']            = 'الحالة';
+$_['entry_layout']            = 'استبدال التخطيط';
 
-// Aide
-$_['help_parent']             = '(Autocomplétion)';
-$_['help_filter']             = '(Autocomplétion)';
+// التعليمات
+$_['help_parent']             = '(إكمال تلقائي)';
+$_['help_filter']             = '(إكمال تلقائي)';
 
-// Erreur
-$_['error_warning']           = 'Attention: Veuillez vérifier attentivement le formulaire pour les erreurs!';
-$_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les catégories!';
-$_['error_name']              = 'Le nom de la catégorie doit contenir entre 1 et 255 caractères!';
-$_['error_meta_title']        = 'Le titre Meta doit contenir plus de 1 caractère et moins de 255 caractères!';
-$_['error_parent']            = 'La catégorie parente que vous avez choisie est un enfant de la catégorie actuelle!';
-$_['error_keyword']           = 'L\'URL SEO doit contenir entre 1 et 64 caractères!';
-$_['error_keyword_exists']    = 'L\'URL SEO doit être unique!';
-$_['error_keyword_character'] = 'Le mot-clé ne peut utiliser que les caractères a-z, 0-9, - et _ !';
+// الأخطاء
+$_['error_warning']           = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
+$_['error_permission']        = 'تحذير: ليس لديك صلاحية لتعديل الأقسام!';
+$_['error_name']              = 'يجب أن يكون اسم القسم بين 1 و 255 حرفًا!';
+$_['error_meta_title']        = 'يجب أن يحتوي عنوان وسم الميتا على أكثر من حرف واحد وأقل من 255 حرفًا!';
+$_['error_parent']            = 'القسم الرئيسي الذي اخترته تابع لهذا القسم الحالي!';
+$_['error_keyword']           = 'يجب أن يحتوي رابط SEO على 1 إلى 64 حرفًا!';
+$_['error_keyword_exists']    = 'رابط SEO مستخدم مسبقًا! يجب أن يكون فريدًا.';
+$_['error_keyword_character'] = 'يمكن أن تحتوي الكلمة الدلالية فقط على الأحرف a-z، الأرقام 0-9، والرمزين "-" و "_"!';

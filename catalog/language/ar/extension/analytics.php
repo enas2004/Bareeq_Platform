@@ -1,16 +1,17 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Analyses';
+// العنوان
+$_['heading_title']    = 'التحليلات';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les analyses!';
-$_['text_list']        = 'Liste des analyses';
+// النصوص
+$_['text_success']     = 'تم بنجاح: لقد قمتِ بتعديل التحليلات!';
+$_['text_list']        = 'قائمة التحليلات';
 
-// Colonne
-$_['column_name']      = 'Nom de l\'analyse';
-$_['column_status']    = 'Statut';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم التحليل';
+$_['column_status']    = 'الحالة';
+$_['column_action']    = 'الإجراء';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'avez pas la permission de modifier les analyses!';
-$_['error_extension']  = 'Attention: L\'extension n\'existe pas!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديكِ صلاحية لتعديل التحليلات!';
+$_['error_extension']  = 'تحذير: الإضافة غير موجودة!';
+?>

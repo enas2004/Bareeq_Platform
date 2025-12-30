@@ -1,42 +1,42 @@
 <?php
-// العنوان
-$_['heading_title']        = 'العملات';
+// En-tête
+$_['heading_title']        = 'Devises';
 
-// النصوص
-$_['text_success']         = 'تم بنجاح: تم تعديل العملات!';
-$_['text_list']            = 'قائمة العملات';
-$_['text_add']             = 'إضافة عملة';
-$_['text_edit']            = 'تعديل عملة';
-$_['text_iso']             = 'يمكنك العثور على قائمة كاملة برموز العملات ومعايير ISO من خلال <a href="http://www.xe.com/iso4217.php" target="_blank" class="alert-link">هذا الرابط</a>.';
+// Texte
+$_['text_success']         = 'Succès: Vous avez modifié les devises!';
+$_['text_list']            = 'Liste des devises';
+$_['text_add']             = 'Ajouter une devise';
+$_['text_edit']            = 'Modifier une devise';
+$_['text_iso']             = 'Vous pouvez trouver une liste complète des codes ISO des devises et des paramètres <a href="http://www.xe.com/iso4217.php" target="_blank" class="alert-link">ici</a>.';
 
-// الأعمدة
-$_['column_title']         = 'اسم العملة';
-$_['column_code']          = 'الرمز';
-$_['column_value']         = 'القيمة';
-$_['column_status']        = 'الحالة';
-$_['column_date_modified'] = 'آخر تحديث';
-$_['column_action']        = 'الإجراء';
+// Colonne
+$_['column_title']         = 'Nom de la devise';
+$_['column_code']          = 'Code';
+$_['column_value']         = 'Valeur';
+$_['column_status']        = 'Statut';
+$_['column_date_modified'] = 'Dernière mise à jour';
+$_['column_action']        = 'Action';
 
-// الإدخالات
-$_['entry_title']          = 'اسم العملة';
-$_['entry_code']           = 'الرمز';
-$_['entry_value']          = 'القيمة';
-$_['entry_symbol_left']    = 'الرمز على اليسار';
-$_['entry_symbol_right']   = 'الرمز على اليمين';
-$_['entry_decimal_place']  = 'عدد المنازل العشرية';
-$_['entry_status']         = 'الحالة';
+// Entrée
+$_['entry_title']          = 'Nom de la devise';
+$_['entry_code']           = 'Code';
+$_['entry_value']          = 'Valeur';
+$_['entry_symbol_left']    = 'Symbole à gauche';
+$_['entry_symbol_right']   = 'Symbole à droite';
+$_['entry_decimal_place']  = 'Nombre de décimales';
+$_['entry_status']         = 'Statut';
 
-// المساعدة
-$_['help_code']            = 'لا تقم بتغيير هذا الإعداد إذا كانت هذه هي عملتك الافتراضية.';
-$_['help_value']           = 'القيمة بالنسبة إلى عملتك الافتراضية. ضع 1 إذا كانت هذه هي العملة الافتراضية.';
+// Aide
+$_['help_code']            = 'Ne pas modifier si c\'est votre devise par défaut.';
+$_['help_value']           = 'La valeur de votre devise par défaut dans l\'unité de la devise actuelle. Mettez 1 pour votre devise par défaut.';
 
-// الأخطاء
-$_['error_permission']     = 'تحذير: ليس لديك صلاحية لتعديل العملات!';
-$_['error_extension']      = 'تحذير: لم يتم العثور على إضافة العملة!';
-$_['error_title']          = 'يجب أن يكون اسم العملة بين 3 و32 حرفاً!';
-$_['error_code']           = 'يجب أن يتكون رمز العملة من 3 أحرف!';
-$_['error_exists']         = 'العملة غير موجودة!';
-$_['error_file']           = 'الملف غير موجود!';
-$_['error_default']        = 'تحذير: لا يمكن حذف هذه العملة لأنها محددة حالياً كعملة افتراضية للمتجر!';
-$_['error_store']          = 'تحذير: لا يمكن حذف هذه العملة لأنها مرتبطة حالياً بـ %s متجر!';
-$_['error_order']          = 'تحذير: لا يمكن حذف هذه العملة لأنها مستخدمة حالياً في %s طلب!';
+// Erreur
+$_['error_permission']     = 'Attention: Vous n\'avez pas la permission de modifier les devises!';
+$_['error_extension']      = 'Attention: L\'extension de devise n\'a pas pu être trouvée!';
+$_['error_title']          = 'Le nom de la devise doit contenir entre 3 et 32 caractères!';
+$_['error_code']           = 'Le code de la devise doit contenir 3 caractères!';
+$_['error_exists']         = 'La devise n\'existe pas!';
+$_['error_file']           = 'Le fichier est introuvable!';
+$_['error_default']        = 'Attention: Cette devise ne peut pas être supprimée car elle est actuellement définie comme la devise par défaut du magasin!';
+$_['error_store']          = 'Attention: Cette devise ne peut pas être supprimée car elle est actuellement attribuée à %s magasins!';
+$_['error_order']          = 'Attention: Cette devise ne peut pas être supprimée car elle est actuellement attribuée à %s commandes!';

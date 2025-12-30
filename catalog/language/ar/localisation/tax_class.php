@@ -1,32 +1,32 @@
 <?php
-// En-tête
-$_['heading_title']     = 'Classes de Taxes';
+// العنوان
+$_['heading_title']     = 'فئات الضرائب';
 
-// Texte
-$_['text_success']      = 'Succès: Vous avez modifié les classes de taxes!';
-$_['text_list']         = 'Liste des Classes de Taxes';
-$_['text_add']          = 'Ajouter une Classe de Taxes';
-$_['text_edit']         = 'Modifier une Classe de Taxes';
-$_['text_tax_class']    = 'Classe de Taxes';
-$_['text_tax_rate']     = 'Taux de Taxes';
-$_['text_shipping']     = 'Adresse d\'Expédition';
-$_['text_payment']      = 'Adresse de Paiement';
-$_['text_store']        = 'Adresse du Magasin';
+// النصوص
+$_['text_success']      = 'تم بنجاح: تم تعديل فئات الضرائب!';
+$_['text_list']         = 'قائمة فئات الضرائب';
+$_['text_add']          = 'إضافة فئة ضريبية';
+$_['text_edit']         = 'تعديل فئة ضريبية';
+$_['text_tax_class']    = 'فئة الضرائب';
+$_['text_tax_rate']     = 'معدل الضريبة';
+$_['text_shipping']     = 'عنوان الشحن';
+$_['text_payment']      = 'عنوان الدفع';
+$_['text_store']        = 'عنوان المتجر';
 
-// Colonne
-$_['column_title']      = 'Titre de la Classe de Taxes';
-$_['column_action']     = 'Action';
+// الأعمدة
+$_['column_title']      = 'عنوان فئة الضرائب';
+$_['column_action']     = 'الإجراء';
 
-// Entrée
-$_['entry_title']       = 'Titre de la Classe de Taxes';
-$_['entry_description'] = 'Description';
-$_['entry_rate']        = 'Taux de Taxes';
-$_['entry_based']       = 'Basé sur';
-$_['entry_geo_zone']    = 'Zone Géographique';
-$_['entry_priority']    = 'Priorité';
+// الإدخالات
+$_['entry_title']       = 'عنوان فئة الضرائب';
+$_['entry_description'] = 'الوصف';
+$_['entry_rate']        = 'معدل الضريبة';
+$_['entry_based']       = 'الاعتماد على';
+$_['entry_geo_zone']    = 'المنطقة الجغرافية';
+$_['entry_priority']    = 'الأولوية';
 
-// Erreur
-$_['error_permission']  = 'Attention: Vous n\'êtes pas autorisé à modifier les classes de taxes!';
-$_['error_title']       = 'Le titre de la classe de taxes doit comporter entre 3 et 32 caractères!';
-$_['error_description'] = 'La description doit comporter entre 3 et 255 caractères!';
-$_['error_product']     = 'Attention: Cette classe de taxes ne peut pas être supprimée car elle est actuellement assignée à %s produits!';
+// الأخطاء
+$_['error_permission']  = 'تحذير: ليس لديك صلاحية لتعديل فئات الضرائب!';
+$_['error_title']       = 'يجب أن يكون عنوان فئة الضرائب بين 3 و32 حرفاً!';
+$_['error_description'] = 'يجب أن يكون الوصف بين 3 و255 حرفاً!';
+$_['error_product']     = 'تحذير: لا يمكن حذف فئة الضرائب هذه لأنها مرتبطة حالياً بـ %s منتج!';

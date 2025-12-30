@@ -1,3 +1,3 @@
 <?php
-// En-tête
-$_['heading_title'] = 'Promotion';
+// العنوان
+$_['heading_title'] = 'العروض الترويجية';

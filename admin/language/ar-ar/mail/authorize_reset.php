@@ -1,7 +1,7 @@
 <?php
-// النصوص
-$_['text_subject'] = 'إعادة تعيين محاولات رمز الأمان';
-$_['text_reset']   = 'لقد تم إدخال رمز الأمان بشكل غير صحيح أكثر من 3 مرات.';
-$_['text_link']    = 'انقر على الرابط أدناه لإعادة تعيين أمان الحساب:';
-$_['text_ip']      = 'عنوان IP:';
-$_['text_regards'] = 'مع التحية';
+// Texte
+$_['text_subject'] = 'Réinitialiser les tentatives de code de sécurité';
+$_['text_reset']   = 'Quelqu\'un a saisi le code de sécurité de manière incorrecte plus de 3 fois.';
+$_['text_link']    = 'Cliquez sur le lien ci-dessous pour réinitialiser la sécurité du compte:';
+$_['text_ip']      = 'IP:';
+$_['text_regards'] = 'Cordialement';

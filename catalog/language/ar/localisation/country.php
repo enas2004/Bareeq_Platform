@@ -1,35 +1,35 @@
 <?php
-// En-tête
-$_['heading_title']           = 'Pays';
+// العنوان
+$_['heading_title']           = 'الدول';
 
-// Texte
-$_['text_success']            = 'Succès: Vous avez modifié les pays!';
-$_['text_list']               = 'Liste des pays';
-$_['text_add']                = 'Ajouter un pays';
-$_['text_edit']               = 'Modifier un pays';
-$_['text_filter']             = 'Filtrer';
+// النصوص
+$_['text_success']            = 'تم بنجاح: لقد قمت بتعديل الدول!';
+$_['text_list']               = 'قائمة الدول';
+$_['text_add']                = 'إضافة دولة';
+$_['text_edit']               = 'تعديل دولة';
+$_['text_filter']             = 'تصفية';
 
-// Colonne
-$_['column_name']             = 'Nom du pays';
-$_['column_iso_code_2']       = 'Code ISO (2)';
-$_['column_iso_code_3']       = 'Code ISO (3)';
-$_['column_action']           = 'Action';
+// الأعمدة
+$_['column_name']             = 'اسم الدولة';
+$_['column_iso_code_2']       = 'رمز ISO (2)';
+$_['column_iso_code_3']       = 'رمز ISO (3)';
+$_['column_action']           = 'الإجراء';
 
-// Entrée
-$_['entry_name']              = 'Nom du pays';
-$_['entry_iso_code_2']        = 'Code ISO (2)';
-$_['entry_iso_code_3']        = 'Code ISO (3)';
-$_['entry_address_format']    = 'Format d\'adresse';
-$_['entry_postcode_required'] = 'Code postal requis';
-$_['entry_status']            = 'Statut';
+// الإدخالات
+$_['entry_name']              = 'اسم الدولة';
+$_['entry_iso_code_2']        = 'رمز ISO (2)';
+$_['entry_iso_code_3']        = 'رمز ISO (3)';
+$_['entry_address_format']    = 'تنسيق العنوان';
+$_['entry_postcode_required'] = 'الرمز البريدي مطلوب';
+$_['entry_status']            = 'الحالة';
 
-// Erreur
-$_['error_permission']        = 'Attention: Vous n\'avez pas la permission de modifier les pays!';
-$_['error_name']              = 'Le nom du pays doit contenir entre 1 et 128 caractères!';
-$_['error_iso_code_2']        = 'Le code ISO Code 2 doit contenir 2 caractères!';
-$_['error_iso_code_3']        = 'Le code ISO Code 3 doit contenir 3 caractères!';
-$_['error_default']           = 'Attention: Ce pays ne peut pas être supprimé car il est actuellement défini comme le pays par défaut du magasin!';
-$_['error_store']             = 'Attention: Ce pays ne peut pas être supprimé car il est actuellement attribué à %s magasins!';
-$_['error_address']           = 'Attention: Ce pays ne peut pas être supprimé car il est actuellement attribué à %s entrées dans le carnet d\'adresses!';
-$_['error_zone']              = 'Attention: Ce pays ne peut pas être supprimé car il est actuellement attribué à %s zones!';
-$_['error_zone_to_geo_zone']  = 'Attention: Ce pays ne peut pas être supprimé car il est actuellement attribué à %s zones géographiques!';
+// الأخطاء
+$_['error_permission']        = 'تحذير: ليس لديك صلاحية لتعديل الدول!';
+$_['error_name']              = 'يجب أن يكون اسم الدولة بين 1 و128 حرفاً!';
+$_['error_iso_code_2']        = 'يجب أن يحتوي رمز ISO (2) على حرفين!';
+$_['error_iso_code_3']        = 'يجب أن يحتوي رمز ISO (3) على ثلاثة أحرف!';
+$_['error_default']           = 'تحذير: لا يمكن حذف هذه الدولة لأنها محددة حالياً كالدولة الافتراضية للمتجر!';
+$_['error_store']             = 'تحذير: لا يمكن حذف هذه الدولة لأنها مرتبطة حالياً بـ %s متجر!';
+$_['error_address']           = 'تحذير: لا يمكن حذف هذه الدولة لأنها مستخدمة حالياً في %s عنوان في دفتر العناوين!';
+$_['error_zone']              = 'تحذير: لا يمكن حذف هذه الدولة لأنها تحتوي حالياً على %s منطقة!';
+$_['error_zone_to_geo_zone']  = 'تحذير: لا يمكن حذف هذه الدولة لأنها مرتبطة حالياً بـ %s منطقة جغرافية!';

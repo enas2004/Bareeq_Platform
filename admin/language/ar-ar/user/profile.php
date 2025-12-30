@@ -1,34 +1,34 @@
 <?php
-// العنوان
-$_['heading_title']         = 'الملف الشخصي';
+// En-tête
+$_['heading_title']         = 'Profil';
 
-// النصوص
-$_['text_success']          = 'تم بنجاح: لقد عدّلت ملفك الشخصي!';
-$_['text_edit']             = 'تعديل ملفك الشخصي';
-$_['text_user']             = 'تفاصيل المستخدم';
-$_['text_password']         = 'كلمة المرور';
+// Texte
+$_['text_success']          = 'Succès: Vous avez modifié votre profil!';
+$_['text_edit']             = 'Modifier votre profil';
+$_['text_user']             = 'Détails de l\'utilisateur';
+$_['text_password']         = 'Mot de passe';
 
-// الإدخالات
-$_['entry_username']        = 'اسم المستخدم';
-$_['entry_password']        = 'كلمة المرور';
-$_['entry_confirm']         = 'تأكيد';
-$_['entry_firstname']       = 'الاسم الأول';
-$_['entry_lastname']        = 'اسم العائلة';
-$_['entry_email']           = 'البريد الإلكتروني';
-$_['entry_image']           = 'الصورة';
+// Entrée
+$_['entry_username']        = 'Nom d\'utilisateur';
+$_['entry_password']        = 'Mot de passe';
+$_['entry_confirm']         = 'Confirmer';
+$_['entry_firstname']       = 'Prénom';
+$_['entry_lastname']        = 'Nom';
+$_['entry_email']           = 'E-Mail';
+$_['entry_image']           = 'Image';
 
-// الأخطاء
-$_['error_permission']      = 'تحذير: ليس لديك إذن لتعديل ملفك الشخصي!';
-$_['error_username_exists'] = 'تحذير: اسم المستخدم مستخدم بالفعل!';
-$_['error_username']        = 'يجب أن يحتوي اسم المستخدم على 3 إلى 20 حرفًا!';
-$_['error_firstname']       = 'يجب أن يحتوي الاسم الأول على 1 إلى 32 حرفًا!';
-$_['error_lastname']        = 'يجب أن يحتوي اسم العائلة على 1 إلى 32 حرفًا!';
-$_['error_email']           = 'يبدو أن البريد الإلكتروني غير صالح!';
-$_['error_email_exists']    = 'تحذير: البريد الإلكتروني مسجل مسبقًا!';
-$_['error_password']        = 'يجب أن تحتوي كلمة المرور على 4 إلى 20 حرفًا!';
-$_['error_password_uppercase'] = 'حرف كبير';
-$_['error_password_lowercase'] = 'حرف صغير';
-$_['error_password_number']    = 'رقم';
-$_['error_password_symbol']    = 'رمز';
-$_['error_password_length']    = 'يجب أن تتراوح طول كلمة المرور بين %d و20 حرفًا!';
-$_['error_confirm']         = 'كلمة المرور وتأكيد كلمة المرور غير متطابقين!';
+// Erreur
+$_['error_permission']      = 'Attention: Vous n\'avez pas la permission de modifier votre profil!';
+$_['error_username_exists'] = 'Attention: Le nom d\'utilisateur est déjà utilisé!';
+$_['error_username']        = 'Le nom d\'utilisateur doit contenir entre 3 et 20 caractères!';
+$_['error_firstname']       = 'Le prénom doit contenir entre 1 et 32 caractères!';
+$_['error_lastname']        = 'Le nom doit contenir entre 1 et 32 caractères!';
+$_['error_email']           = 'L\'adresse e-mail ne semble pas valide!';
+$_['error_email_exists']    = 'Attention: L\'adresse e-mail est déjà enregistrée!';
+$_['error_password']        = 'Le mot de passe doit contenir entre 4 et 20 caractères!';
+$_['error_password_uppercase'] = 'majuscule';
+$_['error_password_lowercase'] = 'minuscule';
+$_['error_password_number']    = 'numéro';
+$_['error_password_symbol']    = 'symbole';
+$_['error_password_length']    = 'La longueur du mot de passe doit contenir entre %d et 20 caractères!';
+$_['error_confirm']         = 'Le mot de passe et la confirmation du mot de passe ne correspondent pas!';

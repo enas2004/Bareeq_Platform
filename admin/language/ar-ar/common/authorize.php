@@ -1,24 +1,24 @@
 <?php
-// العنوان
-$_['heading_title'] = 'حماية حسابك';
+// En-tête
+$_['heading_title'] = 'Protégez votre compte';
 
-// النصوص
-$_['text_security'] = 'يجب عليك الإجابة على سؤال الأمان في كل مرة تقوم فيها بتسجيل الدخول من جهاز أو حاسوب غير معروف.';
-$_['text_code']     = 'تم إرسال بريد إلكتروني إلى حسابك يحتوي على رمز أمان. أدخل الرمز أدناه للمتابعة.';
-$_['text_sent']     = 'تم بنجاح: تم إرسال بريد إلكتروني إلى عنوانك يحتوي على رمز الأمان!';
-$_['text_locked']   = 'تم قفل حسابك!';
-$_['text_reset']    = 'تم قفل حسابك بسبب عدد كبير جدًا من محاولات إدخال رمز الأمان غير الصحيحة. انقر على زر إعادة التعيين لتلقي رابط إعادة التعيين عبر البريد الإلكتروني.';
-$_['text_link']     = 'تم بنجاح: تم إرسال بريد إلكتروني يحتوي على رابط إعادة التعيين إلى عنوان بريدك الإلكتروني!';
-$_['text_unlocked'] = 'تم بنجاح: تم فتح حسابك!';
-$_['text_unlock']   = 'تم قفل حسابك بسبب عدد كبير جدًا من محاولات إدخال رمز الأمان غير الصحيحة. انقر على زر إعادة التعيين لتلقي رابط إعادة التعيين عبر بريدك الإلكتروني.';
-$_['text_failed']   = 'لم يتمكن رمز الأمان من إعادة التعيين!';
+// Texte
+$_['text_security'] = 'Vous devez répondre à une question de sécurité chaque fois que vous vous connectez depuis un appareil ou un ordinateur inconnu.';
+$_['text_code']     = 'Un e-mail a été envoyé à votre compte e-mail avec un code de sécurité. Entrez le code ci-dessous pour continuer.';
+$_['text_sent']     = 'Succès: Un e-mail a été envoyé à votre adresse e-mail contenant un code de sécurité!';
+$_['text_locked']   = 'Votre compte a été verrouillé!';
+$_['text_reset']    = 'Votre compte a été verrouillé en raison de trop nombreuses tentatives incorrectes de saisie du code de sécurité. Cliquez sur le bouton réinitialiser pour recevoir un lien de réinitialisation par e-mail.';
+$_['text_link']     = 'Succès: Un e-mail avec un lien de réinitialisation a été envoyé à votre adresse e-mail!';
+$_['text_unlocked'] = 'Succès: Votre compte a été déverrouillé!';
+$_['text_unlock']   = 'Votre compte a été verrouillé en raison de trop nombreuses tentatives incorrectes pour entrer le code de sécurité. Cliquez sur le bouton de réinitialisation pour recevoir un lien de réinitialisation via votre compte e-mail.';
+$_['text_failed']   = 'Le code de sécurité n\'a pu être réinitialisé!';
 
-// الإدخالات
-$_['entry_code']    = 'رمز الأمان';
+// Entrée
+$_['entry_code']    = 'Code de Sécurité';
 
-// الأزرار
-$_['button_send']   = 'إرسال';
-$_['button_reset']  = 'إعادة تعيين';
+// Boutons
+$_['button_send']   = 'Envoyer';
+$_['button_reset']  = 'Réinitialiser';
 
-// الأخطاء
-$_['error_code']    = 'رمز الأمان غير صحيح!';
+// Erreur
+$_['error_code']    = 'Le code de sécurité ne correspond pas!';

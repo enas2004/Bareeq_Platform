@@ -1,31 +1,31 @@
 <?php
-// العنوان
-$_['heading_title']     = 'تعليقات المقالات';
+// En-tête
+$_['heading_title']     = 'Commentaires des Articles';
 
-// النصوص
-$_['text_success']      = 'تم بنجاح: لقد قمت بتعديل تعليقات المقالات!';
-$_['text_next']         = 'تم بنجاح: لقد قمت بتعديل %s من أصل %s تعليق يتضمن تقييمات!';
-$_['text_list']         = 'قائمة تعليقات المقالات';
-$_['text_filter']       = 'تصفية';
-$_['text_by']           = 'بواسطة';
-$_['text_info']         = 'معلومات التعليق';
-$_['text_rating']       = 'التقييم:';
+// Texte
+$_['text_success']      = 'Succès: Vous avez modifié les commentaires des articles!';
+$_['text_next']         = 'Succès: Vous avez modifié %s à %s commentaires incluant des évaluations!';
+$_['text_list']         = 'Liste des Commentaires des Articles';
+$_['text_filter']       = 'Filtrer';
+$_['text_by']           = 'Par';
+$_['text_info']         = 'Information du Commentaire';
+$_['text_rating']       = 'Évaluation:';
 
-// الأعمدة
-$_['column_comment']    = 'التعليق';
-$_['column_action']     = 'إجراء';
+// Colonne
+$_['column_comment']    = 'Commentaire';
+$_['column_action']     = 'Action';
 
-// الإدخالات
-$_['entry_keyword']     = 'الكلمة المفتاحية';
-$_['entry_article']     = 'المقال';
-$_['entry_customer']    = 'العميل';
-$_['entry_status']      = 'الحالة';
-$_['entry_date_from']   = 'تاريخ البداية';
-$_['entry_date_to']     = 'تاريخ النهاية';
+// Entrée
+$_['entry_keyword']     = 'Mot-clé';
+$_['entry_article']     = 'Article';
+$_['entry_customer']    = 'Client';
+$_['entry_status']      = 'Statut';
+$_['entry_date_from']   = 'Date de Début';
+$_['entry_date_to']     = 'Date de Fin';
 
-// الأزرار
-$_['button_spam']       = 'إعلان سبام';
-$_['button_rating']     = 'مزامنة تقييمات المنتجات';
+// Bouton
+$_['button_spam']       = 'Spam';
+$_['button_rating']     = 'Synchroniser les Évaluations des Produits';
 
-// الأخطاء
-$_['error_permission']  = 'تحذير: ليس لديك صلاحية لتعديل تعليقات المقالات!';
+// Erreur
+$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les commentaires des articles!';

@@ -1,48 +1,47 @@
 <?php
-// En-tête
-$_['heading_title']          = 'Plans d\'Abonnement';
+// العنوان
+$_['heading_title']          = 'خطط الاشتراك';
 
-// Texte
-$_['text_success']           = 'Succès: Vous avez modifié les plans d\'abonnement!';
-$_['text_list']              = 'Liste des Plans d\'Abonnement';
-$_['text_add']               = 'Ajouter un Plan d\'Abonnement';
-$_['text_edit']              = 'Modifier le Plan d\'Abonnement';
-$_['text_subscription']      = 'Abonnement';
-$_['text_trial']             = 'Essai';
-$_['text_day']               = 'Jour';
-$_['text_week']              = 'Semaine';
-$_['text_semi_month']        = 'Demi-Mois';
-$_['text_month']             = 'Mois';
-$_['text_year']              = 'Année';
+// النصوص
+$_['text_success']           = 'تم بنجاح: لقد قمت بتعديل خطط الاشتراك!';
+$_['text_list']              = 'قائمة خطط الاشتراك';
+$_['text_add']               = 'إضافة خطة اشتراك';
+$_['text_edit']              = 'تعديل خطة الاشتراك';
+$_['text_subscription']      = 'اشتراك';
+$_['text_trial']             = 'تجربة';
+$_['text_day']               = 'يوم';
+$_['text_week']              = 'أسبوع';
+$_['text_semi_month']        = 'نصف شهر';
+$_['text_month']             = 'شهر';
+$_['text_year']              = 'سنة';
 
-// Colonne
-$_['column_name']           = 'Nom du Plan d\'Abonnement';
-$_['column_sort_order']     = 'Ordre de Tri';
-$_['column_action']         = 'Action';
+// الأعمدة
+$_['column_name']           = 'اسم خطة الاشتراك';
+$_['column_sort_order']     = 'ترتيب الفرز';
+$_['column_action']         = 'إجراء';
 
-// Entrée
-$_['entry_name']            = 'Nom du Plan d\'Abonnement';
-$_['entry_trial_duration']  = 'Durée de l\'Essai';
-$_['entry_trial_cycle']     = 'Cycle de l\'Essai';
-$_['entry_trial_frequency'] = 'Fréquence de l\'Essai';
-$_['entry_trial_status']    = 'Statut de l\'Essai';
-$_['entry_duration']        = 'Durée';
-$_['entry_cycle']           = 'Cycle';
-$_['entry_frequency']       = 'Fréquence';
-$_['entry_status']          = 'Statut';
-$_['entry_sort_order']      = 'Ordre de Tri';
+// الإدخالات
+$_['entry_name']            = 'اسم خطة الاشتراك';
+$_['entry_trial_duration']  = 'مدة التجربة';
+$_['entry_trial_cycle']     = 'دورة التجربة';
+$_['entry_trial_frequency'] = 'تكرار التجربة';
+$_['entry_trial_status']    = 'حالة التجربة';
+$_['entry_duration']        = 'المدة';
+$_['entry_cycle']           = 'الدورة';
+$_['entry_frequency']       = 'التكرار';
+$_['entry_status']          = 'الحالة';
+$_['entry_sort_order']      = 'ترتيب الفرز';
 
-// Aide
-$_['help_trial_duration']   = 'La durée correspond au nombre de fois que l\'utilisateur effectuera un paiement.';
-$_['help_trial_cycle']      = 'Les montants d\'abonnement sont calculés par la fréquence et les cycles.';
-$_['help_trial_frequency']  = 'Si vous utilisez une fréquence de "semaine" et un cycle de "2", alors l\'utilisateur sera facturé toutes les 2 semaines.';
-$_['help_duration']         = 'La durée correspond au nombre de fois que l\'utilisateur effectuera un paiement. Mettez cette valeur à 0 si vous souhaitez que les paiements continuent jusqu\'à annulation.';
-$_['help_cycle']            = 'Les montants d\'abonnement sont calculés par la fréquence et les cycles.';
-$_['help_frequency']        = 'Si vous utilisez une fréquence de "semaine" et un cycle de "2", alors l\'utilisateur sera facturé toutes les 2 semaines.';
-
-// Erreur
-$_['error_warning']         = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
-$_['error_permission']      = 'Attention: Vous n\'avez pas la permission de modifier les plans d\'abonnement!';
-$_['error_name']            = 'Le nom du plan d\'abonnement doit contenir entre 3 et 255 caractères!';
-$_['error_trial_duration']  = 'La durée de l\'essai doit être supérieure à 0!';
-$_['error_product']         = 'Attention: Ces plans d\'abonnement ne peuvent pas être supprimés car ils sont actuellement assignés à %s produits!';
+// المساعدة
+$_['help_trial_duration']   = 'المدة تشير إلى عدد المرات التي سيقوم فيها المستخدم بالدفع.';
+$_['help_trial_cycle']      = 'يتم احتساب مبالغ الاشتراك بناءً على التكرار والدورات.';
+$_['help_trial_frequency']  = 'إذا استخدمت تكرار "أسبوع" ودورة "2"، فسيتم تحصيل المبلغ من المستخدم كل أسبوعين.';
+$_['help_duration']         = 'المدة تشير إلى عدد المرات التي سيقوم فيها المستخدم بالدفع. ضع القيمة 0 إذا كنت تريد استمرار الدفعات حتى الإلغاء.';
+$_['help_cycle']            = 'يتم احتساب مبالغ الاشتراك بناءً على التكرار والدورات.';
+$_['help_frequency']        = 'إذا استخدمت تكرار "أسبوع" ودورة "2"، فسيتم تحصيل المبلغ من المستخدم كل أسبوعين.';
+// الأخطاء
+$_['error_warning']         = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
+$_['error_permission']      = 'تحذير: ليس لديك صلاحية لتعديل خطط الاشتراك!';
+$_['error_name']            = 'يجب أن يحتوي اسم خطة الاشتراك على 3 إلى 255 حرفًا!';
+$_['error_trial_duration']  = 'يجب أن تكون مدة التجربة أكبر من 0!';
+$_['error_product']         = 'تحذير: لا يمكن حذف هذه الخطط لأنها مرتبطة حاليًا بـ %s منتج(منتجات)!';

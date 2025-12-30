@@ -1,0 +1,115 @@
+{{ header }}
+
+<div class="stores-section">
+  <div id="product-store" class="stores-container">
+
+    {# مسار الصفحات #}
+    <ul class="breadcrumb mb-4">
+      {% for breadcrumb in breadcrumbs %}
+        <li class="breadcrumb-item">
+          <a href="{{ breadcrumb.href }}">{{ breadcrumb.text }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <div class="row">
+      {{ column_left }}
+
+      <div id="content" class="col">
+        {{ content_top }}
+
+        {# عنوان SEO مخفي #}
+        <h1 class="visually-hidden">{{ heading_title }}</h1>
+
+        {% if stores %}
+
+          {# رأس القسم مثل التصميم #}
+          <div class="text-center mb-5">
+            <span class="stores-badge">
+              المتاجر
+            </span>
+
+            <h2 class="stores-title">
+              اكتشف متاجرنا الرقمية
+            </h2>
+
+            <p class="stores-subtitle">
+              مجموعة متنوعة من المتاجر الرقمية والخدمات المميزة لتجربة تسوق افتراضية متكاملة.
+            </p>
+          </div>
+
+          {# شبكة كروت المتاجر #}
+          <div class="stores-grid">
+            {% for store in stores %}
+              <div class="store-card">
+
+                {# صورة المتجر + المفضلة + البادج #}
+                <div class="store-card__image">
+                  {% if store.thumb %}
+                    <a href="{{ store.url }}" target="_blank">
+                      <img src="{{ store.thumb }}"
+                           alt="{{ store.name }}"
+                           title="{{ store.name }}">
+                    </a>
+                  {% endif %}
+
+                  <button type="button" class="store-card__favorite">
+                    <i class="fa-regular fa-heart"></i>
+                  </button>
+
+                  {% if store.badge %}
+                    <span class="store-card__badge">
+                      {{ store.badge }}
+                    </span>
+                  {% endif %}
+                </div>
+
+                {# محتوى الكرت #}
+                <div class="store-card__body">
+                  <h3 class="store-card__name">
+                    {{ store.name }}
+                  </h3>
+
+                  {% if store.description %}
+                    <p class="store-card__desc">
+                      {{ store.description }}
+                    </p>
+                  {% endif %}
+
+                  <div class="store-card__meta">
+                    {% if store.rating %}
+                      <div class="store-card__rating">
+                        <span>{{ store.rating }}</span>
+                        <i class="fa-solid fa-star"></i>
+                      </div>
+                    {% else %}
+                      <span></span>
+                    {% endif %}
+
+                    <a href="{{ store.url }}" target="_blank"
+                       class="store-card__btn">
+                      زيارة المتجر
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+            {% endfor %}
+          </div>
+
+        {% else %}
+          <p>{{ text_no_results }}</p>
+          <div class="text-end">
+            <a href="{{ continue }}" class="btn btn-primary">{{ button_continue }}</a>
+          </div>
+        {% endif %}
+
+        {{ content_bottom }}
+      </div>
+
+      {{ column_right }}
+    </div>
+  </div>
+</div>
+
+{{ footer }}

@@ -1,7 +1,7 @@
 <?php
-// Texte
-$_['text_subject']  = '%s - Votre compte affilié a été activé!';
-$_['text_welcome']  = 'Bienvenue et merci de vous être inscrit sur %s!';
-$_['text_login']    = 'Votre compte a maintenant été approuvé et vous pouvez vous connecter en utilisant votre adresse e-mail et votre mot de passe en visitant notre site Web ou à l\'URL suivante:';
-$_['text_service']  = 'Une fois connecté, vous pourrez générer des codes de suivi, suivre les paiements de commission et modifier les informations de votre compte.';
-$_['text_thanks']   = 'Merci,';
+// النصوص
+$_['text_subject']  = '%s - تم تفعيل حسابك التابع!';
+$_['text_welcome']  = 'مرحباً وشكراً لتسجيلك في %s!';
+$_['text_login']    = 'تمت الموافقة على حسابك الآن ويمكنك تسجيل الدخول باستخدام بريدك الإلكتروني وكلمة المرور عبر موقعنا الإلكتروني أو على الرابط التالي:';
+$_['text_service']  = 'بعد تسجيل الدخول، يمكنك إنشاء رموز التتبع، متابعة دفعات العمولة، وتعديل معلومات حسابك.';
+$_['text_thanks']   = 'شكراً لك،';

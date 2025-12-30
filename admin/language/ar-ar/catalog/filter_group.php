@@ -1,24 +1,24 @@
 <?php
-// العنوان
-$_['heading_title']     = 'مجموعات الفلاتر';
+// En-tête
+$_['heading_title']     = 'Groupes de filtres';
 
-// النصوص
-$_['text_success']      = 'تم بنجاح: لقد قمت بتعديل مجموعات الفلاتر!';
-$_['text_list']         = 'قائمة مجموعات الفلاتر';
-$_['text_add']          = 'إضافة مجموعة فلاتر';
-$_['text_edit']         = 'تعديل مجموعة الفلاتر';
+// Texte
+$_['text_success']      = 'Succès: Vous avez modifié les groupes de filtres!';
+$_['text_list']         = 'Liste des groupes de filtres';
+$_['text_add']          = 'Ajouter un groupe de filtres';
+$_['text_edit']         = 'Modifier un groupe de filtres';
 
-// الأعمدة
-$_['column_name']       = 'اسم مجموعة الفلاتر';
-$_['column_sort_order'] = 'ترتيب العرض';
-$_['column_action']     = 'الإجراء';
+// Colonne
+$_['column_name']       = 'Nom du groupe de filtres';
+$_['column_sort_order'] = 'Ordre de tri';
+$_['column_action']     = 'Action';
 
-// الإدخالات
-$_['entry_name']        = 'اسم مجموعة الفلاتر';
-$_['entry_sort_order']  = 'ترتيب العرض';
+// Entrée
+$_['entry_name']        = 'Nom du groupe de filtres';
+$_['entry_sort_order']  = 'Ordre de tri';
 
-// الأخطاء
-$_['error_warning']     = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
-$_['error_permission']  = 'تحذير: ليس لديك صلاحية لتعديل مجموعات الفلاتر!';
-$_['error_name']        = 'يجب أن يكون اسم مجموعة الفلاتر بين 1 و 64 حرفًا!';
-$_['error_filter']      = 'تحذير: لا يمكن حذف مجموعة الفلاتر هذه لأنها مرتبطة حاليًا بـ %s من الفلاتر!';
+// Erreur
+$_['error_warning']     = 'Attention: Veuillez vérifier attentivement le formulaire pour des erreurs!';
+$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les groupes de filtres!';
+$_['error_name']        = 'Le nom du groupe de filtres doit contenir entre 1 et 64 caractères!';
+$_['error_filter']      = 'Attention: Ce groupe de filtres ne peut pas être supprimé car il est actuellement assigné à %s filtres!';

@@ -1,19 +1,19 @@
 <?php
 // En-tête
-$_['heading_title']  = 'Administration';
+$_['heading_title']  = 'لوحة الإدارة';
 
 // Texte
-$_['text_heading']   = 'Administration';
-$_['text_login']     = 'Veuillez entrer vos identifiants de connexion.';
-$_['text_forgotten'] = 'Mot de passe oublié';
+$_['text_heading']   = 'لوحة الإدارة';
+$_['text_login']     = 'يرجى إدخال بيانات اعتمادك.';
+$_['text_forgotten'] = 'نسيت كلمة المرور';
 
 // Entrée
-$_['entry_username'] = 'Nom d\'utilisateur';
-$_['entry_password'] = 'Mot de passe';
+$_['entry_username'] = 'اسم المستخدم';
+$_['entry_password'] = 'كلمة المرور';
 
 // Bouton
-$_['button_login']   = 'Connexion';
+$_['button_login']   = 'تسجيل الدخول';
 
 // Erreur
-$_['error_login']    = 'Aucune correspondance pour le nom d\'utilisateur et/ou le mot de passe.';
-$_['error_token']    = 'Session de jeton invalide. Veuillez vous reconnecter.';
+$_['error_login']    = 'اسم المستخدم و/أو كلمة المرور غير صحيح.';
+$_['error_token']    = 'رمز الجلسة غير صالح. يرجى تسجيل الدخول مرة أخرى.';

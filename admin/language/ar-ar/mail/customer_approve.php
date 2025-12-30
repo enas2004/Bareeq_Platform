@@ -1,10 +1,10 @@
 <?php
-// النصوص
-$_['text_subject'] = '%s - تم تفعيل حسابك!';
-$_['text_welcome'] = 'مرحباً وشكراً لتسجيلك في %s!';
-$_['text_login']   = 'تم إنشاء حسابك الآن ويمكنك تسجيل الدخول باستخدام بريدك الإلكتروني وكلمة المرور عبر موقعنا الإلكتروني أو على الرابط التالي:';
-$_['text_service'] = 'بعد تسجيل الدخول، يمكنك الوصول إلى خدمات أخرى، بما في ذلك عرض طلباتك السابقة، طباعة الفواتير، وتعديل معلومات حسابك.';
-$_['text_thanks']  = 'شكراً لك،';
+// Texte
+$_['text_subject'] = '%s - Votre compte a été activé!';
+$_['text_welcome'] = 'Bienvenue et merci de vous être inscrit sur %s!';
+$_['text_login']   = 'Votre compte a maintenant été créé et vous pouvez vous connecter en utilisant votre adresse e-mail et votre mot de passe en visitant notre site Web ou à l\'URL suivante:';
+$_['text_service'] = 'Une fois connecté, vous pourrez accéder à d\'autres services, notamment consulter vos commandes passées, imprimer des factures et modifier vos informations de compte.';
+$_['text_thanks']  = 'Merci,';
 
-// الزر
-$_['button_login'] = 'تسجيل الدخول';
+// Bouton
+$_['button_login'] = 'Connexion';

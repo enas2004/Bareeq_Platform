@@ -1,22 +1,22 @@
 <?php
-// العنوان
-$_['heading_title']     = 'الأحداث';
+// En-tête
+$_['heading_title']     = 'Événements';
 
-// النصوص
-$_['text_success']      = 'تم التعديل بنجاح: لقد تم تعديل الأحداث!';
-$_['text_list']         = 'قائمة الأحداث';
-$_['text_event']        = 'تُستخدم الأحداث من قبل الإضافات لتجاوز الوظائف الافتراضية لمتجرك. في حال حدوث مشكلة، يمكنك تعطيل أو تمكين الأحداث من هنا.';
-$_['text_info']         = 'معلومات عن الحدث';
+// Texte
+$_['text_success']      = 'Succès: Vous avez modifié les événements!';
+$_['text_list']         = 'Liste des événements';
+$_['text_event']        = 'Les événements sont utilisés par les extensions pour remplacer la fonctionnalité par défaut de votre magasin. En cas de problème, vous pouvez désactiver ou activer les événements ici.';
+$_['text_info']         = 'Informations sur les événements';
 
-// الأعمدة
-$_['column_code']       = 'رمز الحدث';
-$_['column_sort_order'] = 'ترتيب الفرز';
-$_['column_action']     = 'إجراء';
+// Colonne
+$_['column_code']       = 'Code de l\'événement';
+$_['column_sort_order'] = 'Ordre de tri';
+$_['column_action']     = 'Action';
 
-// الإدخالات
-$_['entry_description'] = 'الوصف';
-$_['entry_trigger']     = 'المُحفّز';
-$_['entry_action']      = 'الإجراء';
+// Entrée
+$_['entry_description'] = 'Description';
+$_['entry_trigger']     = 'Déclencheur';
+$_['entry_action']      = 'Action';
 
-// الأخطاء
-$_['error_permission']  = 'تحذير: ليس لديك إذن لتعديل الأحداث!';
+// Erreur
+$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier les événements!';

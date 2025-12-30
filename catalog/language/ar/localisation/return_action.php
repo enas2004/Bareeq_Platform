@@ -1,21 +1,21 @@
 <?php
-// En-tête
-$_['heading_title']    = 'Actions de Retour';
+// العنوان
+$_['heading_title']    = 'إجراءات الإرجاع';
 
-// Texte
-$_['text_success']     = 'Succès: Vous avez modifié les actions de retour!';
-$_['text_list']        = 'Liste des Actions de Retour';
-$_['text_add']         = 'Ajouter une Action de Retour';
-$_['text_edit']        = 'Modifier une Action de Retour';
+// النصوص
+$_['text_success']     = 'تم بنجاح: تم تعديل إجراءات الإرجاع!';
+$_['text_list']        = 'قائمة إجراءات الإرجاع';
+$_['text_add']         = 'إضافة إجراء إرجاع';
+$_['text_edit']        = 'تعديل إجراء إرجاع';
 
-// Colonne
-$_['column_name']      = 'Nom de l\'Action de Retour';
-$_['column_action']    = 'Action';
+// الأعمدة
+$_['column_name']      = 'اسم إجراء الإرجاع';
+$_['column_action']    = 'الإجراء';
 
-// Entrée
-$_['entry_name']       = 'Nom de l\'Action de Retour';
+// الإدخالات
+$_['entry_name']       = 'اسم إجراء الإرجاع';
 
-// Erreur
-$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les actions de retour!';
-$_['error_name']       = 'Le nom de l\'action de retour doit comporter entre 3 et 64 caractères!';
-$_['error_return']     = 'Attention: Cette action de retour ne peut pas être supprimée car elle est actuellement assignée à %s produits retournés!';
+// الأخطاء
+$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل إجراءات الإرجاع!';
+$_['error_name']       = 'يجب أن يكون اسم إجراء الإرجاع بين 3 و64 حرفاً!';
+$_['error_return']     = 'تحذير: لا يمكن حذف هذا الإجراء لأنه مرتبط حالياً بـ %s منتج تم إرجاعه!';

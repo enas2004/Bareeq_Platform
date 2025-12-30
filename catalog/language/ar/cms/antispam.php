@@ -1,22 +1,22 @@
 <?php
-// En-tête
-$_['heading_title']        = 'Anti-Spam';
+// العنوان
+$_['heading_title']        = 'مضاد البريد المزعج (Anti-Spam)';
 
-// Texte
-$_['text_success']         = 'Succès: Vous avez modifié l\'anti-spam!';
-$_['text_list']            = 'Liste Anti-Spam';
-$_['text_add']             = 'Ajouter un Anti-Spam';
-$_['text_edit']            = 'Modifier l\'Anti-Spam';
+// النصوص
+$_['text_success']         = 'تم بنجاح: لقد قمت بتعديل إعدادات مضاد البريد المزعج!';
+$_['text_list']            = 'قائمة مضاد البريد المزعج';
+$_['text_add']             = 'إضافة مضاد للبريد المزعج';
+$_['text_edit']            = 'تعديل مضاد البريد المزعج';
 
-// Colonne
-$_['column_keyword']       = 'Mot-clé';
-$_['column_action']        = 'Action';
+// الأعمدة
+$_['column_keyword']       = 'الكلمة المفتاحية';
+$_['column_action']        = 'إجراء';
 
-// Entrée
-$_['entry_keyword']        = 'Mot-clé';
+// الإدخالات
+$_['entry_keyword']        = 'الكلمة المفتاحية';
 
-// Erreur
-$_['error_warning']        = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
-$_['error_permission']     = 'Attention: Vous n\'avez pas la permission de modifier l\'anti-spam!';
-$_['error_keyword']        = 'Le mot-clé doit contenir entre 1 et 64 caractères!';
-$_['error_keyword_exists'] = 'Le mot-clé doit être unique!';
+// الأخطاء
+$_['error_warning']        = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
+$_['error_permission']     = 'تحذير: ليس لديك صلاحية لتعديل إعدادات مضاد البريد المزعج!';
+$_['error_keyword']        = 'يجب أن تحتوي الكلمة المفتاحية على 1 إلى 64 حرفًا!';
+$_['error_keyword_exists'] = 'يجب أن تكون الكلمة المفتاحية فريدة!';

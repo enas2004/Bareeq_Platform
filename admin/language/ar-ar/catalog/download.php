@@ -1,42 +1,42 @@
 <?php
-// العنوان
-$_['heading_title']            = 'الملفات القابلة للتحميل';
+// En-tête
+$_['heading_title']            = 'Téléchargements';
 
-// النصوص
-$_['text_success']             = 'تم بنجاح: لقد قمت بتعديل الملفات القابلة للتحميل!';
-$_['text_list']                = 'قائمة الملفات القابلة للتحميل';
-$_['text_add']                 = 'إضافة ملف قابل للتحميل';
-$_['text_edit']                = 'تعديل الملف القابل للتحميل';
-$_['text_upload']              = 'تم رفع الملف بنجاح!';
-$_['text_report']              = 'التقارير';
+// Texte
+$_['text_success']             = 'Succès: Vous avez modifié les téléchargements!';
+$_['text_list']                = 'Liste des Téléchargements';
+$_['text_add']                 = 'Ajouter un Téléchargement';
+$_['text_edit']                = 'Modifier le Téléchargement';
+$_['text_upload']              = 'Votre fichier a été téléchargé avec succès!';
+$_['text_report']              = 'Rapports';
 
-// الأعمدة
-$_['column_name']              = 'اسم الملف القابل للتحميل';
-$_['column_ip']                = 'عنوان IP';
-$_['column_account']           = 'الحسابات';
-$_['column_store']             = 'المتجر';
-$_['column_country']           = 'الدولة';
-$_['column_date_added']        = 'تاريخ الإضافة';
-$_['column_action']            = 'الإجراء';
+// Colonne
+$_['column_name']              = 'Nom du Téléchargement';
+$_['column_ip']                = 'IP';
+$_['column_account']           = 'Comptes';
+$_['column_store']             = 'Magasin';
+$_['column_country']           = 'Pays';
+$_['column_date_added']        = 'Date d\'ajout';
+$_['column_action']            = 'Action';
 
-// الإدخالات
-$_['entry_name']               = 'اسم الملف القابل للتحميل';
-$_['entry_filename']           = 'اسم الملف';
-$_['entry_mask']               = 'القناع';
+// Entrée
+$_['entry_name']               = 'Nom du Téléchargement';
+$_['entry_filename']           = 'Nom du Fichier';
+$_['entry_mask']               = 'Masque';
 
-// التعليمات
-$_['help_filename']            = 'يمكنك رفع الملف باستخدام زر الرفع أو عبر FTP إلى مجلد التحميلات، ثم إدخال التفاصيل أدناه.';
-$_['help_mask']                = 'يُفضل أن يكون اسم الملف والقناع مختلفين لمنع المستخدمين من محاولة الوصول المباشر إلى ملفاتك.';
+// Aide
+$_['help_filename']            = 'Vous pouvez télécharger via le bouton de téléchargement ou utiliser FTP pour télécharger dans le répertoire des téléchargements et entrer les détails ci-dessous.';
+$_['help_mask']                = 'Il est recommandé que le nom du fichier et le masque soient différents pour empêcher les utilisateurs d\'essayer de lier directement vos téléchargements.';
 
-// الأخطاء
-$_['error_warning']            = 'تحذير: يرجى التحقق من النموذج بعناية بحثًا عن الأخطاء!';
-$_['error_permission']         = 'تحذير: ليس لديك صلاحية لتعديل الملفات القابلة للتحميل!';
-$_['error_name']               = 'يجب أن يكون اسم الملف القابل للتحميل بين 3 و 64 حرفًا!';
-$_['error_filename']           = 'يجب أن يكون اسم الملف بين 3 و 128 حرفًا!';
-$_['error_filename_character'] = 'يمكن أن يحتوي اسم الملف فقط على الأحرف a-z، الأرقام 0-9، والرمزين "-" و "_"!';
-$_['error_directory']          = 'يجب أن تكون الملفات القابلة للتحميل داخل مجلد storage/download!';
-$_['error_exists']             = 'الملف غير موجود!';
-$_['error_mask']               = 'يجب أن يحتوي القناع على ما بين 3 و 128 حرفًا!';
-$_['error_mask_character']     = 'يمكن أن يحتوي القناع فقط على الأحرف a-z، الأرقام 0-9، والرمزين "-" و "_"!';
-$_['error_file_type']          = 'نوع الملف غير صالح!';
-$_['error_product']            = 'تحذير: لا يمكن حذف هذا الملف القابل للتحميل لأنه مرتبط حاليًا بـ %s من المنتجات!';
+// Erreur
+$_['error_warning']            = 'Attention: Veuillez vérifier le formulaire attentivement pour les erreurs!';
+$_['error_permission']         = 'Attention: Vous n\'avez pas la permission de modifier les téléchargements!';
+$_['error_name']               = 'Le nom du téléchargement doit contenir entre 3 et 64 caractères!';
+$_['error_filename']           = 'Le nom du fichier doit contenir entre 3 et 128 caractères!';
+$_['error_filename_character'] = 'Le nom du fichier ne peut utiliser que les caractères a-z, 0-9, - et _ !';
+$_['error_directory']          = 'Les téléchargements doivent être dans le répertoire storage/download!';
+$_['error_exists']             = 'Le fichier n\'existe pas!';
+$_['error_mask']               = 'Le masque doit contenir entre 3 et 128 caractères!';
+$_['error_mask_character']     = 'Le masque ne peut utiliser que les caractères a-z, 0-9, - et _ !';
+$_['error_file_type']          = 'Type de fichier non valide!';
+$_['error_product']            = 'Attention: Ce téléchargement ne peut pas être supprimé car il est actuellement assigné à %s produits!';

@@ -1,30 +1,29 @@
 <?php
-// العنوان
-$_['heading_title']     = 'محرر القوالب';
+// En-tête
+$_['heading_title']     = 'Éditeur de Thème';
 
-// النصوص
-$_['text_success']      = 'تم بنجاح: لقد قمتِ بتعديل القوالب!';
-$_['text_add']          = 'إضافة قالب';
-$_['text_edit']         = 'تعديل القالب';
-$_['text_default']      = 'الافتراضي';
-$_['text_extension']    = 'الإضافة';
-$_['text_code']         = 'محرر كود القوالب';
-$_['text_twig']         = 'يستخدم محرر القوالب لغة القوالب Twig. يمكنكِ قراءة المزيد عن <a href="https://twig.symfony.com/doc/" target="_blank" class="alert-link">بناء الجمل الخاصة بـ Twig من هنا</a>.';
+// Texte
+$_['text_success']      = 'Succès: Vous avez modifié les thèmes!';
+$_['text_add']          = 'Ajouter un Thème';
+$_['text_edit']         = 'Modifier le Thème';
+$_['text_default']      = 'Par défaut';
+$_['text_extension']    = 'Extension';
+$_['text_code']         = 'Éditeur de code des thèmes';
+$_['text_twig']         = 'L\'éditeur de thèmes utilise le langage de modèle Twig. Vous pouvez lire à propos de la <a href="https://twig.symfony.com/doc/" target="_blank" class="alert-link">syntaxe Twig ici</a>.';
 
-// الأعمدة
-$_['column_store']      = 'المتجر';
-$_['column_route']      = 'المسار';
-$_['column_status']     = 'الحالة';
-$_['column_date_added'] = 'تاريخ الإضافة';
-$_['column_action']     = 'الإجراء';
+// Colonne
+$_['column_store']      = 'Magasin';
+$_['column_route']      = 'Itinéraire';
+$_['column_status']     = 'Statut';
+$_['column_date_added'] = 'Date d\'ajout';
+$_['column_action']     = 'Action';
 
-// المدخلات
-$_['entry_store']       = 'المتجر';
-$_['entry_route']       = 'المسار';
-$_['entry_code']        = 'الكود';
-$_['entry_status']      = 'الحالة';
+// Entrée
+$_['entry_store']       = 'Magasins';
+$_['entry_route']       = 'Itinéraire';
+$_['entry_code']        = 'Code';
+$_['entry_status']      = 'Statut';
 
-// الأخطاء
-$_['error_permission']  = 'تحذير: ليس لديكِ صلاحية لتعديل محرر القوالب!';
-$_['error_file']        = 'الملف غير موجود!';
-?>
+// Erreur
+$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier l\'éditeur de thèmes!';
+$_['error_file']        = 'Le fichier est introuvable!';

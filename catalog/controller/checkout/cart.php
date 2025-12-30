@@ -1,12 +1,6 @@
 <?php
 namespace Opencart\Catalog\Controller\Checkout;
-/**
- * Class Cart
- *
- * Can be loaded using $this->load->controller('checkout/cart');
- *
- * @package Opencart\Catalog\Controller\Checkout
- */
+
 class Cart extends \Opencart\System\Engine\Controller {
 	/**
 	 * Index
@@ -14,8 +8,19 @@ class Cart extends \Opencart\System\Engine\Controller {
 	 * @return void
 	 */
 	public function index(): void {
+
+		// أولاً: حمل ملف اللغة
 		$this->load->language('checkout/cart');
 
+		$data = [];
+
+		// ثانياً: دمج النصوص متعددة اللغات في $data
+		$data = array_merge($data, $this->getCartTexts());
+
+		// ❌ هذا السطر هو سبب الخطأ لأنه يمرر $data كوسيط ثاني (array)
+		// $this->load->language('checkout/cart', $data);
+
+		// العنوان في التاب والمتصفح
 		$this->document->setTitle($this->language->get('heading_title'));
 
 		$data['breadcrumbs'] = [];
@@ -34,21 +39,70 @@ class Cart extends \Opencart\System\Engine\Controller {
 
 		$data['language'] = $this->config->get('config_language');
 
-		$data['column_left'] = $this->load->controller('common/column_left');
-		$data['column_right'] = $this->load->controller('common/column_right');
-		$data['content_top'] = $this->load->controller('common/content_top');
-		$data['content_bottom'] = $this->load->controller('common/content_bottom');
-		$data['footer'] = $this->load->controller('common/footer');
-		$data['header'] = $this->load->controller('common/header');
+		$data['column_left']   = $this->load->controller('common/column_left');
+		$data['column_right']  = $this->load->controller('common/column_right');
+		$data['content_top']   = $this->load->controller('common/content_top');
+		$data['content_bottom']= $this->load->controller('common/content_bottom');
+		$data['footer']        = $this->load->controller('common/footer');
+		$data['header']        = $this->load->controller('common/header');
 
 		$this->response->setOutput($this->load->view('checkout/cart', $data));
 	}
 
 	/**
-	 * List
+	 * تجهيز نصوص السلة من ملف اللغة
+	 */
+	protected function getCartTexts(): array {
+		// هنا ما في داعي نعيد load للغة لأننا عملناه في index()
+		// لو حابة تخليها مستقلة ممكن تتركيه، بس مو ضروري:
+		// $this->load->language('checkout/cart');
+
+		return [
+			// العنوان
+			'heading_title'    => $this->language->get('heading_title'),
+
+			// النصوص
+			'text_success'     => $this->language->get('text_success'),
+			'text_edit'        => $this->language->get('text_edit'),
+			'text_remove'      => $this->language->get('text_remove'),
+			'text_login'       => $this->language->get('text_login'),
+			'text_no_results'  => $this->language->get('text_no_results'),
+			'text_model'       => $this->language->get('text_model'),
+			'text_subscription'          => $this->language->get('text_subscription'),
+			'text_subscription_trial'    => $this->language->get('text_subscription_trial'),
+			'text_subscription_duration' => $this->language->get('text_subscription_duration'),
+			'text_subscription_cancel'   => $this->language->get('text_subscription_cancel'),
+			'text_day'         => $this->language->get('text_day'),
+			'text_week'        => $this->language->get('text_week'),
+			'text_semi_month'  => $this->language->get('text_semi_month'),
+			'text_month'       => $this->language->get('text_month'),
+			'text_year'        => $this->language->get('text_year'),
+			'text_points'      => $this->language->get('text_points'),
+			'text_next'        => $this->language->get('text_next'),
+			'text_next_choice' => $this->language->get('text_next_choice'),
+
+			// أعمدة الجدول
+			'column_image'     => $this->language->get('column_image'),
+			'column_name'      => $this->language->get('column_name'),
+			'column_quantity'  => $this->language->get('column_quantity'),
+			'column_price'     => $this->language->get('column_price'),
+			'column_total'     => $this->language->get('column_total'),
+
+			// الأخطاء
+			'error_stock'        => $this->language->get('error_stock'),
+			'error_minimum'      => $this->language->get('error_minimum'),
+			'error_required'     => $this->language->get('error_required'),
+			'error_regex'        => $this->language->get('error_regex'),
+			'error_product'      => $this->language->get('error_product'),
+			'error_subscription' => $this->language->get('error_subscription'),
+		];
+	}
+	/**
+	 * Get List Controller
 	 *
 	 * @return void
 	 */
+
 	public function list(): void {
 		$this->load->language('checkout/cart');
 

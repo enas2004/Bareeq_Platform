@@ -1,25 +1,25 @@
 <?php
-// En-tête
-$_['heading_title']     = 'Rapport en ligne';
+// العنوان
+$_['heading_title']     = 'تقرير العملاء المتصلين';
 
-// Texte
-$_['text_extension']    = 'Extensions';
-$_['text_success']      = 'Succès: Vous avez modifié le rapport des clients en ligne!';
-$_['text_list']         = 'Liste en ligne';
-$_['text_filter']       = 'Filtrer';
-$_['text_guest']        = 'Invité';
+// النصوص
+$_['text_extension']    = 'الإضافات';
+$_['text_success']      = 'تم بنجاح: لقد قمت بتعديل تقرير العملاء المتصلين!';
+$_['text_list']         = 'قائمة المتصلين';
+$_['text_filter']       = 'تصفية';
+$_['text_guest']        = 'زائر';
 
-// Colonne
+// الأعمدة
 $_['column_ip']         = 'IP';
-$_['column_customer']   = 'Client';
-$_['column_url']        = 'Dernière page visitée';
-$_['column_referer']    = 'Référent';
-$_['column_date_added'] = 'Dernier clic';
-$_['column_action']     = 'Action';
+$_['column_customer']   = 'العميل';
+$_['column_url']        = 'آخر صفحة تم زيارتها';
+$_['column_referer']    = 'المُحيل';
+$_['column_date_added'] = 'آخر نشاط';
+$_['column_action']     = 'الإجراء';
 
-// Entrée
+// الإدخالات
 $_['entry_ip']          = 'IP';
-$_['entry_customer']    = 'Client';
+$_['entry_customer']    = 'العميل';
 
-// Erreur
-$_['error_permission']  = 'Attention: Vous n\'avez pas la permission de modifier le rapport des clients en ligne!';
+// الأخطاء
+$_['error_permission']  = 'تحذير: ليس لديك إذن لتعديل تقرير العملاء المتصلين!';

@@ -1,58 +1,58 @@
 <?php
-// العنوان
-$_['heading_title'] = 'مثبت الإضافات';
+// En-tête
+$_['heading_title']          = 'Installateur d\'extensions';
 
-// النصوص
-$_['text_upload']   = 'تم بنجاح: تم تحميل الإضافة!';
-$_['text_success']  = 'تم بنجاح: لقد تم تعديل الإضافات!';
-$_['text_progress'] = 'تقدم التثبيت';
-$_['text_installed']= 'الإضافات المثبتة';
-$_['text_info']     = 'معلومات عن الإضافات';
-$_['text_install']  = 'تثبيت الملفات من %s إلى %s من %s';
-$_['text_vendor']   = 'تحديث ملفات البائعين';
-$_['text_xml']      = 'تثبيت ملفات OCMOD';
+// Texte
+$_['text_upload']            = 'Succès: l\'extension a été téléchargée!';
+$_['text_success']           = 'Succès: Vous avez modifié les extensions!';
+$_['text_progress']          = 'Progression de l\'installation';
+$_['text_installed']         = 'Extensions installées';
+$_['text_info']              = 'Information sur les extensions';
+$_['text_install']           = 'Installation des fichiers à partir de %s envers %s de %s';
+$_['text_vendor']            = 'Refraîchir les fichiers fournisseurs';
+$_['text_xml']               = 'Installer les fichiers OCMOD';
 
-// الأعمدة
-$_['column_image']       = 'صورة';
-$_['column_name']        = 'اسم الإضافة';
-$_['column_version']     = 'الإصدار';
-$_['column_date_added']  = 'تاريخ الإضافة';
-$_['column_action']      = 'إجراء';
+// Colonne
+$_['column_image']           = 'Image';
+$_['column_name']            = 'Nom de l\'extension';
+$_['column_version']         = 'Version';
+$_['column_date_added']      = 'Date d\'ajout';
+$_['column_action']          = 'Action';
 
-// الإدخالات
-$_['entry_progress']     = 'تقدم';
-$_['entry_name']         = 'اسم الإضافة';
-$_['entry_description']  = 'الوصف';
-$_['entry_code']         = 'الكود';
+// Entrée
+$_['entry_progress']         = 'Progression';
+$_['entry_name']             = 'Nom de l\'extension';
+$_['entry_description']      = 'Description';
+$_['entry_code']             = 'Code';
 
-// الأخطاء
-$_['error_permission']       = 'تحذير: ليس لديك إذن لتعديل الإضافات!';
-$_['error_install']          = 'تحذير: تعذر العثور على install.json!';
-$_['error_default']          = 'لا يمكن إلغاء تثبيت أو حذف الإضافة الافتراضية!';
-$_['error_extension']        = 'الإضافة المثبتة غير موجودة!';
-$_['error_installed']        = 'الإضافة مثبتة بالفعل!';
-$_['error_uninstall']        = 'هناك %s إضافات يجب إلغاء تثبيتها قبل أن يمكن حذف هذه الإضافة بأمان!';
-$_['error_name']             = 'يجب أن يكون الاسم بين 3 و 128 حرفًا!';
-$_['error_version']          = 'يجب أن يكون الإصدار بين 3 و 128 حرفًا!';
-$_['error_author']           = 'يجب أن يكون اسم المؤلف بين 3 و 128 حرفًا!';
-$_['error_link']             = 'يجب أن يكون الرابط بين 3 و 128 حرفًا!';
-$_['error_filename']         = 'يجب أن يكون اسم الملف بين 3 و 128 حرفًا!';
-$_['error_file']             = 'ملف التثبيت %s غير موجود!';
-$_['error_file_exists']      = 'الملف موجود بالفعل!';
-$_['error_file_type']        = 'نوع الملف غير صالح!';
-$_['error_directory']        = 'مجلد التثبيت %s غير موجود!';
-$_['error_directory_exists'] = 'المسار %s موجود بالفعل!';
-$_['error_unzip']            = 'تعذر فتح ملف .zip!';
-$_['error_upload']           = 'تعذر تحميل الملف!';
-$_['error_unknown']          = 'حدث خطأ غير معروف!';
+// Erreur
+$_['error_permission']       = 'Attention: Vous n\'avez pas la permission de modifier les extensions!';
+$_['error_install']          = 'Attention: Impossible de trouver install.json!';
+$_['error_default']          = 'l\'extension par défaut ne peut pas être désinstallée ou supprimée!';
+$_['error_extension']        = 'l\'extension installée est introuvable!';
+$_['error_installed']        = 'Extension déjà installée!';
+$_['error_uninstall']        = 'Il y a %s extensions qui doivent être désinstallées avant que cette extension puisse être supprimée en toute sécurité!';
+$_['error_name']             = 'Le nom doit comporter entre 3 et 128 caractères!';
+$_['error_version']          = 'La version doit comporter entre 3 et 128 caractères!';
+$_['error_author']           = 'l\'auteur doit comporter entre 3 et 128 caractères!';
+$_['error_link']             = 'Le lien doit comporter entre 3 et 128 caractères!';
+$_['error_filename']         = 'Le nom du fichier doit comporter entre 3 et 128 caractères!';
+$_['error_file']             = 'Le fichier d\'installation %s est introuvable!';
+$_['error_file_exists']      = 'Le fichier existe déjà!';
+$_['error_file_type']        = 'Type de fichier invalide!';
+$_['error_directory']        = 'Le répertoire d\'installation %s est introuvable!';
+$_['error_directory_exists'] = 'Le chemin %s existe déjà!';
+$_['error_unzip']            = 'Impossible d\'ouvrir le fichier .zip!';
+$_['error_upload']           = 'Le fichier n\'a pu être téléchargé!';
+$_['error_unknown']          = 'Une erreur inconnue s’est produite!';
 
-// أخطاء Zip
-$_['error_zip_exists']       = 'الملف موجود بالفعل!';
-$_['error_zip_incons']       = 'أرشيف zip غير متناسق!';
-$_['error_zip_inval']        = 'معامل غير صالح!';
-$_['error_zip_memory']       = 'فشل تخصيص الذاكرة!';
-$_['error_zip_noent']        = 'لم يتم العثور على أي ملف!';
-$_['error_zip_nozip']        = 'هذا ليس أرشيف zip!';
-$_['error_zip_open']         = 'تعذر فتح الملف!';
-$_['error_zip_read']         = 'خطأ في القراءة!';
-$_['error_zip_seek']         = 'خطأ في التموضع!';
+// Zip erreur
+$_['error_zip_exists']       = 'Le fichier existe déjà!';
+$_['error_zip_incons']       = 'Archive zip incohérente!';
+$_['error_zip_inval']        = 'Argument invalide!';
+$_['error_zip_memory']       = 'Échec de l’allocation de mémoire!';
+$_['error_zip_noent']        = 'Aucun fichier trouvé!';
+$_['error_zip_nozip']        = 'Ce n’est pas une archive zip!';
+$_['error_zip_open']         = 'Impossible d’ouvrir le fichier!';
+$_['error_zip_read']         = 'Erreur de lecture!';
+$_['error_zip_seek']         = 'Erreur de positionnement!';

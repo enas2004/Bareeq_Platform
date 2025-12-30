@@ -1,7 +1,7 @@
 <?php
-// النصوص
-$_['text_subject'] = 'الأمان';
-$_['text_code']    = 'يجب عليك إدخال رمز الأمان في التحقق الأمني للمسؤول.';
-$_['text_reset']   = 'تم قفل حسابك بسبب العديد من محاولات إدخال رمز الأمان الخاطئة. انقر على زر إعادة التعيين لتلقي رابط إعادة التعيين عبر البريد الإلكتروني.';
-$_['text_ip']      = 'عنوان IP:';
-$_['text_regards'] = 'مع التحية';
+// Texte
+$_['text_subject'] = 'Sécurité';
+$_['text_code']    = 'Vous devez saisir le code de sécurité dans la vérification de sécurité de l\'administrateur.';
+$_['text_reset']   = 'Votre compte a été verrouillé en raison de trop nombreuses tentatives incorrectes de saisie du code de sécurité. Cliquez sur le bouton réinitialiser pour recevoir un lien de réinitialisation par e-mail.';
+$_['text_ip']      = 'IP:';
+$_['text_regards'] = 'Cordialement';

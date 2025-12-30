@@ -1,21 +1,21 @@
 <?php
-// العنوان
-$_['heading_title']    = 'أسباب الإرجاع';
+// En-tête
+$_['heading_title']    = 'Raisons de Retour';
 
-// النصوص
-$_['text_success']     = 'تم بنجاح: تم تعديل أسباب الإرجاع!';
-$_['text_list']        = 'قائمة أسباب الإرجاع';
-$_['text_add']         = 'إضافة سبب إرجاع';
-$_['text_edit']        = 'تعديل سبب إرجاع';
+// Texte
+$_['text_success']     = 'Succès: Vous avez modifié les raisons de retour!';
+$_['text_list']        = 'Liste des Raisons de Retour';
+$_['text_add']         = 'Ajouter une Raison de Retour';
+$_['text_edit']        = 'Modifier une Raison de Retour';
 
-// الأعمدة
-$_['column_name']      = 'اسم سبب الإرجاع';
-$_['column_action']    = 'الإجراء';
+// Colonne
+$_['column_name']      = 'Nom de la Raison de Retour';
+$_['column_action']    = 'Action';
 
-// الإدخالات
-$_['entry_name']       = 'اسم سبب الإرجاع';
+// Entrée
+$_['entry_name']       = 'Nom de la Raison de Retour';
 
-// الأخطاء
-$_['error_permission'] = 'تحذير: ليس لديك صلاحية لتعديل أسباب الإرجاع!';
-$_['error_name']       = 'يجب أن يكون اسم سبب الإرجاع بين 3 و128 حرفاً!';
-$_['error_return']     = 'تحذير: لا يمكن حذف هذا السبب لأنه مرتبط حالياً بـ %s منتج تم إرجاعه!';
+// Erreur
+$_['error_permission'] = 'Attention: Vous n\'êtes pas autorisé à modifier les raisons de retour!';
+$_['error_name']       = 'Le nom de la raison de retour doit comporter entre 3 et 128 caractères!';
+$_['error_return']     = 'Attention: Cette raison de retour ne peut pas être supprimée car elle est actuellement assignée à %s produits retournés!';
